@@ -1,0 +1,24 @@
+# ------------------------------------------------------------------
+# Site settings you will change most often.
+# Use them in any page with {{< var name >}}.
+# ------------------------------------------------------------------
+
+email: "cognosxx@gmail.com"
+
+# Booking link. Replace with your Cal.com or Calendly link when ready,
+# for example: "https://cal.com/cognosx/30min"
+booking_url: "mailto:cognosxx@gmail.com?subject=Booking%20a%20call%20with%20CognosX"
+
+# Workshop
+workshop_title: "Map a Research Field in 3 Hours"
+workshop_date: "Thursday, January 28, 2027"
+# Replace with your Tally, Google Form or Substack link when ready.
+workshop_waitlist_url: "mailto:cognosxx@gmail.com?subject=Workshop%20waitlist"
+
+# Newsletter (Substack)
+newsletter_url: "https://cognosxinsights.substack.com"
+
+linkedin_url: "https://www.linkedin.com/in/maxime-descartes-m-f-a65a2b83/"
+orcid_url: "https://orcid.org/0000-0001-5581-3891"
+scholar_url: "https://scholar.google.com/citations?user=j32BUrIAAAAJ"
+personal_site: "https://descartesmbogning.github.io"

@@ -1,0 +1,71 @@
+---
+title: "About"
+description: "Why CognosX exists, and who is behind it."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[About]{.eyebrow}
+
+# Why we read the scientific record {.page-title}
+
+[Research is one of the best tools we have to improve health. But it is hard to see the whole picture: what has been done, by whom, and what is still missing. We help make that picture clear.]{.lead}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.founder}
+::: {}
+[Who is behind it]{.eyebrow}
+
+## Maxime Descartes Mbogning Fonkou
+:::
+
+::: {.reveal}
+I started my career in clinical microbiology labs in Yaoundé, Marseille and Paris. I studied the bacteria that live in the human respiratory tract and gut, and helped describe new bacterial species. The lab taught me how evidence is built: one careful step at a time.
+
+Over the years, a bigger question grew in my mind. What does all this research add up to? Who does it, who pays for it, and who is left out? I followed that question into the science of science, at York University and Simon Fraser University, working on research mapping, patent analysis and research evaluation.
+
+CognosX is how I continue that work. The idea is simple: help people read the scientific record clearly, so that money and effort go where they matter most. I care especially about health problems that affect Africa and other places that research too often overlooks.
+
+I work in English and French, from Burnaby, Canada.
+
+::: {.links-row}
+[ORCID]({{< var orcid_url >}}) [Google Scholar]({{< var scholar_url >}}) [LinkedIn]({{< var linkedin_url >}}) [Personal site]({{< var personal_site >}})
+:::
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[What guides the work]{.eyebrow}
+
+## Three principles
+:::
+
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+### Careful, then fast
+
+AI helps us work at scale, but people check the results. We say how accurate the method is, not only what it found.
+:::
+
+::: {.card-cx .reveal}
+### Context over counts
+
+Numbers alone can mislead. We use indicators responsibly and explain what they can and cannot show.
+:::
+
+::: {.card-cx .reveal}
+### Fair and global
+
+We look at who is missing from the picture, not only who leads it, and we listen to people where the research happens.
+:::
+:::
+:::
+:::

@@ -1,0 +1,26 @@
+---
+title: "Insights"
+description: "Newsletter articles, publications and notes. Updated automatically every day."
+listing:
+  id: all-insights
+  contents:
+    - "posts/*.qmd"
+    - data/substack.yml
+    - data/linkedin.yml
+    - data/publications.yml
+  type: default
+  sort: "date desc"
+  fields: [date, title, description, categories]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  date-format: "MMMM YYYY"
+  page-size: 15
+---
+
+Articles from the newsletter, research publications and short notes, in one place. Use the categories to filter.
+
+[Subscribe to the newsletter]({{< var newsletter_url >}}){.btn-cx}
+
+::: {#all-insights}
+:::

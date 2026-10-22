@@ -1,0 +1,21 @@
+---
+title: "Immune checkpoint therapy: patent explorer"
+description: "Inventors, applicants and countries in immune checkpoint therapy patents, with collaboration networks."
+date: "2024-02-01"
+categories: [Patents, Dash, Oncology]
+---
+
+Explore who invents and who files patents in immune checkpoint therapy, and where innovation is growing. Data from Lens.org, cleaned and analysed with Python.
+
+::: {.note-box}
+This dashboard runs on a free server. If it is asleep, it can take about a minute to load.
+[Open it full screen](https://immume-checkpoint-patent-dashboarb.onrender.com).
+:::
+
+```{=html}
+<div class="embed-frame" style="margin-top:1.5rem">
+  <iframe src="https://immume-checkpoint-patent-dashboarb.onrender.com"
+          title="Immune checkpoint therapy patent explorer"
+          loading="lazy"></iframe>
+</div>
+```

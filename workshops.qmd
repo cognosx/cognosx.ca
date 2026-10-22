@@ -1,0 +1,106 @@
+---
+title: "Workshops"
+description: "Hands-on training in mapping research fields and AI-assisted screening."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Workshop · {{< var workshop_date >}} · Online]{.eyebrow}
+
+# {{< var workshop_title >}} {.page-title}
+
+[A live, hands-on session for health and life-science researchers. You leave with a cleaned, AI-screened set of papers on your own topic, and the skills to do it again.]{.lead}
+
+[Join the waitlist]({{< var workshop_waitlist_url >}}){.btn-cx}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[Who it is for]{.card-num}
+
+Graduate students, researchers, librarians and research office staff in health and life sciences. Basic Python helps but is not required.
+:::
+
+::: {.card-cx .reveal}
+[Format]{.card-num}
+
+Live online, 3 hours with a short break. Small group of 8 to 20 people. Google Colab notebooks, so there is nothing to install.
+:::
+
+::: {.card-cx .reveal}
+[Language]{.card-num}
+
+English. A French session will follow if there is interest.
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[By the end]{.eyebrow}
+
+## You will be able to
+:::
+
+::: {.grid .grid-2}
+::: {.reveal}
+1. Build a search in OpenAlex and download the records for your topic.
+2. Clean the data: remove duplicates and find missing abstracts and affiliations.
+3. Screen titles and abstracts with two AI models and a simple tie-break rule.
+4. Check the screening against a small sample you label by hand.
+5. Make two first charts: output over time and by country.
+:::
+
+::: {.reveal}
+::: {.note-box}
+**Not covered:** full systematic review methods and patent analysis. These are part of an advanced session and of our [services](services.qmd).
+:::
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.section-head}
+[Agenda]{.eyebrow}
+
+## Three hours, mostly hands-on
+:::
+
+```{=html}
+<table class="agenda">
+  <thead><tr><th>Time</th><th>Block</th><th>You make</th></tr></thead>
+  <tbody>
+    <tr><td>0:00</td><td><strong>Welcome: why map a field?</strong><br>Examples from tick and generative-AI research; what a map can and cannot show.</td><td>Your topic as one clear question</td></tr>
+    <tr><td>0:15</td><td><strong>Search OpenAlex</strong><br>Concepts, keywords, filters, and the API in Colab.</td><td>A downloaded set of records</td></tr>
+    <tr><td>0:45</td><td><strong>Clean the data</strong><br>Duplicates, missing abstracts and affiliations, known data limits.</td><td>A clean table</td></tr>
+    <tr><td>1:15</td><td><strong>Break</strong></td><td></td></tr>
+    <tr><td>1:25</td><td><strong>AI screening</strong><br>Writing inclusion criteria, two models, a tie-break rule, cost and speed.</td><td>A screened set with include and exclude labels</td></tr>
+    <tr><td>2:05</td><td><strong>Check the AI</strong><br>Label 30 records by hand and compare, in simple terms.</td><td>A short accuracy check</td></tr>
+    <tr><td>2:30</td><td><strong>First results</strong><br>Output over time, by country, top sources.</td><td>Two charts</td></tr>
+    <tr><td>2:50</td><td><strong>Next steps and questions</strong></td><td>Your own next steps</td></tr>
+  </tbody>
+</table>
+```
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Want a private session for your team?
+
+::: {}
+[Join the waitlist]({{< var workshop_waitlist_url >}}){.btn-cx}
+[Ask about a team session](mailto:{{< var email >}}?subject=Team%20workshop){.btn-cx-ghost}
+:::
+:::
+:::
+:::

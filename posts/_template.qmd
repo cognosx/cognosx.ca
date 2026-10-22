@@ -1,0 +1,16 @@
+---
+# HOW TO WRITE AN ARTICLE ON THE SITE ITSELF
+# 1. Copy this file in the posts folder, e.g. posts/2026-11-tick-research.qmd
+# 2. Change the title, date, description and categories.
+# 3. Write in plain text below. Use ## for headings, ** ** for bold.
+# 4. Add images: put them in posts/images/ and write ![Caption](images/file.png)
+# 5. Save. It appears on the Insights page automatically.
+title: "Article title"
+date: "2026-11-01"
+description: "One sentence that makes people want to read it."
+categories: [Article]
+---
+
+## First heading
+
+Your text here.

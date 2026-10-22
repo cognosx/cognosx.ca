@@ -1,0 +1,17 @@
+---
+title: "Dashboards"
+description: "Interactive tools to explore research and patent data."
+listing:
+  id: dashboards
+  contents: "dashboards/*.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [title, description, categories, date]
+  date-format: "MMM YYYY"
+  grid-columns: 2
+---
+
+Explore the data behind our work. Each dashboard opens on its own page; most also run full screen.
+
+::: {#dashboards}
+:::

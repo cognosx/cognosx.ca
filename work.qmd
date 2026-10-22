@@ -1,0 +1,115 @@
+---
+title: "Work"
+description: "Selected studies, reports and publications."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Selected work]{.eyebrow}
+
+# Evidence in practice {.page-title}
+
+[Published studies, sample reports and projects in progress. Each one starts from a real question about how research and innovation happen.]{.lead}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+
+::: {.work-item .reveal}
+[Nature Biotechnology · 2024]{.work-meta}
+
+::: {}
+### The global patent landscape of phage therapy
+
+Phage therapy uses viruses that kill bacteria, and it is gaining attention as antibiotics fail. This study maps who patents phage therapies, in which countries, and how the field is changing, using machine learning on large patent datasets.
+
+[Patents]{.tag} [Infectious disease]{.tag} [Machine learning]{.tag}
+
+[Read the article](https://www.nature.com/articles/s41587-024-02493-9)
+:::
+:::
+
+::: {.work-item .reveal}
+[Sample report · Patents]{.work-meta}
+
+::: {}
+### Immune checkpoint therapy: patent intelligence
+
+A patent study of one of the most active areas in cancer treatment: the leading inventors and applicants, collaboration networks, and the countries where new innovation is growing. It comes with an interactive dashboard.
+
+[Patents]{.tag} [Networks]{.tag} [Dashboard]{.tag}
+
+[Explore the dashboard](dashboards/immune-checkpoint.qmd)
+:::
+:::
+
+::: {.work-item .reveal}
+[In progress · Global health]{.work-meta}
+
+::: {}
+### Ticks, climate and research equity
+
+Ticks spread diseases that affect people and animals, and climate change is moving them to new places. This study looks at research on ticks worldwide, with a focus on Africa: who produces it, who leads it, and who funds it.
+
+[Global health]{.tag} [Africa]{.tag} [Equity]{.tag}
+:::
+:::
+
+::: {.work-item .reveal}
+[In progress · Science of science]{.work-meta}
+
+::: {}
+### How researchers use generative AI
+
+A map of research on generative AI: the topics, tools and models researchers study and use, and how this changes over time. Results will be shared step by step in the newsletter.
+
+[Generative AI]{.tag} [AI-assisted screening]{.tag}
+
+[Follow the series](insights.qmd)
+:::
+:::
+
+::: {.work-item .reveal}
+[IJERPH · 2021]{.work-meta}
+
+::: {}
+### COVID-19 research in Africa
+
+A study of research on COVID-19 produced in Africa: how much was published, who worked together, and who led the work.
+
+[Africa]{.tag} [Bibliometrics]{.tag}
+
+[Read the article](https://www.mdpi.com/1660-4601/18/14/7273)
+:::
+:::
+
+::: {.work-item .reveal}
+[Future Microbiology]{.work-meta}
+
+::: {}
+### The human respiratory microbiota
+
+A systematic review of the bacteria that live in the human respiratory tract, from laboratory work in clinical microbiology.
+
+[Microbiome]{.tag} [Systematic review]{.tag}
+
+[Read the article](https://doi.org/10.2217/fmb-2018-0181)
+:::
+:::
+
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Want a study like this for your field?
+
+::: {}
+[Book a call]({{< var booking_url >}}){.btn-cx}
+:::
+:::
+:::
+:::

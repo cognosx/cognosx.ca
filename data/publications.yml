@@ -1,0 +1,18 @@
+# Publications for the Insights page.
+# This file is rewritten every day by scripts/update_feeds.py from OpenAlex (ORCID 0000-0001-5581-3891).
+# These starting entries keep the page full until the first automatic update runs.
+- title: "Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy"
+  path: "https://www.nature.com/articles/s41587-024-02493-9"
+  date: "2024-12-01"
+  description: "Nature Biotechnology"
+  categories: [Publication, Patents, Phage therapy]
+- title: "COVID-19 research in Africa: output, collaboration and leadership"
+  path: "https://www.mdpi.com/1660-4601/18/14/7273"
+  date: "2021-07-08"
+  description: "International Journal of Environmental Research and Public Health"
+  categories: [Publication, Africa, Bibliometrics]
+- title: "Exploring the human respiratory microbiota: a systematic review"
+  path: "https://doi.org/10.2217/fmb-2018-0181"
+  date: "2019-01-01"
+  description: "Future Microbiology"
+  categories: [Publication, Microbiome, Systematic review]

@@ -1,0 +1,133 @@
+---
+title: "Services"
+description: "Landscape reports, evidence synthesis, research evaluation and training."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Services]{.eyebrow}
+
+# What we do {.page-title}
+
+[Each service ends with something you can use: a clear report, the data behind it, and, when it helps, an interactive dashboard. Prices are fixed per project, agreed before we start.]{.lead}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+
+::: {#landscapes .work-item .reveal}
+[For biotech, investors, tech-transfer offices]{.work-meta}
+
+::: {}
+### Landscape reports
+
+A map of a field from publications, patents and funding: who is active, where, how fast the field is growing, and where the gaps are.
+
+- Patent landscapes: inventors, applicants, countries, trends
+- Research landscapes: topics, leading teams, collaborations
+- Partner, competitor and talent scouting
+
+[Typical result: a short report, the cleaned dataset, and a dashboard]{.tag .tag-amber}
+:::
+:::
+
+::: {#evidence .work-item .reveal}
+[For researchers, health agencies, review teams]{.work-meta}
+
+::: {}
+### Evidence synthesis and AI-assisted screening
+
+Help with the heavy steps of a review: building the search, removing duplicates, and screening thousands of titles and abstracts.
+
+- Searches across OpenAlex and other open sources
+- Screening with two AI models and a clear tie-break rule
+- Accuracy checked against a hand-labelled sample, reported openly
+
+[Typical result: a screened set of records, a methods note you can publish]{.tag .tag-amber}
+:::
+:::
+
+::: {#evaluation .work-item .reveal}
+[For funders, universities, research offices]{.work-meta}
+
+::: {}
+### Research evaluation and equity analysis
+
+Fair, careful analysis of a research programme or field, using indicators responsibly and always with context.
+
+- Who produces the research, who leads it, who funds it
+- Collaboration and leadership patterns, including local leadership in Africa
+- Evidence for priority setting and grant applications
+
+[Typical result: an evaluation report with clear recommendations]{.tag .tag-amber}
+:::
+:::
+
+::: {#training .work-item .reveal}
+[For research offices, libraries, labs, students]{.work-meta}
+
+::: {}
+### Workshops and training
+
+Practical sessions where people learn by doing, on their own topic. In English, and in French on request.
+
+- Mapping a research field with OpenAlex
+- AI-assisted screening and how to check it
+- Private sessions for teams and institutions
+
+[See the next workshop](workshops.qmd)
+:::
+:::
+
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[Working together]{.eyebrow}
+
+## A simple process
+:::
+
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[1]{.card-num}
+
+### A short call
+
+We talk about your question and what you need to decide. Free, 30 minutes.
+:::
+
+::: {.card-cx .reveal}
+[2]{.card-num}
+
+### A fixed-price proposal
+
+Within a few days: scope, deliverables, timeline and price. No surprises.
+:::
+
+::: {.card-cx .reveal}
+[3]{.card-num}
+
+### Delivery and follow-up
+
+You receive the results and we walk you through them. Questions after delivery are welcome.
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Not sure which service fits?
+
+::: {}
+[Book a call]({{< var booking_url >}}){.btn-cx}
+:::
+:::
+:::
+:::

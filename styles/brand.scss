@@ -1,0 +1,372 @@
+/*-- scss:defaults --*/
+
+// Brand colours (from the CognosX logo)
+$cx-black:  #0a0a0a;
+$cx-ink:    #141414;
+$cx-muted:  #5c5c5c;
+$cx-line:   #e6e3dd;
+$cx-paper:  #ffffff;
+$cx-soft:   #f7f5f0;
+$cx-amber:  #FEA500;   // logo amber: use on dark backgrounds and for fills
+$cx-amber-ink: #9a5b00; // darker amber for text and links on white (readable)
+
+$body-bg: $cx-paper;
+$body-color: $cx-ink;
+$primary: $cx-amber-ink;
+$link-color: $cx-amber-ink;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$font-family-monospace: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+$headings-font-weight: 700;
+$headings-color: $cx-ink;
+$navbar-bg: $cx-black;
+$navbar-fg: #e9e9e9;
+$navbar-hl: $cx-amber;
+$footer-bg: $cx-black;
+$footer-fg: #bdbdbd;
+$border-radius: 10px;
+$code-color: $cx-amber-ink;
+
+/*-- scss:rules --*/
+
+:root {
+  --cx-black: #{$cx-black};
+  --cx-ink: #{$cx-ink};
+  --cx-muted: #{$cx-muted};
+  --cx-line: #{$cx-line};
+  --cx-soft: #{$cx-soft};
+  --cx-amber: #{$cx-amber};
+  --cx-amber-ink: #{$cx-amber-ink};
+  --cx-wrap: 1120px;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4 { letter-spacing: -0.02em; line-height: 1.15; }
+h2 { font-size: clamp(1.6rem, 2.6vw, 2.25rem); margin-bottom: 0.75rem; }
+h3 { font-size: 1.2rem; }
+p { max-width: 68ch; }
+a { text-underline-offset: 3px; text-decoration-thickness: 1px; }
+::selection { background: rgba(254, 165, 0, 0.35); }
+
+// ---------- Navbar ----------
+.navbar {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #1f1f1f;
+  .navbar-brand img { max-height: 26px; height: 26px; }
+  .nav-link { font-weight: 500; font-size: 0.95rem; }
+  .nav-link.active { color: $cx-amber !important; }
+  .navbar-nav.ms-auto .nav-link,
+  #navbarCollapse .ms-auto .nav-link {
+    background: $cx-amber;
+    color: $cx-black !important;
+    border-radius: 999px;
+    padding: 0.4rem 1rem !important;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    &:hover { background: lighten($cx-amber, 8%); }
+  }
+}
+
+// ---------- Footer ----------
+.nav-footer {
+  border-top: 1px solid #1f1f1f;
+  font-size: 0.9rem;
+  padding: 1.5rem 0;
+  a { color: #e0e0e0; }
+  a:hover { color: $cx-amber; }
+}
+.footer-tagline {
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.75rem;
+  color: $cx-amber;
+}
+
+// ---------- Custom page layout helpers ----------
+// Quarto's "custom" layout gives us the full width; we set our own widths.
+#quarto-content.page-layout-custom { padding: 0; margin: 0; max-width: none; }
+#quarto-content.page-layout-custom main.content { padding: 0; margin: 0; max-width: none; }
+#quarto-content.page-layout-custom #title-block-header { display: none; }
+#quarto-content.page-layout-custom main.content > section,
+#quarto-content.page-layout-custom section.level1,
+#quarto-content.page-layout-custom section.level2 { margin: 0; }
+h2 { border-bottom: none !important; padding-bottom: 0 !important; }
+
+.wrap {
+  max-width: var(--cx-wrap);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.band { padding: clamp(56px, 8vw, 104px) 0; }
+.band-soft { background: var(--cx-soft); }
+.band-dark {
+  background: var(--cx-black);
+  color: #e9e9e9;
+  h1, h2, h3 { color: #fff; }
+  p { color: #c9c9c9; }
+  a { color: $cx-amber; }
+}
+.band-line { border-top: 1px solid var(--cx-line); }
+
+.eyebrow {
+  font-family: $font-family-monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--cx-amber-ink);
+  margin-bottom: 0.9rem;
+  display: block;
+}
+.band-dark .eyebrow, .hero .eyebrow { color: $cx-amber; }
+.lead {
+  font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+  color: var(--cx-muted);
+  max-width: 60ch;
+}
+.band-dark .lead { color: #c9c9c9; }
+.section-head { margin-bottom: 2.5rem; }
+
+// ---------- Buttons ----------
+.btn-cx, .btn-cx-ghost {
+  display: inline-block;
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.98rem;
+  text-decoration: none !important;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+  margin: 0.25rem 0.6rem 0.25rem 0;
+}
+.btn-cx { background: $cx-amber; color: $cx-black !important; border: 1px solid $cx-amber; }
+.btn-cx:hover { background: lighten($cx-amber, 8%); transform: translateY(-1px); }
+.btn-cx-ghost { border: 1px solid #b9b9b9; color: var(--cx-ink) !important; background: transparent; }
+.btn-cx-ghost:hover { border-color: var(--cx-ink); transform: translateY(-1px); }
+.band-dark .btn-cx-ghost, .hero .btn-cx-ghost { border-color: #4a4a4a; color: #fff !important; }
+.band-dark .btn-cx-ghost:hover, .hero .btn-cx-ghost:hover { border-color: #fff; }
+
+// ---------- Hero ----------
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--cx-black);
+  color: #fff;
+  padding: clamp(72px, 11vw, 150px) 0 clamp(64px, 9vw, 120px);
+  .hero-dots {
+    position: absolute;
+    right: -6%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: min(62vw, 820px);
+    opacity: 0.9;
+    pointer-events: none;
+  }
+  .wrap { position: relative; z-index: 1; }
+  h1 {
+    font-size: clamp(2.6rem, 6.4vw, 5rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1.02;
+    color: #fff;
+    max-width: 14ch;
+    margin: 0 0 1.4rem;
+  }
+  h1 .x { color: $cx-amber; }
+  .lead { color: #cfcfcf; max-width: 46ch; margin-bottom: 2rem; }
+}
+
+// ---------- Cards and grids ----------
+.grid { display: grid; gap: 20px; }
+.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) {
+  .grid-3, .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .grid-3, .grid-2, .grid-4 { grid-template-columns: 1fr; }
+}
+
+.card-cx {
+  background: #fff;
+  border: 1px solid var(--cx-line);
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+  h3 { margin: 0.2rem 0 0.6rem; font-size: 1.2rem; }
+  p { color: var(--cx-muted); font-size: 0.98rem; margin-bottom: 1rem; }
+  ul { padding-left: 1.1rem; color: var(--cx-ink); font-size: 0.96rem; margin-bottom: 1.2rem; }
+  li { margin-bottom: 0.3rem; }
+  .card-link { margin-top: auto; font-weight: 600; text-decoration: none; }
+  .card-link::after { content: " →"; }
+}
+a.card-cx, .card-cx.is-link { text-decoration: none; color: inherit; }
+.card-cx:hover { border-color: #c9c3b8; box-shadow: 0 6px 24px rgba(0,0,0,0.05); }
+.card-num {
+  font-family: $font-family-monospace;
+  font-size: 0.8rem;
+  color: var(--cx-amber-ink);
+  letter-spacing: 0.1em;
+}
+.band-soft .card-cx { background: #fff; }
+
+// Steps (How we work)
+.steps { counter-reset: step; }
+.step {
+  border-top: 2px solid var(--cx-ink);
+  padding-top: 18px;
+  h3 { font-size: 1.1rem; margin: 0.5rem 0; }
+  p { color: var(--cx-muted); font-size: 0.96rem; }
+}
+.band-dark .step { border-top-color: $cx-amber; }
+
+// Work items
+.work-item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 28px;
+  padding: 32px 0;
+  border-top: 1px solid var(--cx-line);
+  .work-meta {
+    font-family: $font-family-monospace;
+    font-size: 0.8rem;
+    color: var(--cx-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  h3 { margin-top: 0; font-size: 1.35rem; }
+  p { color: var(--cx-muted); }
+}
+@media (max-width: 700px) {
+  .work-item { grid-template-columns: 1fr; gap: 8px; }
+}
+
+.tag {
+  display: inline-block;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--cx-line);
+  color: var(--cx-muted);
+  margin: 0 0.35rem 0.35rem 0;
+  background: #fff;
+}
+.tag-amber { border-color: $cx-amber; color: var(--cx-amber-ink); background: rgba(254,165,0,0.08); }
+
+// Callout band (CTA)
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  h2 { margin: 0; max-width: 22ch; }
+}
+
+// Quiet founder block
+.founder {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 48px;
+  align-items: start;
+  @media (max-width: 800px) { grid-template-columns: 1fr; gap: 16px; }
+}
+.links-row a { margin-right: 1.2rem; font-weight: 500; }
+
+// Embeds (dashboards, booking)
+.embed-frame {
+  width: 100%;
+  border: 1px solid var(--cx-line);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  iframe { width: 100%; height: 720px; border: 0; display: block; }
+}
+
+// Plain pages (listings): page header styling
+.quarto-title-block .quarto-title-banner,
+#title-block-header {
+  margin-bottom: 1.5rem;
+}
+#title-block-header .title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+#title-block-header .description { color: var(--cx-muted); font-size: 1.15rem; }
+
+// Listings
+.quarto-listing .listing-title a, .list .listing-title { color: var(--cx-ink); }
+div.quarto-post { border-bottom: 1px solid var(--cx-line); padding-bottom: 1.5rem; }
+div.quarto-post .metadata { font-family: $font-family-monospace; font-size: 0.78rem; }
+.listing-categories .listing-category,
+.quarto-listing-category .category {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 999px;
+}
+
+// Small fade-in on scroll (respects reduced motion)
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.is-visible { opacity: 1; transform: none; }
+}
+
+// Quarto adds a small top padding to every direct child of #quarto-content;
+// these rules keep our section spacing.
+#quarto-content .band { padding-top: clamp(56px, 8vw, 104px); }
+#quarto-content .hero { padding-top: clamp(72px, 11vw, 150px); }
+
+.band-dark .step p { color: #b8b8b8; }
+.work-item .work-meta { line-height: 1.7; }
+
+// Listing grid cards
+.quarto-grid-item.card {
+  border: 1px solid var(--cx-line);
+  border-radius: 14px;
+  transition: border-color .2s ease, box-shadow .2s ease;
+  .card-body { padding: 22px; }
+  .card-title { font-size: 1.05rem; line-height: 1.3; margin-bottom: 0.7rem; }
+  .card-text { color: var(--cx-muted); font-size: 0.95rem; }
+  .listing-categories { margin-bottom: 0.6rem; }
+  .card-footer { background: transparent; border-top: 0; padding: 0 22px 18px; font-family: $font-family-monospace; font-size: 0.78rem; }
+}
+.quarto-grid-item.card:hover { border-color: #c9c3b8; box-shadow: 0 6px 24px rgba(0,0,0,0.05); }
+#latest + p, .listing-more { margin-top: 1.5rem; }
+
+// Page hero titles on inner pages (Pandoc may put the class on the
+// surrounding <section>, so style only the heading itself)
+h1.page-title, .page-title > h1 {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 0 0 1rem;
+}
+.agenda { width: 100%; border-collapse: collapse; font-size: 0.96rem; }
+.agenda td, .agenda th { padding: 12px 10px; border-top: 1px solid var(--cx-line); vertical-align: top; }
+.agenda th { font-family: $font-family-monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cx-muted); font-weight: 500; }
+.agenda td:first-child { font-family: $font-family-monospace; white-space: nowrap; color: var(--cx-amber-ink); }
+.note-box {
+  border-left: 3px solid $cx-amber;
+  background: var(--cx-soft);
+  padding: 16px 20px;
+  border-radius: 0 10px 10px 0;
+  color: var(--cx-muted);
+  font-size: 0.95rem;
+}
+.lead { display: block; line-height: 1.55; margin-bottom: 1.5rem; }
+@media (max-width: 700px) { .hero .hero-dots { opacity: 0.35; width: 90vw; right: -40%; } }

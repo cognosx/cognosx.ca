@@ -1,0 +1,41 @@
+---
+# HOW TO ADD A DASHBOARD
+# 1. Copy this file in the same folder and give it a short name, e.g. tick-research.qmd
+#    (files that start with "_" are ignored, so this template never appears on the site).
+# 2. Fill in the title, description, date and categories below.
+# 3. Keep ONE of the three options and delete the other two.
+# 4. Save. The Dashboards page lists it automatically.
+title: "Dashboard title"
+description: "One sentence about what people can explore."
+date: "2026-11-01"
+categories: [Tableau]
+---
+
+Short introduction: what the data is, where it comes from, what to look at first.
+
+<!-- OPTION A: Tableau Public
+     In Tableau Public, click Share, copy the link, and paste it below
+     after src= (add ?:showVizHome=no&:embed=true at the end). -->
+```{=html}
+<div class="embed-frame">
+  <iframe src="https://public.tableau.com/views/YOUR_WORKBOOK/YOUR_SHEET?:showVizHome=no&:embed=true"
+          title="Dashboard" loading="lazy"></iframe>
+</div>
+```
+
+<!-- OPTION B: Dash or Streamlit app hosted elsewhere
+     (Render, Hugging Face Spaces, Streamlit Community Cloud). Paste its address. -->
+```{=html}
+<div class="embed-frame">
+  <iframe src="https://your-app.onrender.com" title="Dashboard" loading="lazy"></iframe>
+</div>
+```
+
+<!-- OPTION C: An interactive Plotly chart saved as HTML
+     In Python:  fig.write_html("dashboards/files/my-chart.html", include_plotlyjs="cdn")
+     Put the file in dashboards/files/ and point to it below. -->
+```{=html}
+<div class="embed-frame">
+  <iframe src="files/my-chart.html" title="Chart" loading="lazy"></iframe>
+</div>
+```

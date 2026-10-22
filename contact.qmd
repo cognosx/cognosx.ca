@@ -1,0 +1,63 @@
+---
+title: "Contact"
+description: "Book a call or write to us."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Contact]{.eyebrow}
+
+# Let's talk about your question {.page-title}
+
+[A first call is free and takes about 30 minutes. Tell us what you need to decide, and we will suggest the simplest way to answer it.]{.lead}
+
+[Book a call]({{< var booking_url >}}){.btn-cx}
+[Write to us](mailto:{{< var email >}}){.btn-cx-ghost}
+:::
+:::
+
+<!--
+  WHEN YOUR CAL.COM OR CALENDLY PAGE IS READY:
+  1. Put its link in _variables.yml (booking_url).
+  2. To show the calendar directly on this page, remove the two comment lines
+     around the block below and paste your link after src=.
+
+```{=html}
+<div class="embed-frame"><iframe src="https://cal.com/cognosx/30min?embed=true" title="Book a call" style="height:760px"></iframe></div>
+```
+-->
+
+::: {.band}
+::: {.wrap}
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[Email]{.card-num}
+
+### Write to us
+
+[{{< var email >}}](mailto:{{< var email >}})
+
+We reply within two working days.
+:::
+
+::: {.card-cx .reveal}
+[LinkedIn]{.card-num}
+
+### Follow the work
+
+Short findings and charts every week.
+
+[LinkedIn profile]({{< var linkedin_url >}})
+:::
+
+::: {.card-cx .reveal}
+[Based in]{.card-num}
+
+### Burnaby, BC, Canada
+
+We work remotely, in English and French.
+:::
+:::
+:::
+:::

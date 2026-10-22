@@ -1,0 +1,238 @@
+---
+title: "CognosX · Let science data speak"
+description: "Clear evidence from publications, patents and research funding, for better health decisions."
+page-layout: custom
+listing:
+  id: latest
+  contents:
+    - data/substack.yml
+    - data/publications.yml
+    - data/linkedin.yml
+  type: grid
+  sort: "date desc"
+  max-items: 3
+  fields: [date, title, description, categories]
+  grid-columns: 3
+  date-format: "MMM YYYY"
+---
+
+::: {.hero}
+```{=html}
+<img class="hero-dots" src="images/halftone.svg" alt="">
+```
+::: {.wrap}
+[Science intelligence for health]{.eyebrow}
+
+# Let science data speak[.]{.x}
+
+[We read the scientific record (publications, patents and research funding) and turn it into clear answers. So you can decide where to invest, who to work with, and what is still missing.]{.lead}
+
+[Book a call]({{< var booking_url >}}){.btn-cx}
+[See what we do](services.qmd){.btn-cx-ghost}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.section-head .reveal}
+[Who we help]{.eyebrow}
+
+## The same evidence, three kinds of decisions
+
+[Every project starts from one question you need answered. We bring the data, the method and the reading of a scientist.]{.lead}
+:::
+
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[01]{.card-num}
+
+### Funders and institutions
+
+Understand a research field before you fund it, and see who is left out.
+
+- Research evaluation
+- Equity and leadership analysis
+- Evidence for priority setting
+
+[Research evaluation](services.qmd#evaluation){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[02]{.card-num}
+
+### Biotech and investors
+
+See who is inventing what, where the space is crowded, and where it is open.
+
+- Patent landscapes
+- Research and competitor mapping
+- Partner and talent scouting
+
+[Landscape reports](services.qmd#landscapes){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[03]{.card-num}
+
+### Researchers and students
+
+Find and screen the literature faster, with methods you can trust and repeat.
+
+- Evidence synthesis support
+- AI-assisted screening, validated
+- Hands-on workshops
+
+[Evidence and training](services.qmd#evidence){.card-link}
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.section-head .reveal}
+[How we work]{.eyebrow}
+
+## From a question to an answer you can use
+:::
+
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Step 1]{.card-num}
+
+### Define the question
+
+We agree on what you need to decide, and what a good answer looks like.
+:::
+
+::: {.step .reveal}
+[Step 2]{.card-num}
+
+### Gather the data
+
+Publications, patents, grants and trials, from open and trusted sources.
+:::
+
+::: {.step .reveal}
+[Step 3]{.card-num}
+
+### Screen and check
+
+AI helps sort the records; people check the results against a hand-labelled sample.
+:::
+
+::: {.step .reveal}
+[Step 4]{.card-num}
+
+### Deliver clear answers
+
+A short report, charts and, when useful, an interactive dashboard.
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.section-head .reveal}
+[Selected work]{.eyebrow}
+
+## Evidence in practice
+:::
+
+::: {.work-item .reveal}
+[Nature Biotechnology · 2024]{.work-meta}
+
+::: {}
+### The global patent landscape of phage therapy
+
+A map of who patents phage therapies, where, and how the field is changing, built with machine learning and large patent datasets.
+
+[Read the article](https://www.nature.com/articles/s41587-024-02493-9)
+:::
+:::
+
+::: {.work-item .reveal}
+[Sample report · Patents]{.work-meta}
+
+::: {}
+### Immune checkpoint therapy: patent intelligence
+
+Who invents, who files, and where new innovation hubs are growing, with an interactive dashboard for exploring the results.
+
+[See the dashboard](dashboards.qmd)
+:::
+:::
+
+::: {.work-item .reveal}
+[In progress · Global health]{.work-meta}
+
+::: {}
+### Who studies ticks, and who leads the work?
+
+A study of tick and tick-borne disease research worldwide, with a focus on Africa: who produces the research, who leads it, and who funds it.
+
+[More work](work.qmd)
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.grid .grid-2}
+::: {.reveal}
+[Workshop · {{< var workshop_date >}}]{.eyebrow}
+
+## {{< var workshop_title >}}
+
+A live, hands-on online session. You leave with a cleaned, AI-screened set of papers on your own topic, and the skills to do it again.
+
+[Join the waitlist]({{< var workshop_waitlist_url >}}){.btn-cx}
+[Workshop details](workshops.qmd){.btn-cx-ghost}
+:::
+
+::: {.reveal}
+::: {.card-cx}
+[What you will learn]{.card-num}
+
+- Search OpenAlex for your topic
+- Clean the data: duplicates and gaps
+- Screen titles and abstracts with two AI models
+- Check the AI against a small hand-labelled sample
+- Make your first charts
+:::
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.section-head .reveal}
+[Insights]{.eyebrow}
+
+## Latest articles and publications
+
+[New newsletter posts and publications appear here automatically.]{.lead}
+:::
+
+::: {#latest}
+:::
+
+[All insights](insights.qmd){.btn-cx-ghost}
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Have a question the research record could answer?
+
+::: {}
+[Book a call]({{< var booking_url >}}){.btn-cx}
+[Write to us](mailto:{{< var email >}}){.btn-cx-ghost}
+:::
+:::
+:::
+:::

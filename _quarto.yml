@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - images/
+    - dashboards/files/
+
+website:
+  title: "CognosX"
+  description: "Clear evidence from the scientific record, for better health decisions."
+  site-url: "https://cognosx.ca"
+  favicon: images/favicon.png
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: false
+  navbar:
+    logo: images/logo-light.png
+    logo-alt: "CognosX"
+    title: false
+    background: dark
+    left:
+      - text: Services
+        href: services.qmd
+      - text: Work
+        href: work.qmd
+      - text: Dashboards
+        href: dashboards.qmd
+      - text: Insights
+        href: insights.qmd
+      - text: Workshops
+        href: workshops.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - text: "Book a call"
+        href: contact.qmd
+        aria-label: "Book a call"
+  page-footer:
+    background: dark
+    left: |
+      © 2026 CognosX · Burnaby, BC, Canada
+    center: |
+      [Let science data speak]{.footer-tagline}
+    right:
+      - icon: envelope
+        href: "mailto:cognosxx@gmail.com"
+        aria-label: Email
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/maxime-descartes-m-f-a65a2b83/"
+        aria-label: LinkedIn
+      - icon: github
+        href: "https://github.com/cognosx"
+        aria-label: GitHub
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/brand.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    anchor-sections: false
+    include-in-header:
+      - styles/fonts.html
+    include-after-body:
+      - styles/reveal.html

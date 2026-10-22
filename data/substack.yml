@@ -1,0 +1,4 @@
+# Newsletter posts for the Insights page.
+# This file is rewritten every day by scripts/update_feeds.py from your Substack feed.
+# It stays empty until the newsletter address is set in scripts/feeds.yml.
+[]

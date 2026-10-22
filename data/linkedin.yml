@@ -1,0 +1,9 @@
+# Selected LinkedIn posts (added by hand: LinkedIn has no open feed).
+# To add one: copy a block, paste the post link as "path", and set the date.
+# Example:
+# - title: "Who studies ticks? One chart"
+#   path: "https://www.linkedin.com/posts/your-post-link"
+#   date: "2026-11-24"
+#   description: "Short summary of the post."
+#   categories: [LinkedIn]
+[]

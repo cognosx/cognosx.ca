@@ -1,0 +1,19 @@
+# Settings for the daily feed update (scripts/update_feeds.py).
+
+# Your Substack address, e.g. "https://cognosx.substack.com". Leave empty until it exists.
+substack_url: "https://cognosxinsights.substack.com"
+
+# Publications are pulled from OpenAlex using this ORCID.
+orcid: "0000-0001-5581-3891"
+
+# Only show publications from this year onwards.
+publications_since: 2015
+
+# Work types to keep (OpenAlex types). Add "preprint" to show preprints too.
+publication_types: ["article", "review", "preprint", "book-chapter"]
+
+# DOIs to hide from the site (one per line), e.g. "10.1234/abcd".
+hide_dois: []
+
+# Maximum number of items per feed.
+max_items: 40
