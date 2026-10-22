@@ -1,18 +1,282 @@
-# Publications for the Insights page.
-# This file is rewritten every day by scripts/update_feeds.py from OpenAlex (ORCID 0000-0001-5581-3891).
-# These starting entries keep the page full until the first automatic update runs.
-- title: "Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy"
-  path: "https://www.nature.com/articles/s41587-024-02493-9"
-  date: "2024-12-01"
-  description: "Nature Biotechnology"
-  categories: [Publication, Patents, Phage therapy]
-- title: "COVID-19 research in Africa: output, collaboration and leadership"
-  path: "https://www.mdpi.com/1660-4601/18/14/7273"
-  date: "2021-07-08"
-  description: "International Journal of Environmental Research and Public Health"
-  categories: [Publication, Africa, Bibliometrics]
-- title: "Exploring the human respiratory microbiota: a systematic review"
-  path: "https://doi.org/10.2217/fmb-2018-0181"
-  date: "2019-01-01"
-  description: "Future Microbiology"
-  categories: [Publication, Microbiome, Systematic review]
+# This file is written automatically by scripts/update_feeds.py.
+# Edits here are replaced at the next update; change scripts/feeds.yml instead.
+- title: Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy
+  path: https://doi.org/10.1038/s41587-024-02493-9
+  date: '2024-12-01'
+  description: Nature Biotechnology
+  categories:
+  - Publication
+  - Environmental Science
+- title: The Application of Culturomics to Explore African Skin Microbiota
+  path: https://doi.org/10.4269/ajtmh.23-0165
+  date: '2024-10-01'
+  description: American Journal of Tropical Medicine and Hygiene
+  categories:
+  - Publication
+  - Medicine
+- title: The determinants of COVID-19 case reporting across Africa
+  path: https://doi.org/10.3389/fpubh.2024.1406363
+  date: '2024-06-27'
+  description: Frontiers in Public Health
+  categories:
+  - Publication
+  - Mathematics
+- title: 'Phage Therapy: Leveraging Machine Learning and Big Data techniques to Unveil the Evolution, Innovations, and Global Landscape in the Fight Against Antibiotic Resistance'
+  path: https://doi.org/10.21203/rs.3.pex-2537/v1
+  date: '2024-01-19'
+  description: Research Square
+  categories:
+  - Preprint
+  - Environmental Science
+- title: The Determinants of Under-Estimation of Covid-19 Cases Across Africa
+  path: https://doi.org/10.2139/ssrn.4771127
+  date: '2024-01-01'
+  description: SSRN Electronic Journal
+  categories:
+  - Preprint
+  - Mathematics
+- title: A microbiota-modulated checkpoint directs immunosuppressive intestinal T cells into cancers
+  path: https://doi.org/10.1126/science.abo2296
+  date: '2023-06-08'
+  description: Science
+  categories:
+  - Publication
+  - Medicine
+- title: Detection of horizontal sequence transfer in microorganisms in the genomic era
+  path: https://doi.org/10.1101/2022.12.21.521446
+  date: '2022-12-22'
+  description: bioRxiv (Cold Spring Harbor Laboratory)
+  categories:
+  - Preprint
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'Lice and lice-borne diseases in humans in Africa: A narrative review'
+  path: https://doi.org/10.1016/j.actatropica.2022.106709
+  date: '2022-10-02'
+  description: Acta Tropica
+  categories:
+  - Publication
+  - Medicine
+- title: Escherichia coli –Specific CXCL13-Producing TFH Are Associated with Clinical Efficacy of Neoadjuvant PD-1 Blockade against Muscle-Invasive Bladder Cancer
+  path: https://doi.org/10.1158/2159-8290.cd-22-0201
+  date: '2022-08-05'
+  description: Cancer Discovery
+  categories:
+  - Publication
+  - Medicine
+- title: 'The Determinants of the Low COVID-19 Transmission and Mortality Rates in Africa: A Cross-Country Analysis'
+  path: https://doi.org/10.3389/fpubh.2021.751197
+  date: '2021-10-21'
+  description: Frontiers in Public Health
+  categories:
+  - Publication
+  - Mathematics
+- title: 'RETRACTED ARTICLE: Gemella massiliensis sp. nov., a new bacterium isolated from the human sputum'
+  path: https://doi.org/10.1007/s00203-021-02493-2
+  date: '2021-08-21'
+  description: Archives of Microbiology
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'COVID-19 Pandemic Related Research in Africa: Bibliometric Analysis of Scholarly Output, Collaborations and Scientific Leadership'
+  path: https://doi.org/10.3390/ijerph18147273
+  date: '2021-07-07'
+  description: International Journal of Environmental Research and Public Health
+  categories:
+  - Publication
+  - Decision Sciences
+- title: 'The Determinants of the Low COVID-19 Transmission and Mortality Rates in Africa: A Cross- Country Analysis'
+  path: https://doi.org/10.2139/ssrn.3897058
+  date: '2021-01-01'
+  description: SSRN Electronic Journal
+  categories:
+  - Preprint
+  - Mathematics
+- title: Proof of Concept of Culturomics Use of Time of Care
+  path: https://doi.org/10.3389/fcimb.2020.524769
+  date: '2020-11-23'
+  description: Frontiers in Cellular and Infection Microbiology
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'Global research trend in the treatment of the new Coronavirus diseases (COVID-19) : bibliometric analysis. (Preprint)'
+  path: https://doi.org/10.2196/preprints.21457
+  date: '2020-06-16'
+  description: ''
+  categories:
+  - Preprint
+  - Medicine
+- title: 'Global research trend in the treatment of the new Coronavirus diseases (COVID-19): bibliometric analysis'
+  path: https://doi.org/10.1101/2020.06.13.20122762
+  date: '2020-06-14'
+  description: medRxiv
+  categories:
+  - Preprint
+  - Medicine
+- title: Enterococcus burkinafasonensis sp. nov. isolated from human gut microbiota
+  path: https://doi.org/10.1016/j.nmni.2020.100702
+  date: '2020-06-01'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Enorma burkinafasonensis sp. nov., a new bacterium isolated from a human gut microbiota
+  path: https://doi.org/10.1016/j.nmni.2020.100687
+  date: '2020-04-27'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Parabacteroides massiliensis sp. nov., a new bacterium isolated from a fresh human stool specimen
+  path: https://doi.org/10.1016/j.nmni.2019.100602
+  date: '2019-09-07'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Selenomonas felix sp. nov., a new bacterium isolated from human sputum
+  path: https://doi.org/10.1016/j.nmni.2019.100567
+  date: '2019-05-28'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Brachybacterium timonense sp. nov., a new bacterium isolated from human sputum
+  path: https://doi.org/10.1016/j.nmni.2019.100568
+  date: '2019-05-28'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Digestive tract mycobiota and microbiota and the effects on the immune system
+  path: https://doi.org/10.1016/j.humic.2019.100056
+  date: '2019-05-17'
+  description: Human Microbiome Journal
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Non-contiguous finished genome sequencing and description of Enterococcus timonensis sp. nov. isolated from human sputum
+  path: https://doi.org/10.1016/j.nmni.2019.100532
+  date: '2019-03-21'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Molecular drivers of emerging multidrug resistance in Proteus mirabilis clinical isolates from Algeria
+  path: https://doi.org/10.1016/j.jgar.2019.01.030
+  date: '2019-02-23'
+  description: Journal of Global Antimicrobial Resistance
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'EXPRESSION OF CONCERN: Noncontiguous finished genome sequence and description of Raoultibacter massiliensis gen. nov., sp. nov. and Raoultibacter timonensis sp. nov, two new bacterial species isolated from the human gut'
+  path: https://doi.org/10.1002/mbo3.758
+  date: '2019-01-30'
+  description: MicrobiologyOpen
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Dysgonomonas massiliensis sp. nov., a new species isolated from the human gut and its taxonogenomic description
+  path: https://doi.org/10.1007/s10482-019-01227-1
+  date: '2019-01-17'
+  description: Antonie van Leeuwenhoek
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Phoenicibacter congonensis gen. nov., sp. nov., a new genus isolated from the human gut and its description using a taxonogenomic approach
+  path: https://doi.org/10.1007/s10482-018-01211-1
+  date: '2018-12-08'
+  description: Antonie van Leeuwenhoek
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Repertoire of Bacterial Species Cultured from the Human Oral Cavity and Respiratory Tract
+  path: https://doi.org/10.2217/fmb-2018-0181
+  date: '2018-11-01'
+  description: Future Microbiology
+  categories:
+  - Publication
+  - Dentistry
+- title: 'EXPRESSION OF CONCERN: Taxonogenomics description of Parabacteroides timonensis sp. nov. isolated from a human stool sample'
+  path: https://doi.org/10.1002/mbo3.702
+  date: '2018-10-11'
+  description: MicrobiologyOpen
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'EXPRESSION OF CONCERN: Miniphocibacter massiliensis gen. nov., sp. nov., a new species isolated from the human gut and its taxono‐genomics description'
+  path: https://doi.org/10.1002/mbo3.735
+  date: '2018-10-02'
+  description: MicrobiologyOpen
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Noncontiguous finished genome sequences and description of Bacteroides mediterraneensis sp. nov., Bacteroides ihuae sp. nov., Bacteroides togonis sp. nov., Bacteroides ndongoniae sp. nov., Bacteroides ilei sp. nov. and…
+  path: https://doi.org/10.1016/j.nmni.2018.06.006
+  date: '2018-06-21'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Noncontiguous finished genome sequences and descriptions of Actinomyces ihuae, Actinomyces bouchesdurhonensis, Actinomyces urinae, Actinomyces marseillensis, Actinomyces mediterranea and Actinomyces oralis sp. nov.…
+  path: https://doi.org/10.1016/j.nmni.2018.06.004
+  date: '2018-06-18'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Medicine
+- title: 'EXPRESSION OF CONCERN: Genomic and phenotypic description of the newly isolated human species Collinsella bouchesdurhonensis sp. nov.'
+  path: https://doi.org/10.1002/mbo3.580
+  date: '2018-06-13'
+  description: MicrobiologyOpen
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'EXPRESSION OF CONCERN: Eggerthella timonensis sp. nov, a new species isolated from the stool sample of a pygmy female'
+  path: https://doi.org/10.1002/mbo3.575
+  date: '2018-06-13'
+  description: MicrobiologyOpen
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: Sanguibacter massiliensis sp. nov., Actinomyces minihominis sp. nov., Clostridium minihomine sp. nov., Neobittarella massiliensis gen. nov. and Miniphocibacter massiliensis gen. nov., new bacterial species isolated by…
+  path: https://doi.org/10.1016/j.nmni.2018.03.002
+  date: '2018-03-16'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: ‘Enterococcus timonensis’ sp. nov., ‘Actinomyces marseillensis’ sp. nov., ‘Leptotrichia massiliensis’ sp. nov., ‘Actinomyces pacaensis’ sp. nov., ‘Actinomyces oralis’ sp. nov., ‘Actinomyces culturomici’ sp. nov. and…
+  path: https://doi.org/10.1016/j.nmni.2017.12.005
+  date: '2017-12-14'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Medicine
+- title: ‘Bacteroides ihuae’ sp. nov., a new bacterial species isolated from the human respiratory microbiome
+  path: https://doi.org/10.1016/j.nmni.2017.01.011
+  date: '2017-02-03'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: 'Sero-epidemiology of human immunodeficiency virus, hepatitis B virus and hepatitis C virus: a cross-sectional survey in a rural setting of the West region of Cameroon'
+  path: https://doi.org/10.11604/pamj.2017.28.201.12717
+  date: '2017-01-01'
+  description: Pan African Medical Journal
+  categories:
+  - Publication
+  - Medicine
+- title: ‘Pygmaiobacter massiliensis’ sp. nov., a new bacterium isolated from the human gut of a Pygmy woman
+  path: https://doi.org/10.1016/j.nmni.2016.12.015
+  date: '2016-12-19'
+  description: New Microbes and New Infections
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
+- title: “Pygmaiobacter massiliensis” sp., nov., a new bacterium isolated from the human gut of a pygmy female
+  path: https://openalex.org/W3182468624
+  date: '2016-01-01'
+  description: HAL AMU
+  categories:
+  - Publication
+  - Biochemistry, Genetics and Molecular Biology
