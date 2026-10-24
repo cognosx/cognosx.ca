@@ -7,7 +7,7 @@ email: "contact@cognosx.ca"
 
 # Booking link. Replace with your Cal.com or Calendly link when ready,
 # for example: "https://cal.com/cognosx/30min"
-booking_url: "mailto:contact@cognosx.ca?subject=Booking%20a%20call%20with%20CognosX"
+booking_url: "https://cal.com/cognosx"
 
 # Workshop
 workshop_title: "Map a Research Field in 3 Hours"
