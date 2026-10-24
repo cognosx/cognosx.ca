@@ -2,6 +2,7 @@
 title: "About"
 description: "Why CognosX exists, and who is behind it."
 page-layout: custom
+pagetitle: "About: why we read the scientific record"
 ---
 
 ::: {.band .band-dark}

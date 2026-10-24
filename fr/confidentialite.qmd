@@ -1,0 +1,37 @@
+---
+title: "Confidentialité"
+pagetitle: "Confidentialité"
+description: "Les renseignements personnels que CognosX recueille, pourquoi, où ils sont conservés, et comment les faire corriger ou supprimer."
+---
+
+*Dernière mise à jour : 24 octobre 2026. La [version anglaise](../privacy.qmd) fait foi.*
+
+CognosX Inc. est une société constituée au Canada. Nous recueillons le moins de renseignements personnels possible, uniquement pour vous répondre et travailler avec vous. Nous ne les vendons jamais.
+
+## Personne responsable
+
+Maxime Descartes Mbogning Fonkou est responsable des renseignements personnels chez CognosX. Pour toute question ou demande : [contact@cognosx.ca](mailto:contact@cognosx.ca).
+
+## Ce que nous recueillons, et pourquoi
+
+| Quand vous… | Nous recevons | Pourquoi | Où c'est conservé |
+|---|---|---|---|
+| Visitez ce site | Rien n'est conservé par nous. Votre navigateur charge des polices et du code depuis Google Fonts, cdnjs et jsDelivr, qui voient votre adresse IP. | Afficher les pages | Serveurs de ces services |
+| Nous écrivez | Votre adresse courriel et votre message | Vous répondre | Notre fournisseur de courriel (Hostinger) et Google |
+| Postulez à un projet ou en proposez un | Nom, courriel, organisation, pays, rôle et réponses | Étudier votre demande et vous contacter | Google Forms et Google Sheets (Google LLC), sur des serveurs qui peuvent être hors du Canada |
+| Prenez rendez-vous | Nom, courriel, fuseau horaire et notes éventuelles | Tenir la réunion | Cal.com, sur des serveurs qui peuvent être hors du Canada, et notre agenda Google |
+| Vous abonnez à l'infolettre | Votre adresse courriel | Envoyer l'infolettre | Substack, selon [sa politique de confidentialité](https://substack.com/privacy) |
+
+Ce site n'utilise ni témoins (cookies) de suivi ni outils publicitaires.
+
+## Durée de conservation
+
+Nous conservons les demandes et les courriels tant que nous sommes en contact, et les supprimons au plus tard deux ans après notre dernier échange. Vous pouvez vous désabonner de l'infolettre à tout moment grâce au lien présent dans chaque courriel.
+
+## Vos droits
+
+Vous pouvez demander à consulter les renseignements que nous détenons sur vous, à les corriger ou à les supprimer, et retirer votre consentement à tout moment. Écrivez à [contact@cognosx.ca](mailto:contact@cognosx.ca) : nous répondons sous 30 jours.
+
+Les services situés hors du Canada peuvent être soumis aux lois du pays où se trouvent leurs serveurs, qui peuvent permettre l'accès par les autorités de ce pays.
+
+Si notre réponse ne vous satisfait pas, vous pouvez vous adresser au [Commissariat à la protection de la vie privée du Canada](https://www.priv.gc.ca/fr/).

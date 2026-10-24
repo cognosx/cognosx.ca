@@ -97,6 +97,11 @@ PROJECTS = load_projects()
 
 def link_projects(item: dict, extra_text: str = "") -> dict:
     """Add 'projects' (project page names) and 'project_names' to an item."""
+    # Peer review reports are about other people's work, so they never belong to a project.
+    if "Peer review report" in (item.get("categories") or []):
+        item.pop("projects", None)
+        item.pop("project_names", None)
+        return item
     text = " ".join([item.get("title") or "", item.get("description") or "", extra_text]).lower()
     path = (item.get("path") or "").lower()
     found = []

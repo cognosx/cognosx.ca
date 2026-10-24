@@ -7,10 +7,6 @@
   categories:
   - Peer review report
   - Review
-  projects:
-  - generative-ai
-  project_names:
-  - How researchers use generative AI
 - title: Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy
   path: https://doi.org/10.1038/s41587-024-02493-9
   date: '2024-12-01'

@@ -1,0 +1,37 @@
+---
+title: "Privacy"
+pagetitle: "Privacy"
+description: "What personal information CognosX collects, why, where it is stored, and how to ask for it to be changed or deleted."
+---
+
+*Last updated: 24 October 2026*
+
+CognosX Inc. is a company incorporated in Canada. We collect as little personal information as we can, and only to reply to you and to work with you. We never sell it.
+
+## Who is responsible
+
+Maxime Descartes Mbogning Fonkou is responsible for personal information at CognosX. For any question or request, write to [contact@cognosx.ca](mailto:contact@cognosx.ca).
+
+## What we collect, and why
+
+| When you… | We receive | Why | Where it is stored |
+|---|---|---|---|
+| Visit this website | Nothing is stored by us. Your browser loads fonts and code from Google Fonts, cdnjs and jsDelivr, which see your IP address. | To show the pages | Those services' servers |
+| Write to us by email | Your email address and message | To reply | Our email provider (Hostinger) and Google |
+| Apply to a project or propose one | Your name, email, organization, country, role and answers | To review your application and contact you | Google Forms and Google Sheets (Google LLC), on servers that may be outside Canada |
+| Book a call | Your name, email, time zone and any notes you add | To hold the meeting | Cal.com, on servers that may be outside Canada, and our Google Calendar |
+| Subscribe to the newsletter | Your email address | To send the newsletter | Substack, under [Substack's privacy policy](https://substack.com/privacy) |
+
+This website does not use tracking cookies or advertising tools.
+
+## How long we keep it
+
+We keep applications and emails for as long as we are in contact, and delete them at the latest two years after our last exchange. You can unsubscribe from the newsletter at any time with the link in every email.
+
+## Your rights
+
+You can ask us to see the information we hold about you, to correct it, or to delete it. You can also withdraw your consent at any time. Write to [contact@cognosx.ca](mailto:contact@cognosx.ca) and we will reply within 30 days.
+
+Services outside Canada may be subject to the laws of the country where their servers are, which can allow access by authorities there.
+
+If you are not satisfied with our answer, you can contact the [Office of the Privacy Commissioner of Canada](https://www.priv.gc.ca/en/).

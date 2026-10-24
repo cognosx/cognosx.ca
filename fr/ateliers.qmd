@@ -1,0 +1,81 @@
+---
+title: "Ateliers"
+pagetitle: "Atelier : cartographier un domaine de recherche en 3 heures"
+description: "Formation pratique à la cartographie de la recherche et au tri assisté par l'IA."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Atelier · {{< var workshop_date_fr >}} · En ligne · en anglais]{.eyebrow}
+
+# {{< var workshop_title_fr >}} {.page-title}
+
+[Une séance pratique en direct pour les chercheurs en santé et en sciences de la vie. Vous repartez avec un ensemble d'articles nettoyé et trié par l'IA sur votre propre sujet, et les compétences pour le refaire.]{.lead}
+
+[S'inscrire sur la liste d'attente]({{< var workshop_waitlist_url >}}){.btn-cx}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[Pour qui]{.card-num}
+
+Étudiants des cycles supérieurs, chercheurs, bibliothécaires et personnel des bureaux de recherche en santé et en sciences de la vie. Des bases en Python aident, mais ne sont pas nécessaires.
+:::
+
+::: {.card-cx .reveal}
+[Format]{.card-num}
+
+En ligne et en direct, 3 heures avec une pause. Petit groupe de 8 à 20 personnes. Carnets Google Colab : rien à installer.
+:::
+
+::: {.card-cx .reveal}
+[Langue]{.card-num}
+
+La séance du {{< var workshop_date_fr >}} est en anglais. Une séance en français aura lieu s'il y a assez d'intérêt : dites-le-nous en vous inscrivant.
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[À la fin]{.eyebrow}
+
+## Vous saurez
+:::
+
+::: {.grid .grid-2}
+::: {.reveal}
+1. Construire une recherche dans OpenAlex et télécharger les documents de votre sujet.
+2. Nettoyer les données : retirer les doublons, trouver les résumés et affiliations manquants.
+3. Trier les titres et les résumés avec deux modèles d'IA et une règle simple en cas de désaccord.
+4. Vérifier ce tri sur un petit échantillon que vous annotez à la main.
+5. Faire deux premiers graphiques : la production dans le temps et par pays.
+:::
+
+::: {.reveal}
+::: {.note-box}
+**Non couvert :** la méthode complète de revue systématique et l'analyse de brevets. Elles font partie d'une séance avancée et de nos [services](services.qmd).
+:::
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Une séance privée pour votre équipe ?
+
+::: {}
+[S'inscrire sur la liste d'attente]({{< var workshop_waitlist_url >}}){.btn-cx}
+[Demander une séance d'équipe](mailto:{{< var email >}}?subject=Atelier%20pour%20une%20%C3%A9quipe){.btn-cx-ghost}
+:::
+:::
+:::
+:::

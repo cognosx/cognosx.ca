@@ -38,6 +38,8 @@ jobs:
         run: |
           git config user.name "cognosx-bot"
           git config user.email "cognosxx@gmail.com"
+          # Once a month, record the check so GitHub never pauses this daily job (it pauses after 60 quiet days)
+          if [ "$(date -u +%d)" = "01" ]; then date -u +%F > data/.last-check; fi
           git add data/
           if ! git diff --cached --quiet; then
             git commit -m "Update feeds"

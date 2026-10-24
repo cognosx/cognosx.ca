@@ -6,6 +6,7 @@ listing:
   contents: "projects/*.qmd"
   sort: "order"
   template: styles/project-cards.ejs
+pagetitle: "Open research projects: generative AI, phage therapy, research in Africa"
 ---
 
 Each project has its own page with the question, the plan, the current stage and the team, plus everything it has produced so far: papers, datasets, articles, videos and workshops.
@@ -14,6 +15,8 @@ Each project has its own page with the question, the plan, the current stage and
 
 [Apply to collaborate]({{< var collab_form_url >}}){.btn-cx}
 [Propose a project]({{< var collab_form_url >}}){.btn-cx-ghost}
+
+[Your answers go to a Google Form. [How we use them](privacy.qmd).]{.small-note}
 
 ::: {#all-projects}
 :::

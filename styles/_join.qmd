@@ -5,4 +5,6 @@ We welcome researchers, students, practitioners and funders. Tell us who you are
 
 [Apply to collaborate]({{< var collab_form_url >}}){.btn-cx}
 [Propose your own project]({{< var collab_form_url >}}){.btn-cx-ghost}
+
+[Your answers go to a Google Form. [How we use them](/privacy.qmd).]{.small-note}
 :::

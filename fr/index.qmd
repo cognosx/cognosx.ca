@@ -1,0 +1,202 @@
+---
+title: "CognosX · Laissons parler les données de la science"
+pagetitle: "Intelligence scientifique pour la santé : publications, brevets et financements de la recherche"
+description: "Des réponses claires à partir des publications, des brevets et des financements de la recherche, pour de meilleures décisions en santé."
+page-layout: custom
+---
+
+::: {.hero}
+```{=html}
+<img class="hero-dots" src="../images/halftone.svg" alt="">
+```
+::: {.wrap}
+[Intelligence scientifique pour la santé]{.eyebrow}
+
+# Laissons parler les données de la science[.]{.x}
+
+[Nous lisons la production scientifique (publications, brevets et financements de la recherche) et la transformons en réponses claires. Pour vous aider à décider où investir, avec qui travailler, et ce qui manque encore.]{.lead}
+
+[Prendre rendez-vous](contact.qmd){.btn-cx}
+[Nos services](services.qmd){.btn-cx-ghost}
+:::
+:::
+
+::: {.band .band-proof}
+::: {.wrap}
+[Travaux choisis]{.eyebrow}
+
+::: {.grid .grid-3}
+::: {.proof-item}
+[Nature Biotechnology · décembre 2024]{.card-num}
+
+**Le paysage mondial des brevets sur la phagothérapie.** L'apprentissage automatique appliqué à de grandes bases de brevets : qui invente, où, et à quelle vitesse le domaine évolue.
+
+[Lire l'article (en anglais)](https://doi.org/10.1038/s41587-024-02493-9){.card-link}
+:::
+
+::: {.proof-item}
+[Méthode ouverte · janvier 2024]{.card-num}
+
+**Le protocole derrière nos analyses de brevets**, publié étape par étape pour que chacun puisse le vérifier et le reproduire.
+
+[Lire le protocole (en anglais)](https://doi.org/10.21203/rs.3.pex-2537/v1){.card-link}
+:::
+
+::: {.proof-item}
+[Recherche ouverte · 4 projets]{.card-num}
+
+**IA générative, phagothérapie, recherche en Afrique, tiques et climat.** Chaque projet montre son plan, son avancement et ses résultats.
+
+[Voir les projets (en anglais)](../projects.qmd){.card-link}
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.section-head .reveal}
+[Pour qui]{.eyebrow}
+
+## Les mêmes données, quatre types de décisions
+
+[Chaque projet part d'une question à laquelle vous devez répondre. Nous apportons les données, la méthode et le regard d'un scientifique.]{.lead}
+:::
+
+::: {.grid .grid-2}
+::: {.card-cx .reveal}
+[01]{.card-num}
+
+### Bailleurs de fonds et institutions
+
+Comprendre un domaine de recherche avant de le financer, et voir qui en est exclu.
+
+- Évaluation de la recherche
+- Analyse de l'équité et du leadership
+- Données pour fixer les priorités
+
+[Évaluation de la recherche](services.qmd#evaluation){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[02]{.card-num}
+
+### Biotech et investisseurs
+
+Voir qui invente quoi, où le terrain est saturé, et où il reste ouvert.
+
+- Cartographie des brevets
+- Cartographie de la recherche et des concurrents
+- Repérage de partenaires et de talents
+
+[Cartographies](services.qmd#landscapes){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[03]{.card-num}
+
+### Chercheurs et étudiants
+
+Trouver et trier la littérature plus vite, avec des méthodes fiables et reproductibles.
+
+- Appui aux synthèses de données probantes
+- Tri assisté par l'IA, vérifié
+- Ateliers pratiques
+
+[Synthèse et formation](services.qmd#evidence){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[04]{.card-num}
+
+### Partenaires de recherche en Afrique
+
+Mener des études sur les problèmes de santé qui comptent là où vous travaillez, avec des données et des méthodes qui restent les vôtres.
+
+- Cartographie de la recherche pour les demandes de subvention
+- Études co-dirigées et co-signées
+- Formation en français et en anglais
+
+[Recherche en Afrique (en anglais)](../projects/research-in-africa.qmd){.card-link}
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.section-head .reveal}
+[Notre méthode]{.eyebrow}
+
+## D'une question à une réponse utile
+:::
+
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Étape 1]{.card-num}
+
+### Définir la question
+
+Nous précisons ce que vous devez décider, et à quoi ressemble une bonne réponse.
+:::
+
+::: {.step .reveal}
+[Étape 2]{.card-num}
+
+### Réunir les données
+
+Publications, brevets, subventions et essais cliniques, issus de sources ouvertes et fiables.
+:::
+
+::: {.step .reveal}
+[Étape 3]{.card-num}
+
+### Trier et vérifier
+
+L'IA aide à trier les documents ; des personnes vérifient les résultats sur un échantillon annoté à la main.
+:::
+
+::: {.step .reveal}
+[Étape 4]{.card-num}
+
+### Livrer des réponses claires
+
+Un rapport court, des graphiques et, si utile, un tableau de bord interactif.
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.grid .grid-2 .newsletter}
+::: {}
+[Infolettre]{.eyebrow}
+
+## Recevez nos analyses par courriel
+
+Des articles courts sur ce que montrent les données de la science. Gratuit, désinscription à tout moment. Les articles sont pour l'instant en anglais.
+:::
+
+::: {}
+```{=html}
+<iframe class="substack-embed" src="https://cognosxinsights.substack.com/embed" title="S'abonner à l'infolettre CognosX" loading="lazy"></iframe>
+<p class="small-note">L'inscription est gérée par Substack. <a href="confidentialite.html">Comment nous utilisons vos données</a>.</p>
+```
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Une question à laquelle la recherche pourrait répondre ?
+
+::: {}
+[Prendre rendez-vous](contact.qmd){.btn-cx}
+[Nous écrire](mailto:{{< var email >}}){.btn-cx-ghost}
+:::
+:::
+:::
+:::

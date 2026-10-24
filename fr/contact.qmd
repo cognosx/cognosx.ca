@@ -1,0 +1,74 @@
+---
+title: "Contact"
+pagetitle: "Contact et prise de rendez-vous"
+description: "Prendre rendez-vous ou nous écrire."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Contact]{.eyebrow}
+
+# Parlons de votre question {.page-title}
+
+[Le premier appel est gratuit et court. Dites-nous ce que vous devez décider, et nous vous proposerons la façon la plus simple d'y répondre. Nous pouvons échanger en français.]{.lead}
+
+[Choisir un créneau ci-dessous](#book){.btn-cx}
+[Nous écrire](mailto:{{< var email >}}){.btn-cx-ghost}
+:::
+:::
+
+::: {.band #book}
+::: {.wrap}
+[Prendre rendez-vous]{.eyebrow}
+
+## Choisissez le moment qui vous convient
+
+Les heures sont affichées dans votre fuseau horaire. Vous recevrez un courriel de confirmation avec un lien vidéo. Les réservations sont gérées par Cal.com (interface en anglais) ; voir [comment nous utilisons vos données](confidentialite.qmd).
+
+```{=html}
+<div id="cal-inline" style="width:100%;min-height:640px;overflow:auto;"></div>
+<p style="margin-top:1rem;font-size:.9rem;">Le calendrier ne s'affiche pas ? <a href="https://cal.com/cognosx" target="_blank" rel="noopener">Ouvrir la page de réservation</a>.</p>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "book", { origin: "https://cal.com" });
+Cal.ns.book("inline", { elementOrSelector: "#cal-inline", calLink: "cognosx", config: { layout: "month_view", theme: "light" } });
+Cal.ns.book("ui", { theme: "light", styles: { branding: { brandColor: "#FEA500" } }, hideEventTypeDetails: false, layout: "month_view" });
+</script>
+```
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[Courriel]{.card-num}
+
+### Nous écrire
+
+[{{< var email >}}](mailto:{{< var email >}})
+
+Nous répondons sous deux jours ouvrables, en français ou en anglais.
+:::
+
+::: {.card-cx .reveal}
+[LinkedIn]{.card-num}
+
+### Suivre le travail
+
+De courtes analyses et des graphiques chaque semaine.
+
+[Profil LinkedIn]({{< var linkedin_url >}})
+:::
+
+::: {.card-cx .reveal}
+[Basé à]{.card-num}
+
+### Burnaby, C.-B., Canada
+
+Nous travaillons à distance, en français et en anglais.
+:::
+:::
+:::
+:::

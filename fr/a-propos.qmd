@@ -1,0 +1,72 @@
+---
+title: "À propos"
+pagetitle: "À propos : pourquoi nous lisons la production scientifique"
+description: "Pourquoi CognosX existe, et qui est derrière."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[À propos]{.eyebrow}
+
+# Pourquoi nous lisons la production scientifique {.page-title}
+
+[La recherche est l'un des meilleurs outils dont nous disposons pour améliorer la santé. Mais il est difficile d'en voir l'ensemble : ce qui a été fait, par qui, et ce qui manque encore. Nous aidons à rendre ce tableau clair.]{.lead}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.founder}
+::: {}
+[Qui est derrière]{.eyebrow}
+
+## Maxime Descartes Mbogning Fonkou
+:::
+
+::: {.reveal}
+J'ai commencé ma carrière dans des laboratoires de microbiologie clinique à Yaoundé, Marseille et Paris. J'ai étudié les bactéries qui vivent dans les voies respiratoires et l'intestin humains, et j'ai contribué à décrire de nouvelles espèces bactériennes. Le laboratoire m'a appris comment se construit une preuve : une étape soignée après l'autre.
+
+Avec les années, une question plus large a grandi en moi. Que représente, au total, toute cette recherche ? Qui la fait, qui la paie, et qui en est exclu ? J'ai suivi cette question jusqu'à la science de la science, à l'Université York et à l'Université Simon Fraser, en travaillant sur la cartographie de la recherche, l'analyse des brevets et l'évaluation de la recherche.
+
+CognosX est la façon dont je poursuis ce travail. L'idée est simple : aider à lire clairement la production scientifique, pour que l'argent et les efforts aillent là où ils comptent le plus. Je tiens particulièrement aux problèmes de santé qui touchent l'Afrique et d'autres régions que la recherche oublie trop souvent.
+
+Je travaille en français et en anglais, depuis Burnaby, au Canada.
+
+::: {.links-row}
+[ORCID]({{< var orcid_url >}}) [Google Scholar]({{< var scholar_url >}}) [LinkedIn]({{< var linkedin_url >}}) [Site personnel]({{< var personal_site >}})
+:::
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[Ce qui guide le travail]{.eyebrow}
+
+## Trois principes
+:::
+
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+### Rigoureux, puis rapide
+
+L'IA nous aide à travailler à grande échelle, mais des personnes vérifient les résultats. Nous indiquons la précision de la méthode, pas seulement ce qu'elle a trouvé.
+:::
+
+::: {.card-cx .reveal}
+### Le contexte avant les chiffres
+
+Les chiffres seuls peuvent tromper. Nous utilisons les indicateurs de façon responsable et expliquons ce qu'ils peuvent montrer, et ce qu'ils ne montrent pas.
+:::
+
+::: {.card-cx .reveal}
+### Juste et global
+
+Nous regardons qui manque au tableau, pas seulement qui le domine, et nous écoutons les personnes là où la recherche se fait.
+:::
+:::
+:::
+:::

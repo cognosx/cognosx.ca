@@ -17,6 +17,7 @@ listing:
     template: styles/list-section.ejs
     sort: "date desc"
     date-format: "MMM YYYY"
+pagetitle: "Insights: newsletter and videos on science data"
 ---
 
 Short, practical content on research, data and innovation, sorted by where it was published. Each item shows its type, and its project when it belongs to one. Peer-reviewed papers and datasets are in [Work](work.qmd).

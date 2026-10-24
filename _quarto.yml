@@ -12,7 +12,11 @@ website:
   description: "Clear evidence from the scientific record, for better health decisions."
   site-url: "https://cognosx.ca"
   favicon: images/favicon.png
+  image: images/social-card.png
+  image-alt: "CognosX: Let science data speak. Landscape reports, evidence synthesis and research evaluation."
   open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   page-navigation: false
   back-to-top-navigation: false
   navbar:
@@ -34,13 +38,16 @@ website:
       - text: About
         href: about.qmd
     right:
+      - text: "FR"
+        href: fr/index.qmd
+        aria-label: "Français"
       - text: "Book a call"
         href: contact.qmd
         aria-label: "Book a call"
   page-footer:
     background: dark
     left: |
-      © 2026 CognosX · Burnaby, BC, Canada
+      © 2026 CognosX · Burnaby, BC, Canada · [Newsletter](https://cognosxinsights.substack.com) · [Privacy](/privacy.qmd) · [Français](/fr/index.qmd)
     center: |
       [Let science data speak]{.footer-tagline}
     right:
@@ -69,5 +76,6 @@ format:
     anchor-sections: false
     include-in-header:
       - styles/fonts.html
+      - styles/schema.html
     include-after-body:
       - styles/reveal.html

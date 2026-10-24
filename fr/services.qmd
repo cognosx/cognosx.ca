@@ -1,0 +1,138 @@
+---
+title: "Services"
+pagetitle: "Services : cartographies, synthèses de données probantes et évaluation de la recherche"
+description: "Cartographies de brevets et de la recherche, synthèses de données probantes, évaluation de la recherche et formation."
+page-layout: custom
+---
+
+::: {.band .band-dark}
+::: {.wrap}
+[Services]{.eyebrow}
+
+# Ce que nous faisons {.page-title}
+
+[Chaque service se termine par un résultat utilisable : un rapport clair, les données derrière, et, si utile, un tableau de bord interactif. Le prix est fixé par projet et convenu avant de commencer.]{.lead}
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+
+::: {#landscapes .work-item .reveal}
+[Pour la biotech, les investisseurs, les bureaux de transfert technologique]{.work-meta}
+
+::: {}
+### Cartographies
+
+Une carte d'un domaine à partir des publications, des brevets et des financements : qui est actif, où, à quelle vitesse le domaine grandit, et où sont les manques.
+
+- Cartographies de brevets : inventeurs, déposants, pays, tendances
+- Cartographies de la recherche : thèmes, équipes clés, collaborations
+- Repérage de partenaires, de concurrents et de talents
+
+[Résultat type : un rapport court, les données nettoyées et un tableau de bord]{.tag .tag-amber}
+
+**Exemple :** notre [cartographie des brevets sur la phagothérapie](https://doi.org/10.1038/s41587-024-02493-9), publiée dans *Nature Biotechnology* (2024), et son [protocole ouvert](https://doi.org/10.21203/rs.3.pex-2537/v1).
+:::
+:::
+
+::: {#evidence .work-item .reveal}
+[Pour les chercheurs, les agences de santé, les équipes de revue]{.work-meta}
+
+::: {}
+### Synthèse de données probantes et tri assisté par l'IA
+
+Un appui pour les étapes lourdes d'une revue : construire la recherche, retirer les doublons, et trier des milliers de titres et de résumés.
+
+- Recherches dans OpenAlex et d'autres sources ouvertes
+- Tri par deux modèles d'IA, avec une règle claire en cas de désaccord
+- Précision vérifiée sur un échantillon annoté à la main, et publiée
+
+[Résultat type : un ensemble de documents triés et une note de méthode publiable]{.tag .tag-amber}
+:::
+:::
+
+::: {#evaluation .work-item .reveal}
+[Pour les bailleurs de fonds, les universités, les bureaux de recherche]{.work-meta}
+
+::: {}
+### Évaluation de la recherche et analyse de l'équité
+
+Une analyse juste et rigoureuse d'un programme ou d'un domaine de recherche, avec des indicateurs utilisés de façon responsable et toujours mis en contexte.
+
+- Qui produit la recherche, qui la dirige, qui la finance
+- Collaborations et leadership, y compris le leadership local en Afrique
+- Données pour fixer les priorités et préparer des demandes de subvention
+
+**Exemple :** notre programme [Recherche en Afrique](../projects/research-in-africa.qmd), dont une étude sur la recherche sur les tiques menée avec une équipe africaine.
+
+[Résultat type : un rapport d'évaluation avec des recommandations claires]{.tag .tag-amber}
+:::
+:::
+
+::: {#training .work-item .reveal}
+[Pour les bureaux de recherche, les bibliothèques, les laboratoires, les étudiants]{.work-meta}
+
+::: {}
+### Ateliers et formation
+
+Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En français et en anglais.
+
+- Cartographier un domaine de recherche avec OpenAlex
+- Le tri assisté par l'IA et comment le vérifier
+- Séances privées pour les équipes et les institutions
+
+[Voir le prochain atelier](ateliers.qmd)
+:::
+:::
+
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[Travailler ensemble]{.eyebrow}
+
+## Un processus simple
+:::
+
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[1]{.card-num}
+
+### Un court appel
+
+Nous parlons de votre question et de ce que vous devez décider. Gratuit et court.
+:::
+
+::: {.card-cx .reveal}
+[2]{.card-num}
+
+### Une proposition à prix fixe
+
+En quelques jours : périmètre, livrables, calendrier et prix. Pas de surprise.
+:::
+
+::: {.card-cx .reveal}
+[3]{.card-num}
+
+### Livraison et suivi
+
+Vous recevez les résultats et nous les parcourons ensemble. Vos questions après la livraison sont les bienvenues.
+:::
+:::
+:::
+:::
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Vous ne savez pas quel service choisir ?
+
+::: {}
+[Prendre rendez-vous](contact.qmd){.btn-cx}
+:::
+:::
+:::
+:::

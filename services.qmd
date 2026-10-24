@@ -1,5 +1,6 @@
 ---
 title: "Services"
+pagetitle: "Services: landscape reports, evidence synthesis and research evaluation"
 description: "Landscape reports, evidence synthesis, research evaluation and training."
 page-layout: custom
 ---
@@ -30,6 +31,8 @@ A map of a field from publications, patents and funding: who is active, where, h
 - Partner, competitor and talent scouting
 
 [Typical result: a short report, the cleaned dataset, and a dashboard]{.tag .tag-amber}
+
+**Example:** our [patent landscape of phage therapy](https://doi.org/10.1038/s41587-024-02493-9), published in *Nature Biotechnology* (2024), and its [open protocol](https://doi.org/10.21203/rs.3.pex-2537/v1).
 :::
 :::
 
@@ -59,6 +62,8 @@ Fair, careful analysis of a research programme or field, using indicators respon
 
 - Who produces the research, who leads it, who funds it
 - Collaboration and leadership patterns, including local leadership in Africa
+
+**Example:** our [Research in Africa](projects/research-in-africa.qmd) programme, including a partner-led study of tick research.
 - Evidence for priority setting and grant applications
 
 [Typical result: an evaluation report with clear recommendations]{.tag .tag-amber}
@@ -98,7 +103,7 @@ Practical sessions where people learn by doing, on their own topic. In English, 
 
 ### A short call
 
-We talk about your question and what you need to decide. Free, 30 minutes.
+We talk about your question and what you need to decide. Free and short.
 :::
 
 ::: {.card-cx .reveal}

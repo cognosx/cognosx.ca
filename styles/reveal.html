@@ -29,4 +29,51 @@ document.addEventListener("DOMContentLoaded", function () {
     if (msg && !ul.querySelector("li")) msg.style.display = "block";
   });
 });
+
+// Accessibility: give every page a main landmark, and fix the phone menu button role
+document.addEventListener("DOMContentLoaded", function () {
+  if (!document.querySelector("main, [role=main]")) {
+    var c = document.getElementById("quarto-content");
+    if (c) c.setAttribute("role", "main");
+  }
+  document.querySelectorAll(".navbar-toggler[role=menu]").forEach(function (b) { b.removeAttribute("role"); });
+});
+
+// Language switch: link each page to its translation, and translate the menu on French pages
+document.addEventListener("DOMContentLoaded", function () {
+  var pairs = { "index": "fr/index", "services": "fr/services", "workshops": "fr/ateliers",
+                "about": "fr/a-propos", "contact": "fr/contact", "privacy": "fr/confidentialite" };
+  var path = location.pathname.replace(/\/$/, "/index.html");
+  var isFr = /\/fr\//.test(path);
+  var name = path.split("/").pop().replace(".html", "");
+  var other;
+  if (isFr) {
+    other = "index";
+    for (var k in pairs) { if (pairs[k] === "fr/" + name) other = k; }
+    other = "/" + other + ".html";
+  } else {
+    other = "/" + (pairs[name] || "fr/index") + ".html";
+  }
+  document.querySelectorAll(".navbar a.nav-link").forEach(function (a) {
+    var t = a.textContent.trim();
+    if (t === "FR") {
+      a.setAttribute("href", other);
+      if (isFr) { a.querySelector(".menu-text").textContent = "EN"; a.setAttribute("aria-label", "English"); a.setAttribute("lang", "en"); }
+      else { a.setAttribute("lang", "fr"); }
+    }
+    if (isFr) {
+      var fr = { "Services": ["Services", "/fr/services.html"], "Projects": ["Projets", null], "Work": ["Publications", null],
+                 "Insights": ["Articles", null], "Workshops": ["Ateliers", "/fr/ateliers.html"],
+                 "About": ["À propos", "/fr/a-propos.html"], "Book a call": ["Prendre rendez-vous", "/fr/contact.html"] };
+      if (fr[t]) {
+        var m = a.querySelector(".menu-text"); if (m) m.textContent = fr[t][0];
+        if (fr[t][1]) a.setAttribute("href", fr[t][1]);
+        a.setAttribute("aria-label", fr[t][0]);
+      }
+    }
+  });
+  if (isFr) {
+    var brand = document.querySelector(".navbar-brand"); if (brand) brand.setAttribute("href", "/fr/index.html");
+  }
+});
 </script>

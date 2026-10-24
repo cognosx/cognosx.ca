@@ -2,6 +2,7 @@
 title: "Workshops"
 description: "Hands-on training in mapping research fields and AI-assisted screening."
 page-layout: custom
+pagetitle: "Workshop: map a research field in 3 hours"
 ---
 
 ::: {.band .band-dark}
