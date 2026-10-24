@@ -1,2 +1,16 @@
-# This file is written automatically by scripts/update_feeds.py from youtube.com/@cognosx.
-[]
+# This file is written automatically by scripts/update_feeds.py.
+# Edits here are replaced at the next update; change scripts/feeds.yml instead.
+- title: The microbiome patent race just shifted — and most people missed it
+  path: https://www.youtube.com/watch?v=Ls5ZSZVPRcU
+  date: '2026-02-14'
+  description: 🌍 The Geography of Microbiome Innovation Has Shifted Over the past five decades, microbiome innovation has evolved from a niche scientific curiosity into a globally strategic…
+  categories:
+  - YouTube
+  - Video
+- title: 'The Why : Pourquoi Cette Chaîne Existe-t-elle ?'
+  path: https://www.youtube.com/watch?v=AWFlgca2jpU
+  date: '2025-01-04'
+  description: 'Bienvenue sur ma chaîne YouTube ! 🎥 🌟 Introduction à la Chaîne : Pourquoi Cette Chaîne Existe-t-elle ? 🌟 Dans cette vidéo d''introduction, je vais vous expliquer pourquoi j''ai…'
+  categories:
+  - YouTube
+  - Video
