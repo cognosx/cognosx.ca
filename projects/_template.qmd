@@ -1,0 +1,48 @@
+---
+# HOW TO ADD A PROJECT
+# 1. Copy this file in the projects folder with a short name, e.g. projects/vaccine-research.qmd
+#    (the file name becomes the project's tag; files starting with "_" are ignored).
+# 2. Fill in the fields below, then the sections of the page.
+# 3. To link content to the project automatically, list words in match > keywords.
+#    Any paper, Substack post or video whose title, description or tags contain
+#    one of these words will appear under "Outputs so far".
+#    For hand-added items (data/outputs.yml, data/linkedin.yml, dashboards),
+#    add a line:  projects: ["vaccine-research"]
+title: "Project title"
+description: "One sentence on what the project does."
+order: 9                # position on the Projects page
+stage: 1                # 1 Idea, 2 Design, 3 Data, 4 Analysis, 5 Writing, 6 Shared (0 = programme)
+stage_note: "What is happening right now, in a few words"
+updated: "2026-11-01"
+match:
+  keywords: ["word one", "word two"]
+  links: []             # exact links or DOIs that always belong to this project
+listing:
+  id: proj-outputs
+  contents: [../data/publications.yml, ../data/outputs.yml, ../data/substack.yml, ../data/youtube.yml, ../data/linkedin.yml, ../dashboards/*.qmd, "!../dashboards/_template.qmd"]
+  include: { projects: "project-file-name" }
+  template: ../styles/list-mixed.ejs
+  sort: "date desc"
+  date-format: "MMM YYYY"
+---
+
+{{< include ../styles/_stage.qmd >}}
+
+## The question
+
+## Where we are
+
+| Step | Status |
+|---|---|
+| | |
+
+## Team
+
+## We are looking for
+
+## Outputs so far
+
+::: {#proj-outputs}
+:::
+
+{{< include ../styles/_join.qmd >}}

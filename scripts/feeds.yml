@@ -1,19 +1,104 @@
 # Settings for the daily feed update (scripts/update_feeds.py).
 
-# Your Substack address, e.g. "https://cognosx.substack.com". Leave empty until it exists.
+# Your Substack address. Leave empty to turn the newsletter feed off.
 substack_url: "https://cognosxinsights.substack.com"
 
-# Publications are pulled from OpenAlex using this ORCID.
+# Your YouTube channel (from youtube.com/@cognosx). The free feed lists the latest 15
+# videos; older ones are kept once seen. To import ALL videos at once, add a free
+# YouTube Data API key as a GitHub secret named YOUTUBE_API_KEY (see README).
+youtube_channel_id: "UClc2RCJ9-CbE6NEgvoiNDgg"
+
+# Optional: give videos a type by putting them in a YouTube playlist.
+# Format:  PLAYLIST_ID: "Type shown on the site"
+# Example:
+#   PLxxxxxxxxxxxxxxxx: "Tutorial"
+#   PLyyyyyyyyyyyyyyyy: "Workshop recording"
+youtube_playlists: {}
+
+# Videos whose title contains one of these words are marked "Tutorial".
+youtube_tutorial_words: ["tutorial", "how to", "step by step", "tuto", "guide"]
+
+# Your outputs are pulled from OpenAlex using this ORCID,
+# so only items you co-authored appear. Items you deposit on Zenodo
+# (datasets, protocols, reports) reach OpenAlex too, once ORCID is linked.
 orcid: "0000-0001-5581-3891"
 
-# Only show publications from this year onwards.
-publications_since: 2015
+# Only show items from this year onwards.
+publications_since: 2024
 
-# Work types to keep (OpenAlex types). Add "preprint" to show preprints too.
-publication_types: ["article", "review", "preprint", "book-chapter"]
+# ------------------------------------------------------------------
+# TYPES shown on the Work page (the words people will see).
+# ------------------------------------------------------------------
+type_labels:
+  article: "Peer-reviewed article"
+  preprint: "Preprint"
+  dataset: "Dataset"
+  technical: "Proposal, framework or technical document"
+  report: "Report"
+  book: "Book or chapter"
+  thesis: "Thesis"
+  peerreview: "Peer review report"
 
-# DOIs to hide from the site (one per line), e.g. "10.1234/abcd".
+# How each OpenAlex type maps to the types above. Types not listed are left out
+# (retractions, errata, supplementary files).
+openalex_types:
+  article: article
+  review: article
+  letter: article
+  preprint: preprint
+  dataset: dataset
+  report: report
+  standard: technical
+  book: book
+  book-chapter: book
+  dissertation: thesis
+  peer-review: peerreview
+
+# Words in the title, source or DOI that mark a protocol, framework or proposal.
+technical_markers: ["protocol", "rs.3.pex", "protocols.io", "framework", "proposal", "white paper", "technical report"]
+
+# Words in the title that mark an OpenAlex "other" item as a dataset.
+dataset_markers: ["data from", "dataset", "data set"]
+
+# ------------------------------------------------------------------
+# THEME filter: for these types, show only reviews and bibliometric work.
+# Remove a type from the list to show all items of that type.
+# ------------------------------------------------------------------
+theme_filter_applies_to: ["Peer-reviewed article", "Preprint"]
+
+review_keywords:
+  - "systematic review"
+  - "scoping review"
+  - "narrative review"
+  - "literature review"
+  - "umbrella review"
+  - "meta-analysis"
+  - "this review"
+  - "we review"
+
+bibliometric_keywords:
+  - "bibliometric"
+  - "scientometric"
+  - "science of science"
+  - "patent landscape"
+  - "patent analysis"
+  - "patent data"
+  - "research output"
+  - "research evaluation"
+  - "research collaboration"
+  - "citation analysis"
+  - "altmetric"
+  - "publication trends"
+  - "research trends"
+  - "academic publishing"
+  - "open access publishing"
+  - "preprint server"
+
+# Always show these DOIs, even if the rules above would hide them.
+include_dois: []
+
+# Never show these DOIs.
 hide_dois: []
 
 # Maximum number of items per feed.
-max_items: 40
+max_items: 60

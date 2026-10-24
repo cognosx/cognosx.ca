@@ -3,17 +3,22 @@
 # Use them in any page with {{< var name >}}.
 # ------------------------------------------------------------------
 
-email: "cognosxx@gmail.com"
+email: "contact@cognosx.ca"
 
 # Booking link. Replace with your Cal.com or Calendly link when ready,
 # for example: "https://cal.com/cognosx/30min"
-booking_url: "mailto:cognosxx@gmail.com?subject=Booking%20a%20call%20with%20CognosX"
+booking_url: "mailto:contact@cognosx.ca?subject=Booking%20a%20call%20with%20CognosX"
 
 # Workshop
 workshop_title: "Map a Research Field in 3 Hours"
 workshop_date: "Thursday, January 28, 2027"
 # Replace with your Tally, Google Form or Substack link when ready.
-workshop_waitlist_url: "mailto:cognosxx@gmail.com?subject=Workshop%20waitlist"
+workshop_waitlist_url: "mailto:contact@cognosx.ca?subject=Workshop%20waitlist"
+
+# Google Form for joining or proposing a project. Paste the form's "Send" link here.
+collab_form_url: "mailto:contact@cognosx.ca?subject=Project%20collaboration"
+
+youtube_url: "https://www.youtube.com/@cognosx"
 
 # Newsletter (Substack)
 newsletter_url: "https://cognosxinsights.substack.com"

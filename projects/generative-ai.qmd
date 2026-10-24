@@ -1,0 +1,56 @@
+---
+title: "How researchers use generative AI"
+description: "A map of research on generative AI: which tools and models researchers study and use, for what, and how this is changing."
+order: 1
+stage: 3
+stage_note: "Screening the records with AI, checked by hand"
+updated: "2026-10-23"
+match:
+  keywords: ["generative ai", "generative artificial intelligence", "genai", "large language model", "large language models", "llm", "llms", "chatgpt", "gpt-4"]
+  links: []
+listing:
+  id: proj-outputs
+  contents: [../data/publications.yml, ../data/outputs.yml, ../data/substack.yml, ../data/youtube.yml, ../data/linkedin.yml, ../dashboards/*.qmd, "!../dashboards/_template.qmd"]
+  include: { projects: "generative-ai" }
+  template: ../styles/list-mixed.ejs
+  sort: "date desc"
+  date-format: "MMM YYYY"
+---
+
+{{< include ../styles/_stage.qmd >}}
+
+## The question
+
+Since 2022, large language models have spread into research very fast. But we still know little about how researchers actually use, build and test them, in which fields, and who leads this work. This project maps the research literature on generative AI to give a clear picture.
+
+**How:** we collect research records from OpenAlex that mention generative AI tools and models, focusing on large language models and foundation models from 2022 onward. Two AI models screen every record, and a third one settles their disagreements. We check the screening against a sample of about 300 records labelled by hand, and report its accuracy openly.
+
+## Where we are
+
+| Step | Status |
+|---|---|
+| Build the collection of research records from OpenAlex | Done · September 2026 |
+| Screen the records with two AI models, checked against a hand-labelled sample | In progress |
+| Share first results in a newsletter series | Next · from November 2026 |
+| Classify the records: topics, tools, models, fields, research stages | Planned |
+| Release the screened dataset and an interactive dashboard | Planned |
+| Write a dataset paper so others can reuse the data | Planned |
+
+## Team
+
+- **Maxime Descartes Mbogning Fonkou**, project lead
+
+## We are looking for
+
+- Researchers in AI evaluation, information science or research policy who want to co-analyse one part of the data (for example tools, fields or research stages)
+- People who can help check a sample of records by hand
+- Groups who would like results for their own field
+
+## Outputs so far
+
+::: {#proj-outputs}
+:::
+
+**Related workshop:** [Map a Research Field in 3 Hours](../workshops.qmd) uses examples from this project.
+
+{{< include ../styles/_join.qmd >}}

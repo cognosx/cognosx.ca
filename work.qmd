@@ -1,115 +1,118 @@
 ---
 title: "Work"
-description: "Selected studies, reports and publications."
-page-layout: custom
+description: "Published research outputs, sorted by type. Updated automatically every day."
+listing:
+  - id: lib-articles
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Peer-reviewed article" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-preprints
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Preprint" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-datasets
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Dataset" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-dashboards
+    contents: "dashboards/*.qmd"
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-technical
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Proposal, framework or technical document" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-reports
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Report" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-books
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Book or chapter" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-theses
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Thesis" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: lib-peerreview
+    contents: [data/publications.yml, data/outputs.yml]
+    include: { categories: "Peer review report" }
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
 ---
 
-::: {.band .band-dark}
-::: {.wrap}
-[Selected work]{.eyebrow}
+Everything we publish and share, sorted by type. Datasets, dashboards, protocols and frameworks are open for others to reuse; please cite them using their DOI. To see how outputs fit together, visit the [Projects](projects.qmd).
 
-# Evidence in practice {.page-title}
+::: {.lib-jump}
+[Articles](#articles) [Preprints](#preprints) [Datasets](#datasets) [Dashboards](#dashboards) [Proposals & technical documents](#technical) [Reports](#reports) [Books](#books) [Theses](#theses) [Peer review](#peerreview)
+:::
 
-[Published studies, sample reports and projects in progress. Each one starts from a real question about how research and innovation happen.]{.lead}
+::: {.lib-group}
+## Peer-reviewed articles {#articles}
+::: {#lib-articles}
 :::
 :::
 
-::: {.band}
-::: {.wrap}
-
-::: {.work-item .reveal}
-[Nature Biotechnology · 2024]{.work-meta}
-
-::: {}
-### The global patent landscape of phage therapy
-
-Phage therapy uses viruses that kill bacteria, and it is gaining attention as antibiotics fail. This study maps who patents phage therapies, in which countries, and how the field is changing, using machine learning on large patent datasets.
-
-[Patents]{.tag} [Infectious disease]{.tag} [Machine learning]{.tag}
-
-[Read the article](https://www.nature.com/articles/s41587-024-02493-9)
+::: {.lib-group}
+## Preprints {#preprints}
+::: {#lib-preprints}
 :::
 :::
 
-::: {.work-item .reveal}
-[Sample report · Patents]{.work-meta}
-
-::: {}
-### Immune checkpoint therapy: patent intelligence
-
-A patent study of one of the most active areas in cancer treatment: the leading inventors and applicants, collaboration networks, and the countries where new innovation is growing. It comes with an interactive dashboard.
-
-[Patents]{.tag} [Networks]{.tag} [Dashboard]{.tag}
-
-[Explore the dashboard](dashboards/immune-checkpoint.qmd)
+::: {.lib-group}
+## Datasets {#datasets}
+::: {#lib-datasets}
 :::
 :::
 
-::: {.work-item .reveal}
-[In progress · Global health]{.work-meta}
-
-::: {}
-### Ticks, climate and research equity
-
-Ticks spread diseases that affect people and animals, and climate change is moving them to new places. This study looks at research on ticks worldwide, with a focus on Africa: who produces it, who leads it, and who funds it.
-
-[Global health]{.tag} [Africa]{.tag} [Equity]{.tag}
+::: {.lib-group}
+## Interactive dashboards {#dashboards}
+::: {#lib-dashboards}
 :::
 :::
 
-::: {.work-item .reveal}
-[In progress · Science of science]{.work-meta}
-
-::: {}
-### How researchers use generative AI
-
-A map of research on generative AI: the topics, tools and models researchers study and use, and how this changes over time. Results will be shared step by step in the newsletter.
-
-[Generative AI]{.tag} [AI-assisted screening]{.tag}
-
-[Follow the series](insights.qmd)
+::: {.lib-group}
+## Proposals, frameworks and technical documents {#technical}
+::: {#lib-technical}
 :::
 :::
 
-::: {.work-item .reveal}
-[IJERPH · 2021]{.work-meta}
-
-::: {}
-### COVID-19 research in Africa
-
-A study of research on COVID-19 produced in Africa: how much was published, who worked together, and who led the work.
-
-[Africa]{.tag} [Bibliometrics]{.tag}
-
-[Read the article](https://www.mdpi.com/1660-4601/18/14/7273)
+::: {.lib-group}
+## Reports {#reports}
+::: {#lib-reports}
 :::
 :::
 
-::: {.work-item .reveal}
-[Future Microbiology]{.work-meta}
-
-::: {}
-### The human respiratory microbiota
-
-A systematic review of the bacteria that live in the human respiratory tract, from laboratory work in clinical microbiology.
-
-[Microbiome]{.tag} [Systematic review]{.tag}
-
-[Read the article](https://doi.org/10.2217/fmb-2018-0181)
+::: {.lib-group}
+## Books and chapters {#books}
+::: {#lib-books}
 :::
 :::
 
+::: {.lib-group}
+## Theses {#theses}
+::: {#lib-theses}
 :::
 :::
 
-::: {.band .band-dark}
-::: {.wrap}
-::: {.cta}
-## Want a study like this for your field?
-
-::: {}
-[Book a call]({{< var booking_url >}}){.btn-cx}
-:::
-:::
+::: {.lib-group}
+## Peer review reports {#peerreview}
+::: {#lib-peerreview}
 :::
 :::

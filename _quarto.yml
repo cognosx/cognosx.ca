@@ -5,6 +5,7 @@ project:
     - CNAME
     - images/
     - dashboards/files/
+    - files/
 
 website:
   title: "CognosX"
@@ -22,10 +23,10 @@ website:
     left:
       - text: Services
         href: services.qmd
+      - text: Projects
+        href: projects.qmd
       - text: Work
         href: work.qmd
-      - text: Dashboards
-        href: dashboards.qmd
       - text: Insights
         href: insights.qmd
       - text: Workshops
@@ -44,11 +45,14 @@ website:
       [Let science data speak]{.footer-tagline}
     right:
       - icon: envelope
-        href: "mailto:cognosxx@gmail.com"
+        href: "mailto:contact@cognosx.ca"
         aria-label: Email
       - icon: linkedin
         href: "https://www.linkedin.com/in/maxime-descartes-m-f-a65a2b83/"
         aria-label: LinkedIn
+      - icon: youtube
+        href: "https://www.youtube.com/@cognosx"
+        aria-label: YouTube
       - icon: github
         href: "https://github.com/cognosx"
         aria-label: GitHub

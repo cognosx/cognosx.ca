@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 13 * * *"
-  workflow_dispatch:
+    - cron: "17 13 * * *"   # every day at 13:17 UTC (about 6 a.m. in Vancouver)
+  workflow_dispatch:         # lets you run it by hand from the Actions tab
 
 permissions:
   contents: write
@@ -21,13 +21,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install Python packages
         run: pip install -r requirements.txt
-      - name: Update feeds (Substack and publications)
+
+      - name: Update feeds (Substack, YouTube and publications)
         run: python scripts/update_feeds.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
       - name: Save updated feeds
         run: |
           git config user.name "cognosx-bot"
@@ -37,9 +43,12 @@ jobs:
             git commit -m "Update feeds"
             git push || echo "Could not push feed updates; the site still uses them."
           fi
+
       - uses: quarto-dev/quarto-actions/setup@v2
+
       - name: Render the site
         run: quarto render
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

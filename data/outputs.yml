@@ -1,0 +1,18 @@
+# Items you add BY HAND to the Library page (things that are not in OpenAlex):
+# proposals, frameworks, technical documents, reports, datasets hosted elsewhere.
+#
+# To add one, copy the example block below, remove the "# " at the start of each line,
+# and fill it in. The first category must be one of these types, written exactly:
+#   Peer-reviewed article | Preprint | Dataset | Proposal, framework or technical document
+#   Report | Book or chapter | Thesis | Peer review report
+# You may add a second category for the theme, e.g. Review, Bibliometrics, Global health.
+#
+# For "path", use a full link (https://...). For a PDF stored in this website,
+# put it in the "files" folder and write: path: "../files/your-file.pdf"
+#
+# - title: "A framework for mapping research equity in Africa"
+#   path: "https://doi.org/10.5281/zenodo.0000000"
+#   date: "2026-11-15"
+#   description: "Zenodo · framework and indicators"
+#   categories: ["Proposal, framework or technical document", "Equity"]
+[]

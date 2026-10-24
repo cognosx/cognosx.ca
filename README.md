@@ -24,17 +24,34 @@ You can edit any file directly on github.com: open it, click the pencil, change,
 
 | I want to… | Edit this |
 | --- | --- |
-| Change the booking link, workshop date, waitlist or newsletter link | `_variables.yml` |
+| Change the booking link, collaboration form, workshop date, waitlist or newsletter link | `_variables.yml` |
 | Change text on a page | the page's `.qmd` file (e.g. `services.qmd`, `about.qmd`) |
+| Add a project | copy `projects/_template.qmd`, follow the notes inside |
+| Update a project's stage, plan or team | its file in `projects/` (change `stage`, `stage_note` and `updated` at the top) |
 | Add a dashboard | copy `dashboards/_template.qmd`, follow the notes inside |
-| Write an article on the site | copy `posts/_template.qmd`, follow the notes inside |
-| Show newsletter posts automatically | put your Substack address in `scripts/feeds.yml` |
+| Change the Substack or YouTube source, or video types | `scripts/feeds.yml` |
 | Hide a publication | add its DOI to `hide_dois` in `scripts/feeds.yml` |
-| Show a LinkedIn post | add it to `data/linkedin.yml` (LinkedIn has no open feed) |
+| Add a proposal, framework, report or dataset by hand | `data/outputs.yml` (example inside) |
+| Change which types appear, or the review/bibliometric rule | `scripts/feeds.yml` |
+| Store a PDF on the site | put it in `files/`, then link it from `data/outputs.yml` |
+| Show a LinkedIn post | add it to `data/linkedin.yml` (LinkedIn has no open feed; add `projects: ["file-name"]` to link it to a project) |
 | Change colours or fonts | `styles/brand.scss` (brand colours are at the top) |
 | Change the menu | `_quarto.yml` |
 
-Publications come from OpenAlex using your ORCID, so a new paper appears by itself once OpenAlex lists it.
+## How the site is organised
+
+- **Projects**: one page per project in `projects/`. Each page gathers its outputs automatically: any paper, Substack post or video whose words match the project's `match > keywords` appears under "Outputs so far".
+- **Work**: formal outputs from OpenAlex (by ORCID), sorted by type, plus hand-added items from `data/outputs.yml` and dashboards.
+- **Insights**: every Substack post and YouTube video (automatic), plus LinkedIn posts you add by hand.
+
+Tip: deposit datasets, protocols and reports on Zenodo with your ORCID; they get a DOI and reach Work automatically.
+
+## All YouTube videos (optional)
+
+The free YouTube feed shows the latest 15 videos; older ones stay once the site has seen them.
+To import every video at once: create a free API key in Google Cloud (YouTube Data API v3),
+then in GitHub go to **Settings → Secrets and variables → Actions → New repository secret**,
+name it `YOUTUBE_API_KEY` and paste the key.
 
 ## Booking calls
 

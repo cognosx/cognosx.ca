@@ -1,0 +1,59 @@
+---
+title: "Ticks, climate and research equity"
+description: "A study proposed by an African research team: what the world knows about ticks and climate change, and who produces that knowledge."
+order: 4
+stage: 4
+stage_note: "Analysis for three papers"
+updated: "2026-10-23"
+match:
+  keywords: ["tick", "ticks", "tick-borne", "ixodes", "hyalomma", "rhipicephalus", "amblyomma"]
+  links: []
+listing:
+  id: proj-outputs
+  contents: [../data/publications.yml, ../data/outputs.yml, ../data/substack.yml, ../data/youtube.yml, ../data/linkedin.yml, ../dashboards/*.qmd, "!../dashboards/_template.qmd"]
+  include: { projects: "ticks-climate-equity" }
+  template: ../styles/list-mixed.ejs
+  sort: "date desc"
+  date-format: "MMM YYYY"
+---
+
+{{< include ../styles/_stage.qmd >}}
+
+::: {.partner-note}
+**A partner-led study.** This project was proposed by an African research team. CognosX leads the research mapping and analysis; the team uses the results to find research gaps and support grant applications. Part of the [Research in Africa](research-in-africa.qmd) programme.
+:::
+
+## The question
+
+Ticks spread diseases to people and animals, and climate change is moving them to new places. This study looks at the world's research on ticks: what is known, which topics are growing or fading, who produces and leads the research, and whether African researchers lead the work on problems that affect Africa.
+
+**How:** a science-of-science study of tick research from seven bibliographic sources, with a systematic review (PRISMA 2020) alongside it. Records were screened with AI and then checked by hand.
+
+## Where we are
+
+| Step | Status |
+|---|---|
+| Collect records from seven sources and remove duplicates | Done |
+| Screen for relevance with AI, then check by hand | Done |
+| Add information on authors, countries, funders and journals | Done |
+| Analysis for three papers: the state of the field, emerging topics, and research equity | In progress |
+| Write and submit the papers | Next |
+
+## Team
+
+- **An African research team** that proposed the study. Names will be added here with each member's agreement.
+- **Maxime Descartes Mbogning Fonkou**, research mapping and analysis
+
+## We are looking for
+
+- Experts on ticks, vectors or animal health, especially in Africa, to help interpret the results
+- Funders interested in vector-borne disease research in Africa
+
+## Outputs so far
+
+::: {#proj-outputs}
+:::
+
+**Related workshop:** [Map a Research Field in 3 Hours](../workshops.qmd) uses examples from this project.
+
+{{< include ../styles/_join.qmd >}}

@@ -1,0 +1,14 @@
+```{=html}
+<div class="proj-grid">
+<% const stageNames = ["Programme", "Idea", "Design", "Data", "Analysis", "Writing", "Shared"]; %>
+<% for (const item of items) { %>
+<a class="proj-card" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+<span class="proj-card-title"><%= item.title %></span>
+<span class="proj-card-desc"><%= item.description %></span>
+<% const st = Number(item.stage || 0); %>
+<% if (st > 0) { %><span class="stages stages-sm" data-stage="<%= st %>"><span></span><span></span><span></span><span></span><span></span><span></span></span><% } %>
+<span class="proj-card-note"><%= stageNames[st] || "" %><%= item.stage_note ? " · " + item.stage_note : "" %></span>
+</a>
+<% } %>
+</div>
+```

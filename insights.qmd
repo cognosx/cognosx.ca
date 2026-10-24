@@ -1,26 +1,47 @@
 ---
 title: "Insights"
-description: "Newsletter articles, publications and notes. Updated automatically every day."
+description: "Articles, videos and posts for a wider audience. Updated automatically every day."
 listing:
-  id: all-insights
-  contents:
-    - "posts/*.qmd"
-    - data/substack.yml
-    - data/linkedin.yml
-    - data/publications.yml
-  type: default
-  sort: "date desc"
-  fields: [date, title, description, categories]
-  categories: true
-  sort-ui: false
-  filter-ui: true
-  date-format: "MMMM YYYY"
-  page-size: 15
+  - id: ins-substack
+    contents: data/substack.yml
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: ins-youtube
+    contents: data/youtube.yml
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
+  - id: ins-linkedin
+    contents: data/linkedin.yml
+    template: styles/list-section.ejs
+    sort: "date desc"
+    date-format: "MMM YYYY"
 ---
 
-Articles from the newsletter, research publications and short notes, in one place. Use the categories to filter.
+Short, practical content on research, data and innovation, sorted by where it was published. Each item shows its type, and its project when it belongs to one. Peer-reviewed papers and datasets are in [Work](work.qmd).
 
 [Subscribe to the newsletter]({{< var newsletter_url >}}){.btn-cx}
+[Watch on YouTube]({{< var youtube_url >}}){.btn-cx-ghost}
 
-::: {#all-insights}
+::: {.lib-jump}
+[Newsletter](#substack) [Videos](#youtube) [LinkedIn](#linkedin)
+:::
+
+::: {.lib-group}
+## Newsletter · Substack {#substack}
+::: {#ins-substack}
+:::
+:::
+
+::: {.lib-group}
+## Videos · YouTube {#youtube}
+::: {#ins-youtube}
+:::
+:::
+
+::: {.lib-group}
+## Posts · LinkedIn {#linkedin}
+::: {#ins-linkedin}
+:::
 :::

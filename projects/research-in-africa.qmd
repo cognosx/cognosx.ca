@@ -1,0 +1,51 @@
+---
+title: "Research in Africa"
+description: "Who produces, leads and funds health research in Africa, and how to make that research fairer and more visible."
+order: 3
+stage: 0
+stage_note: "Four studies, from published to in progress"
+updated: "2026-10-23"
+match:
+  keywords: ["africa", "african", "sub-saharan"]
+  links: []
+listing:
+  id: proj-outputs
+  contents: [../data/publications.yml, ../data/outputs.yml, ../data/substack.yml, ../data/youtube.yml, ../data/linkedin.yml, ../dashboards/*.qmd, "!../dashboards/_template.qmd"]
+  include: { projects: "research-in-africa" }
+  template: ../styles/list-mixed.ejs
+  sort: "date desc"
+  date-format: "MMM YYYY"
+---
+
+{{< include ../styles/_stage.qmd >}}
+
+## The question
+
+Africa carries a large share of the world's health problems, but a small share of its research. When research on African problems is done, it is not always led by African researchers. This programme brings together studies that ask who produces research in Africa, who leads it, who funds it, and what is still missing.
+
+## Studies in this programme
+
+| Study | Status |
+|---|---|
+| [Ticks, climate and research equity](ticks-climate-equity.qmd), proposed by an African research team | In progress |
+| Open access and research inequalities in Africa | Manuscript in preparation |
+| [The determinants of COVID-19 case reporting across Africa](https://doi.org/10.3389/fpubh.2024.1406363) | Published · 2024 |
+| [COVID-19 research in Africa: output, collaboration and leadership](https://www.mdpi.com/1660-4601/18/14/7273) | Published · 2021 |
+
+## Team
+
+- **Maxime Descartes Mbogning Fonkou**, programme lead
+- Partners on each study are named on its own page, with their agreement.
+
+## We are looking for
+
+- African researchers and institutions who want evidence on their own field
+- Funders and networks interested in research equity and priority setting
+- Ideas for new studies: you can propose one below
+
+## Outputs so far
+
+::: {#proj-outputs}
+:::
+
+{{< include ../styles/_join.qmd >}}

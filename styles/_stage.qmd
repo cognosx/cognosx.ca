@@ -1,0 +1,8 @@
+```{=html}
+<div class="proj-head">
+  <div class="stages" data-stage="{{< meta stage >}}" aria-label="Project stage">
+    <span>Idea</span><span>Design</span><span>Data</span><span>Analysis</span><span>Writing</span><span>Shared</span>
+  </div>
+  <p class="proj-meta"><strong>Now:</strong> {{< meta stage_note >}} · <span>Updated {{< meta updated >}}</span></p>
+</div>
+```

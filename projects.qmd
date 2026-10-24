@@ -1,0 +1,19 @@
+---
+title: "Projects"
+description: "Research we run in the open: the question, the plan, where we are, and everything produced so far."
+listing:
+  id: all-projects
+  contents: "projects/*.qmd"
+  sort: "order"
+  template: styles/project-cards.ejs
+---
+
+Each project has its own page with the question, the plan, the current stage and the team, plus everything it has produced so far: papers, datasets, articles, videos and workshops.
+
+**You can take part.** Join a project that interests you, or propose a new one. We read every application.
+
+[Apply to collaborate]({{< var collab_form_url >}}){.btn-cx}
+[Propose a project]({{< var collab_form_url >}}){.btn-cx-ghost}
+
+::: {#all-projects}
+:::

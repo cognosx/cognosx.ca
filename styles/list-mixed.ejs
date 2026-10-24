@@ -1,0 +1,8 @@
+```{=html}
+<ul class="lib-list">
+<% for (const item of items) { %>
+<li <%= metadataAttrs(item) %>><span class="lib-date listing-date"><%= item.date %></span><span class="lib-main"><a class="lib-title listing-title" href="<%- item.path %>"><%= item.title %></a><% if (item.description) { %><span class="lib-source"><%= item.description %></span><% } %><span class="lib-tags"><% for (const c of (item.categories || [])) { %><span class="tag"><%= c %></span><% } %></span></span></li>
+<% } %>
+</ul>
+<p class="lib-empty">Outputs will appear here as they are published.</p>
+```

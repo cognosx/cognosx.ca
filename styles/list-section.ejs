@@ -1,0 +1,7 @@
+```{=html}
+<ul class="lib-list">
+<% for (const item of items) { %>
+<li <%= metadataAttrs(item) %>><span class="lib-date listing-date"><%= item.date %></span><span class="lib-main"><a class="lib-title listing-title" href="<%- item.path %>"><%= item.title %></a><% if (item.description) { %><span class="lib-source"><%= item.description %></span><% } %><span class="lib-tags"><% for (const c of (item.categories || []).slice(1)) { %><span class="tag"><%= c %></span><% } %><% (item.projects || []).forEach(function (p, i) { %><a class="proj-chip" href="/projects/<%- p %>.html">Project: <%= (item.project_names || [])[i] || p %></a><% }) %></span></span></li>
+<% } %>
+</ul>
+```

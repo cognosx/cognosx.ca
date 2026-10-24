@@ -13,4 +13,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }, { threshold: 0.12 });
   items.forEach(function (el) { io.observe(el); });
 });
+
+// Library: hide type sections that have no items yet, and their jump links
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".lib-group").forEach(function (g) {
+    if (!g.querySelector(".lib-list li")) {
+      g.style.display = "none";
+      var link = document.querySelector('.lib-jump a[href$="#' + g.id + '"]');
+      if (link) link.style.display = "none";
+    }
+  });
+  // Project pages: show a short message while a project has no outputs yet
+  document.querySelectorAll(".lib-list").forEach(function (ul) {
+    var msg = ul.parentElement.querySelector(".lib-empty");
+    if (msg && !ul.querySelector("li")) msg.style.display = "block";
+  });
+});
 </script>

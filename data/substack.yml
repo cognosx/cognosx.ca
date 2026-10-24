@@ -1,4 +1,209 @@
-# Newsletter posts for the Insights page.
-# This file is rewritten every day by scripts/update_feeds.py from your Substack feed.
-# It stays empty until the newsletter address is set in scripts/feeds.yml.
-[]
+# This file is written automatically by scripts/update_feeds.py.
+# Edits here are replaced at the next update; change scripts/feeds.yml instead.
+- title: Understanding Patent Classifications (IPCR and CPC)
+  path: https://cognosxinsights.substack.com/p/understanding-patent-classifications
+  date: '2026-02-21'
+  description: A Practical Lens for Interpreting Technological Innovation
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Innovation
+  - Data-Driven Insights
+  - Patents
+  - biotechnology
+  - Early Career Researcher
+  - For Researchers
+  - biotech
+- title: From Raw Patent Data to Scientific Insight
+  path: https://cognosxinsights.substack.com/p/from-raw-patent-data-to-scientific
+  date: '2026-02-20'
+  description: A practical roadmap for researchers who want to understand innovation through data
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Innovation
+  - PhDlife
+  - Research Analytics
+  - Postdoc
+  - patentometric
+  - Data-Driven Insights
+  - patent analysis
+  - Patents
+  - biotechnology
+  - Early Career Researcher
+  - For Researchers
+  - biotech
+- title: What Is a Patent Jurisdiction — And Why It Matters More Than You Think
+  path: https://cognosxinsights.substack.com/p/what-is-a-patent-jurisdiction-and
+  date: '2026-02-20'
+  description: ''
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Innovation
+  - patentometric
+  - Data-Driven Insights
+  - patent analysis
+  - Patents
+  - biotechnology
+  - Early Career Researcher
+  - Technology Trends
+  - For Researchers
+  - biotech
+  - jurisdictions
+- title: 🌍 The Geography of Microbiome Innovation Has Shifted
+  path: https://cognosxinsights.substack.com/p/the-geography-of-microbiome-innovation
+  date: '2026-02-15'
+  description: Week 1 — Where Is the Microbiome Patent Race Happening?
+  categories:
+  - Substack
+  - Article
+  tags:
+  - microbiome
+  - Innovation
+  - Data-Driven Insights
+  - Patents
+  - biotechnology
+  - Technology Trends
+  - biotech
+  - jurisdictions
+- title: '🚫 The Hidden Cost of Perfectionism in Research: Why You Need to Publish Before You''re Ready'
+  path: https://cognosxinsights.substack.com/p/the-hidden-cost-of-perfectionism
+  date: '2025-06-12'
+  description: A quote arguing that the biggest rejection in academia often comes from researchers themselves.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Progress Over Perfection
+  - Academic Research
+  - Research Journey
+  - Dont Self Reject
+  - Perfectionism
+  - Early Career Researcher
+  - Growth Mindset
+- title: '🧠 Beyond Citations: How to Track the Real Impact of Your Research Using Open Data'
+  path: https://cognosxinsights.substack.com/p/beyond-citations-how-to-track-the
+  date: '2025-06-11'
+  description: A reflection on why citation metrics like the h-index no longer tell the full story.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - Open Science
+  - Research Analytics
+  - Postdoc
+  - Data-Driven Insights
+  - Research Equity
+  - Research Impact
+  - Scientometrics
+  - science of science
+  - For Researchers
+- title: 'Zotero Is Not Enough: What Makes a Science of Science Study Publishable'
+  path: https://cognosxinsights.substack.com/p/zotero-is-not-enough-what-makes-a
+  date: '2025-06-09'
+  description: Argues that high-impact publishing requires clean, enriched, and reproducible data workflows.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - Open Science
+  - PhDlife
+  - EndNote
+  - Postdoc
+  - Zotero
+  - Data-Driven Insights
+  - Academic Research
+  - Scientometrics
+  - science of science
+  - For Researchers
+- title: 🧠 From Zotero to High-Impact
+  path: https://cognosxinsights.substack.com/p/from-zotero-to-high-impact
+  date: '2025-06-08'
+  description: How to turn your bibliography into a research paper that matters
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - Open Science
+  - PhDlife
+  - EndNote
+  - Postdoc
+  - Zotero
+  - Data-Driven Insights
+  - Academic Research
+  - Scientometrics
+  - science of science
+  - For Researchers
+- title: Introduction — From Hidden Patterns to Transformative Insights
+  path: https://cognosxinsights.substack.com/p/introduction-from-hidden-patterns
+  date: '2025-05-21'
+  description: Announces the book Let Science Data Speak for researchers who want the bigger picture.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - Research Analytics
+  - Data-Driven Insights
+  - Academic Research
+  - science of science
+  - For Researchers
+- title: What Do Science of Science Studies Really Look Like?
+  path: https://cognosxinsights.substack.com/p/what-do-science-of-science-studies
+  date: '2025-04-21'
+  description: Curated examples of Science of Science outputs, from peer-reviewed papers to institutional reports.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - For Funders
+  - Research Analytics
+  - For Policymakers
+  - Research Equity
+  - Research Impact
+  - Scientometrics
+  - science of science
+  - For Researchers
+- title: Why Should Researchers Care About the Science of Science?
+  path: https://cognosxinsights.substack.com/p/why-should-researchers-care-about
+  date: '2025-04-19'
+  description: Explores how data can help researchers understand the research ecosystem beyond publishing papers.
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Bibliometrics
+  - Open Science
+  - Data-Driven Insights
+  - Academic Research
+  - Patents
+  - Scientometrics
+  - science of science
+  - Technology Trends
+- title: Why Scientific Production Is the Next Frontier for Innovation and Recruitment
+  path: https://cognosxinsights.substack.com/p/why-scientific-production-is-the
+  date: '2025-02-13'
+  description: ''
+  categories:
+  - Substack
+  - Article
+  tags:
+  - Innovation
+  - Bibliometrics
+  - Open Science
+  - Talent Acquisition
+  - Data-Driven Insights
+  - Economic Growth
+  - Academic Research
+  - Research & Development
+  - Patents
+  - Scientometrics
+  - Technology Trends

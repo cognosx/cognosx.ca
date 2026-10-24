@@ -1,0 +1,8 @@
+::: {.join-box}
+### Join this project
+
+We welcome researchers, students, practitioners and funders. Tell us who you are and what you could bring; we reply to every application.
+
+[Apply to collaborate]({{< var collab_form_url >}}){.btn-cx}
+[Propose your own project]({{< var collab_form_url >}}){.btn-cx-ghost}
+:::

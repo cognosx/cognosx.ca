@@ -1,0 +1,49 @@
+---
+title: "Phage therapy innovation map"
+description: "Who invents and patents phage therapies around the world, where, and how the field is changing."
+order: 2
+stage: 6
+stage_note: "Results published in Nature Biotechnology"
+updated: "2026-10-23"
+match:
+  keywords: ["phage", "phages", "bacteriophage", "bacteriophages", "phage therapy"]
+  links: []
+listing:
+  id: proj-outputs
+  contents: [../data/publications.yml, ../data/outputs.yml, ../data/substack.yml, ../data/youtube.yml, ../data/linkedin.yml, ../dashboards/*.qmd, "!../dashboards/_template.qmd"]
+  include: { projects: "phage-therapy" }
+  template: ../styles/list-mixed.ejs
+  sort: "date desc"
+  date-format: "MMM YYYY"
+---
+
+{{< include ../styles/_stage.qmd >}}
+
+## The question
+
+Phage therapy uses viruses that kill bacteria. As antibiotics fail more often, it is one of the most watched alternatives. This project asked: who is inventing phage therapies, in which countries, and how fast is the field moving? We answered it with machine learning on large patent datasets.
+
+## Where we are
+
+| Step | Status |
+|---|---|
+| Build and clean the global patent dataset | Done |
+| Analyse inventors, applicants, countries and technologies | Done |
+| Share the method as a protocol | Done · January 2024 |
+| Publish the results in Nature Biotechnology | Done · December 2024 |
+| Next steps | To be announced |
+
+## Team
+
+- **Maxime Descartes Mbogning Fonkou**, lead author. All co-authors are listed in the article.
+
+## We are looking for
+
+- Teams working on phage therapy or antimicrobial resistance who would like a deeper or updated analysis, for example on clinical trials, funding or specific bacteria
+
+## Outputs so far
+
+::: {#proj-outputs}
+:::
+
+{{< include ../styles/_join.qmd >}}

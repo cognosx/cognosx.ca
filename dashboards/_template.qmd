@@ -8,7 +8,9 @@
 title: "Dashboard title"
 description: "One sentence about what people can explore."
 date: "2026-11-01"
-categories: [Tableau]
+categories: [Dashboard, Tableau]
+# Optional: link it to a project page (file name in projects/)
+# projects: ["ticks-climate-equity"]
 ---
 
 Short introduction: what the data is, where it comes from, what to look at first.
