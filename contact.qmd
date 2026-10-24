@@ -10,23 +10,33 @@ page-layout: custom
 
 # Let's talk about your question {.page-title}
 
-[A first call is free and takes about 30 minutes. Tell us what you need to decide, and we will suggest the simplest way to answer it.]{.lead}
+[A first call is free and short. Tell us what you need to decide, and we will suggest the simplest way to answer it.]{.lead}
 
-[Book a call]({{< var booking_url >}}){.btn-cx}
+[Pick a time below](#book){.btn-cx}
 [Write to us](mailto:{{< var email >}}){.btn-cx-ghost}
 :::
 :::
 
-<!--
-  WHEN YOUR CAL.COM OR CALENDLY PAGE IS READY:
-  1. Put its link in _variables.yml (booking_url).
-  2. To show the calendar directly on this page, remove the two comment lines
-     around the block below and paste your link after src=.
+::: {.band #book}
+::: {.wrap}
+[Book a call]{.eyebrow}
+
+## Pick a time that suits you
+
+Times are shown in your own time zone. You will get a confirmation email with a video link.
 
 ```{=html}
-<div class="embed-frame"><iframe src="https://cal.com/cognosx/30min?embed=true" title="Book a call" style="height:760px"></iframe></div>
+<div id="cal-inline" style="width:100%;min-height:640px;overflow:auto;"></div>
+<p style="margin-top:1rem;font-size:.9rem;">Calendar not showing? <a href="https://cal.com/cognosx" target="_blank" rel="noopener">Open the booking page</a>.</p>
+<script type="text/javascript">
+(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if (typeof namespace === "string") { cal.ns[namespace] = cal.ns[namespace] || api; p(cal.ns[namespace], ar); p(cal, ["initNamespace", namespace]); } else p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+Cal("init", "book", { origin: "https://cal.com" });
+Cal.ns.book("inline", { elementOrSelector: "#cal-inline", calLink: "cognosx", config: { layout: "month_view", theme: "light" } });
+Cal.ns.book("ui", { theme: "light", styles: { branding: { brandColor: "#FEA500" } }, hideEventTypeDetails: false, layout: "month_view" });
+</script>
 ```
--->
+:::
+:::
 
 ::: {.band}
 ::: {.wrap}
