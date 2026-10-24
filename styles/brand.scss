@@ -71,6 +71,15 @@ a { text-underline-offset: 3px; text-decoration-thickness: 1px; }
     margin-left: 0.5rem;
     &:hover { background: lighten($cx-amber, 8%); }
   }
+  // Language switch: a plain outlined link, not a second amber button
+  .navbar-nav.ms-auto .nav-item:first-child .nav-link,
+  #navbarCollapse .ms-auto .nav-item:first-child .nav-link {
+    background: transparent;
+    color: #e9e9e9 !important;
+    border: 1px solid #4a4a4a;
+    font-weight: 500;
+    &:hover { background: transparent; border-color: $cx-amber; color: $cx-amber !important; }
+  }
 }
 
 // ---------- Footer ----------
@@ -456,3 +465,9 @@ h1.page-title, .page-title > h1 {
 .join-box .small-note { color: #b8b8b8; }
 .join-box .small-note a { color: $cx-amber; }
 .lang-note { font-size: 0.9rem; color: #5c5c5c; }
+
+// Workshop programme list
+.ws-list { display: grid; gap: 16px; }
+.ws-item { border: 1px solid #e6e3dd; border-radius: 10px; padding: 20px 24px; background: #fff;
+  h3 { font-size: 1.15rem; margin: 0.3rem 0 0.5rem; }
+  p { margin-bottom: 0.5rem; } }

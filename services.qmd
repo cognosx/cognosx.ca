@@ -76,13 +76,14 @@ Fair, careful analysis of a research programme or field, using indicators respon
 ::: {}
 ### Workshops and training
 
-Practical sessions where people learn by doing, on their own topic. In English, and in French on request.
+Practical sessions where people learn by doing, on their own topic. Public workshops are taught in French; private team sessions in French or English.
 
 - Mapping a research field with OpenAlex
 - AI-assisted screening and how to check it
+- Patent landscapes, responsible research evaluation, publishing a bibliometric study
 - Private sessions for teams and institutions
 
-[See the next workshop](workshops.qmd)
+[See the five workshops](workshops.qmd)
 :::
 :::
 

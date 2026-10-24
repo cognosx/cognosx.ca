@@ -37,7 +37,6 @@ type_labels:
   report: "Report"
   book: "Book or chapter"
   thesis: "Thesis"
-  peerreview: "Peer review report"
 
 # How each OpenAlex type maps to the types above. Types not listed are left out
 # (retractions, errata, supplementary files).
@@ -52,7 +51,7 @@ openalex_types:
   book: book
   book-chapter: book
   dissertation: thesis
-  peer-review: peerreview
+  # peer-review: left out on purpose (reviews of other people's work are not shown)
 
 # Words in the title, source or DOI that mark a protocol, framework or proposal.
 technical_markers: ["protocol", "rs.3.pex", "protocols.io", "framework", "proposal", "white paper", "technical report"]
@@ -98,7 +97,7 @@ bibliometric_keywords:
 include_dois: []
 
 # Never show these DOIs.
-hide_dois: []
+hide_dois: ["10.5281/zenodo.20029543"]
 
 # Maximum number of items per feed.
 max_items: 60

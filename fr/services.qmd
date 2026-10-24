@@ -80,9 +80,10 @@ Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En fra
 
 - Cartographier un domaine de recherche avec OpenAlex
 - Le tri assisté par l'IA et comment le vérifier
+- Paysages de brevets, évaluation responsable de la recherche, publier une étude bibliométrique
 - Séances privées pour les équipes et les institutions
 
-[Voir le prochain atelier](ateliers.qmd)
+[Voir les cinq ateliers](ateliers.qmd)
 :::
 :::
 

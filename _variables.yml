@@ -10,10 +10,10 @@ email: "contact@cognosx.ca"
 booking_url: "https://cal.com/cognosx"
 
 # Workshop
-workshop_title: "Map a Research Field in 3 Hours"
-workshop_date: "Thursday, January 28, 2027"
+workshop_title: "Five workshops in French"
+workshop_date: "January to May 2027"
 # Replace with your Tally, Google Form or Substack link when ready.
-workshop_waitlist_url: "mailto:contact@cognosx.ca?subject=Workshop%20waitlist"
+workshop_waitlist_url: "mailto:contact@cognosx.ca?subject=Inscription%20aux%20ateliers"
 
 # Google Form for joining or proposing a project. Paste the form's "Send" link here.
 collab_form_url: "https://forms.gle/HBrk8uozHWFwMXZK7"
@@ -29,5 +29,5 @@ scholar_url: "https://scholar.google.com/citations?user=j32BUrIAAAAJ"
 personal_site: "https://descartesmbogning.github.io"
 
 # French versions (pages in the fr/ folder)
-workshop_title_fr: "Cartographier un domaine de recherche en 3 heures"
-workshop_date_fr: "jeudi 28 janvier 2027"
+workshop_title_fr: "Cinq ateliers en français"
+workshop_date_fr: "janvier à mai 2027"

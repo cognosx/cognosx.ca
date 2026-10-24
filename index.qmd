@@ -212,21 +212,21 @@ A short report, charts and, when useful, an interactive dashboard.
 
 ## {{< var workshop_title >}}
 
-A live, hands-on online session. You leave with a cleaned, AI-screened set of papers on your own topic, and the skills to do it again.
+Five live online workshops, one Saturday a month, for researchers in French-speaking Africa, Europe and Canada. From 10,000 FCFA (about €15) in Africa; €60 elsewhere.
 
-[Join the waitlist]({{< var workshop_waitlist_url >}}){.btn-cx}
-[Workshop details](workshops.qmd){.btn-cx-ghost}
+[Reserve a seat]({{< var workshop_waitlist_url >}}){.btn-cx}
+[See the five workshops](workshops.qmd){.btn-cx-ghost}
 :::
 
 ::: {.reveal}
 ::: {.card-cx}
-[What you will learn]{.card-num}
+[Saturdays, 15:00–18:00 UTC · taught in French]{.card-num}
 
-- Search OpenAlex for your topic
-- Clean the data: duplicates and gaps
-- Screen titles and abstracts with two AI models
-- Check the AI against a small hand-labelled sample
-- Make your first charts
+- 30 Jan: Map a research field in 3 hours
+- 27 Feb: Screen the literature with AI, and check it
+- 27 Mar: Read a patent landscape
+- 24 Apr: Evaluate research responsibly
+- 29 May: From data to paper
 :::
 :::
 :::

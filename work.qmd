@@ -49,19 +49,13 @@ listing:
     template: styles/list-section.ejs
     sort: "date desc"
     date-format: "MMM YYYY"
-  - id: lib-peerreview
-    contents: [data/publications.yml, data/outputs.yml]
-    include: { categories: "Peer review report" }
-    template: styles/list-section.ejs
-    sort: "date desc"
-    date-format: "MMM YYYY"
 pagetitle: "Publications, datasets and dashboards"
 ---
 
 Everything we publish and share, sorted by type. Datasets, dashboards, protocols and frameworks are open for others to reuse; please cite them using their DOI. To see how outputs fit together, visit the [Projects](projects.qmd).
 
 ::: {.lib-jump}
-[Articles](#articles) [Preprints](#preprints) [Datasets](#datasets) [Dashboards](#dashboards) [Proposals & technical documents](#technical) [Reports](#reports) [Books](#books) [Theses](#theses) [Peer review](#peerreview)
+[Articles](#articles) [Preprints](#preprints) [Datasets](#datasets) [Dashboards](#dashboards) [Proposals & technical documents](#technical) [Reports](#reports) [Books](#books) [Theses](#theses)
 :::
 
 ::: {.lib-group}
@@ -112,8 +106,3 @@ Everything we publish and share, sorted by type. Datasets, dashboards, protocols
 :::
 :::
 
-::: {.lib-group}
-## Peer review reports {#peerreview}
-::: {#lib-peerreview}
-:::
-:::

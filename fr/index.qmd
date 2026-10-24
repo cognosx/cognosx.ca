@@ -169,6 +169,35 @@ Un rapport court, des graphiques et, si utile, un tableau de bord interactif.
 
 ::: {.band .band-soft}
 ::: {.wrap}
+::: {.grid .grid-2}
+::: {.reveal}
+[Ateliers · {{< var workshop_date_fr >}}]{.eyebrow}
+
+## {{< var workshop_title_fr >}}
+
+Cinq ateliers en ligne et en direct, un samedi par mois, de 15 h à 18 h UTC (16 h à Yaoundé et Paris, 10 h à Montréal). À partir de 10 000 FCFA en Afrique, 60 € ailleurs.
+
+[Réserver ma place]({{< var workshop_waitlist_url >}}){.btn-cx}
+[Voir les ateliers](ateliers.qmd){.btn-cx-ghost}
+:::
+
+::: {.reveal}
+::: {.card-cx}
+[Le samedi, en français]{.card-num}
+
+- 30 janv. : Cartographier un domaine de recherche
+- 27 févr. : Trier la littérature avec l'IA
+- 27 mars : Lire un paysage de brevets
+- 24 avril : Évaluer la recherche de façon responsable
+- 29 mai : De la donnée à l'article
+:::
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
 ::: {.grid .grid-2 .newsletter}
 ::: {}
 [Infolettre]{.eyebrow}
