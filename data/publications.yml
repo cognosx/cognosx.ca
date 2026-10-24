@@ -1,12 +1,16 @@
 # This file is written automatically by scripts/update_feeds.py.
 # Edits here are replaced at the next update; change scripts/feeds.yml instead.
-- title: PREreview of An intervention to improve students' knowledge of open science practices in an undergraduate psychology course
+- title: PREreview of "An intervention to improve students' knowledge of open science practices in an undergraduate psychology course"
   path: https://doi.org/10.5281/zenodo.20029543
   date: '2026-05-04'
-  description: Zenodo
+  description: Zenodo (CERN European Organization for Nuclear Research)
   categories:
   - Peer review report
-  - Bibliometrics
+  - Review
+  projects:
+  - generative-ai
+  project_names:
+  - How researchers use generative AI
 - title: Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy
   path: https://doi.org/10.1038/s41587-024-02493-9
   date: '2024-12-01'
@@ -24,6 +28,7 @@
   description: Research Square
   categories:
   - Proposal, framework or technical document
+  - Bibliometrics
   projects:
   - phage-therapy
   project_names:
