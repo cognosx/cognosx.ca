@@ -42,7 +42,7 @@ Nous répondons sous deux jours ouvrables, en français ou en anglais.
     fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(data) })
       .then(function (r) { return r.json(); })
       .then(function (j) {
-        if (j.success) { f.reset(); st.textContent = "Merci ! Votre message a bien été envoyé. Nous vous répondons sous deux jours ouvrables."; st.className = "cx-form-status ok"; }
+        if (j.success) { if (window.cxCount) window.cxCount("contact-form-sent" + location.pathname.replace(/\.html$/, "")); f.reset(); st.textContent = "Merci ! Votre message a bien été envoyé. Nous vous répondons sous deux jours ouvrables."; st.className = "cx-form-status ok"; }
         else { throw new Error(j.message); }
       })
       .catch(function () { st.textContent = "Désolé, le message n'a pas pu être envoyé. Écrivez-nous à contact@cognosx.ca."; st.className = "cx-form-status bad"; })

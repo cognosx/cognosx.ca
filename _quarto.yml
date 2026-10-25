@@ -79,3 +79,4 @@ format:
       - styles/schema.html
     include-after-body:
       - styles/reveal.html
+      - styles/analytics.html

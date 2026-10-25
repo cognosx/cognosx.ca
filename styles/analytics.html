@@ -1,0 +1,39 @@
+<!-- GoatCounter: privacy-friendly visit counts, no cookies -->
+<script data-goatcounter="https://cognosx.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+// Count clicks on the links that lead to money: booking, registration, collaboration, contact, proof, newsletter.
+(function () {
+  function send(name) {
+    try {
+      if (window.goatcounter && window.goatcounter.count) {
+        window.goatcounter.count({ path: name, title: name, event: true });
+      }
+    } catch (e) {}
+  }
+  window.cxCount = send;
+  function page() {
+    var p = location.pathname.replace(/\.html$/, "").replace(/\/$/, "/index");
+    return p || "/index";
+  }
+  function kind(href) {
+    if (!href) return null;
+    if (/cal\.com/.test(href) || /#book$/.test(href)) return "book-call";
+    if (/forms\.gle\/PUCL12KmP5pkfovX8/.test(href)) return "workshop-register";
+    if (/forms\.gle\/HBrk8uozHWFwMXZK7/.test(href)) return "collaborate";
+    if (/#message$/.test(href)) return "write-to-us";
+    if (/^mailto:/.test(href)) return "email";
+    if (/doi\.org\//.test(href)) return "proof";
+    if (/substack\.com/.test(href)) return "newsletter";
+    if (/\/ateliers\/[^\/]+$/.test(href)) return "workshop-details";
+    return null;
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[href]");
+    if (!a) return;
+    var href = a.getAttribute("href");
+    var k = kind(href);
+    if (!k && /Book a call|Prendre rendez-vous/.test(a.textContent)) k = "book-call";
+    if (k) send("click-" + k + page());
+  }, true);
+})();
+</script>

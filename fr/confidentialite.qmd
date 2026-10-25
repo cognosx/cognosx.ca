@@ -16,14 +16,14 @@ Maxime Descartes Mbogning Fonkou est responsable des renseignements personnels c
 
 | Quand vous… | Nous recevons | Pourquoi | Où c'est conservé |
 |---|---|---|---|
-| Visitez ce site | Rien n'est conservé par nous. Votre navigateur charge des polices et du code depuis Google Fonts, cdnjs et jsDelivr, qui voient votre adresse IP. | Afficher les pages | Serveurs de ces services |
+| Visitez ce site | Des statistiques de visite anonymes (page, site d'origine, navigateur, taille d'écran, pays) avec GoatCounter, sans témoins (cookies) et sans données personnelles. Votre navigateur charge aussi des polices et du code depuis Google Fonts, cdnjs et jsDelivr, qui voient votre adresse IP. | Afficher les pages et savoir quelles pages aident les visiteurs | GoatCounter et les serveurs de ces services |
 | Nous écrivez par courriel ou avec le formulaire de contact | Nom, courriel, organisation (facultatif) et message | Vous répondre | Web3Forms (qui transmet les messages du formulaire, serveurs pouvant être hors du Canada), notre fournisseur de courriel (Hostinger) et Google |
 | Postulez à un projet ou en proposez un | Nom, courriel, organisation, pays, rôle et réponses | Étudier votre demande et vous contacter | Google Forms et Google Sheets (Google LLC), sur des serveurs qui peuvent être hors du Canada |
 | Vous inscrivez à un atelier | Nom, courriel, pays, profil, ateliers choisis, tarif et mode de paiement souhaité | Confirmer votre place, envoyer les instructions de paiement et le lien de connexion | Google Forms et Google Sheets (Google LLC), sur des serveurs qui peuvent être hors du Canada |
 | Prenez rendez-vous | Nom, courriel, fuseau horaire et notes éventuelles | Tenir la réunion | Cal.com, sur des serveurs qui peuvent être hors du Canada, et notre agenda Google |
 | Vous abonnez à l'infolettre | Votre adresse courriel | Envoyer l'infolettre | Substack, selon [sa politique de confidentialité](https://substack.com/privacy) |
 
-Ce site n'utilise ni témoins (cookies) de suivi ni outils publicitaires.
+Ce site n'utilise ni témoins (cookies) de suivi ni outils publicitaires. Le calendrier de réservation (Cal.com) et le module d'infolettre (Substack) sont fournis par ces services, selon leurs propres politiques de confidentialité.
 
 ## Durée de conservation
 
