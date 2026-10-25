@@ -495,3 +495,16 @@ h1.page-title, .page-title > h1 {
 .wrap.narrow { max-width: 760px; }
 @media (max-width: 480px) { .ws-status { flex-basis: 100%; } }
 .ws-empty { color: #5c5c5c; }
+
+// Contact form
+.cx-form { display: grid; gap: 14px; }
+.cx-form label { display: grid; gap: 6px; font-weight: 600; font-size: 0.92rem; color: #141414; }
+.cx-form input, .cx-form select, .cx-form textarea { font: inherit; font-weight: 400; padding: 10px 12px; border: 1px solid #c9c3b8; border-radius: 8px; background: #fff; color: #141414; width: 100%; }
+.cx-form input:focus, .cx-form select:focus, .cx-form textarea:focus { outline: 2px solid #FEA500; outline-offset: 1px; border-color: #FEA500; }
+.cx-form button { justify-self: start; border: 0; cursor: pointer; }
+.cx-form button[disabled] { opacity: 0.6; cursor: wait; }
+.cx-hp { position: absolute; left: -9999px; }
+.cx-form-status { margin: 0; font-weight: 600; }
+.cx-form-status.ok { color: #1f7a3a; }
+.cx-form-status.bad { color: #a02020; }
+#message, #book { scroll-margin-top: 80px; }

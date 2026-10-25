@@ -14,7 +14,7 @@ page-layout: custom
 [Le premier appel est gratuit et court. Dites-nous ce que vous devez décider, et nous vous proposerons la façon la plus simple d'y répondre. Nous pouvons échanger en français.]{.lead}
 
 [Choisir un créneau ci-dessous](#book){.btn-cx}
-[Nous écrire](mailto:{{< var email >}}){.btn-cx-ghost}
+[Nous écrire](#message){.btn-cx-ghost}
 :::
 :::
 
@@ -38,6 +38,8 @@ Cal.ns.book("ui", { theme: "light", styles: { branding: { brandColor: "#FEA500" 
 ```
 :::
 :::
+
+{{< include /styles/_contact-form-fr.qmd >}}
 
 ::: {.band}
 ::: {.wrap}

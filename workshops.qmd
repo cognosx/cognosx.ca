@@ -25,7 +25,7 @@ listing:
 [Hands-on 3-hour workshops for researchers, students, librarians, research offices and funders in French-speaking Africa, Europe, Canada and beyond. Each workshop page is in French, the language of the workshops.]{.lead}
 
 [Choose my workshops]({{< var workshop_waitlist_url >}}){.btn-cx}
-[Ask about a team session](mailto:{{< var email >}}?subject=Team%20workshop){.btn-cx-ghost}
+[Ask about a team session](contact.html?topic=workshop#message){.btn-cx-ghost}
 :::
 :::
 

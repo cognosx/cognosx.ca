@@ -17,7 +17,7 @@ Maxime Descartes Mbogning Fonkou est responsable des renseignements personnels c
 | Quand vous… | Nous recevons | Pourquoi | Où c'est conservé |
 |---|---|---|---|
 | Visitez ce site | Rien n'est conservé par nous. Votre navigateur charge des polices et du code depuis Google Fonts, cdnjs et jsDelivr, qui voient votre adresse IP. | Afficher les pages | Serveurs de ces services |
-| Nous écrivez | Votre adresse courriel et votre message | Vous répondre | Notre fournisseur de courriel (Hostinger) et Google |
+| Nous écrivez par courriel ou avec le formulaire de contact | Nom, courriel, organisation (facultatif) et message | Vous répondre | Web3Forms (qui transmet les messages du formulaire, serveurs pouvant être hors du Canada), notre fournisseur de courriel (Hostinger) et Google |
 | Postulez à un projet ou en proposez un | Nom, courriel, organisation, pays, rôle et réponses | Étudier votre demande et vous contacter | Google Forms et Google Sheets (Google LLC), sur des serveurs qui peuvent être hors du Canada |
 | Vous inscrivez à un atelier | Nom, courriel, pays, profil, ateliers choisis, tarif et mode de paiement souhaité | Confirmer votre place, envoyer les instructions de paiement et le lien de connexion | Google Forms et Google Sheets (Google LLC), sur des serveurs qui peuvent être hors du Canada |
 | Prenez rendez-vous | Nom, courriel, fuseau horaire et notes éventuelles | Tenir la réunion | Cal.com, sur des serveurs qui peuvent être hors du Canada, et notre agenda Google |

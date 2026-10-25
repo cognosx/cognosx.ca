@@ -224,7 +224,7 @@ Des articles courts sur ce que montrent les données de la science. Gratuit, dé
 
 ::: {}
 [Prendre rendez-vous](contact.qmd){.btn-cx}
-[Nous écrire](mailto:{{< var email >}}){.btn-cx-ghost}
+[Nous écrire](contact.qmd#message){.btn-cx-ghost}
 :::
 :::
 :::

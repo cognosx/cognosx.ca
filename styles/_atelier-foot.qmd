@@ -7,7 +7,7 @@
 
 ::: {}
 [S'inscrire à cet atelier]({{< meta register_url >}}){.btn-cx}
-[Poser une question](mailto:contact@cognosx.ca?subject=Ateliers){.btn-cx-ghost}
+[Poser une question](/fr/contact.html?topic=workshop#message){.btn-cx-ghost}
 :::
 :::
 :::

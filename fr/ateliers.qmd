@@ -25,7 +25,7 @@ listing:
 [Des ateliers pratiques de 3 heures pour les chercheurs, étudiants, bibliothécaires, bureaux de recherche et bailleurs de fonds, en Afrique, en Europe, au Canada et ailleurs. Vous apprenez en travaillant sur votre propre sujet.]{.lead}
 
 [Choisir mes ateliers]({{< var workshop_waitlist_url >}}){.btn-cx}
-[Une séance pour mon équipe](mailto:{{< var email >}}?subject=Atelier%20pour%20une%20%C3%A9quipe){.btn-cx-ghost}
+[Une séance pour mon équipe](contact.html?topic=workshop#message){.btn-cx-ghost}
 :::
 :::
 

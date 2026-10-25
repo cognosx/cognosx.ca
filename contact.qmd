@@ -14,7 +14,7 @@ pagetitle: "Contact and book a call"
 [A first call is free and short. Tell us what you need to decide, and we will suggest the simplest way to answer it.]{.lead}
 
 [Pick a time below](#book){.btn-cx}
-[Write to us](mailto:{{< var email >}}){.btn-cx-ghost}
+[Write to us](#message){.btn-cx-ghost}
 :::
 :::
 
@@ -38,6 +38,8 @@ Cal.ns.book("ui", { theme: "light", styles: { branding: { brandColor: "#FEA500" 
 ```
 :::
 :::
+
+{{< include /styles/_contact-form-en.qmd >}}
 
 ::: {.band}
 ::: {.wrap}

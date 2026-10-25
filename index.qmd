@@ -278,7 +278,7 @@ Short articles on what science data shows: patents, research fields and who lead
 
 ::: {}
 [Book a call]({{< var booking_url >}}){.btn-cx}
-[Write to us](mailto:{{< var email >}}){.btn-cx-ghost}
+[Write to us](contact.qmd#message){.btn-cx-ghost}
 :::
 :::
 :::

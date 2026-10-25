@@ -1,0 +1,57 @@
+::: {.band .band-soft #message}
+::: {.wrap}
+::: {.grid .grid-2}
+::: {}
+[Nous écrire]{.eyebrow}
+
+## Envoyez-nous un message
+
+Nous répondons sous deux jours ouvrables, en français ou en anglais.
+
+[{{< var email >}}](mailto:{{< var email >}})
+:::
+
+::: {}
+```{=html}
+<form class="cx-form" id="cx-contact" novalidate>
+  <input type="hidden" name="access_key" value="d41811f1-2ad1-4578-b495-04db52b70a62">
+  <input type="hidden" name="subject" value="Nouveau message (FR) depuis cognosx.ca">
+  <input type="hidden" name="from_name" value="cognosx.ca">
+  <input type="checkbox" name="botcheck" class="cx-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <label>Votre nom<input type="text" name="name" required autocomplete="name"></label>
+  <label>Votre courriel<input type="email" name="email" required autocomplete="email"></label>
+  <label>Organisation (facultatif)<input type="text" name="organization" autocomplete="organization"></label>
+  <label>À quel sujet ?<select name="topic"><option value="project">Un projet (rapport, cartographie, évaluation)</option><option value="workshop">Les ateliers ou une séance pour une équipe</option><option value="collab">Une collaboration de recherche</option><option value="media">Médias ou conférence</option><option value="other">Autre chose</option></select></label>
+  <label>Votre message<textarea name="message" rows="6" required></textarea></label>
+  <p class="small-note">En envoyant ce formulaire, vous acceptez que nous utilisions vos coordonnées pour vous répondre. <a href="/fr/confidentialite.html">Confidentialité</a>.</p>
+  <button type="submit" class="btn-cx">Envoyer</button>
+  <p class="cx-form-status" role="status" aria-live="polite"></p>
+</form>
+<script>
+(function () {
+  var f = document.getElementById("cx-contact"); if (!f) return;
+  var topic = new URLSearchParams(location.search).get("topic");
+  if (topic) { var s = f.querySelector("select[name=topic]"); if (s.querySelector('option[value="' + topic + '"]')) s.value = topic; }
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var st = f.querySelector(".cx-form-status"), b = f.querySelector("button");
+    if (!f.checkValidity()) { f.reportValidity(); return; }
+    var data = Object.fromEntries(new FormData(f));
+    data.topic = f.querySelector("select[name=topic]").selectedOptions[0].text;
+    b.disabled = true; b.textContent = "Envoi…"; st.className = "cx-form-status";
+    fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(data) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j.success) { f.reset(); st.textContent = "Merci ! Votre message a bien été envoyé. Nous vous répondons sous deux jours ouvrables."; st.className = "cx-form-status ok"; }
+        else { throw new Error(j.message); }
+      })
+      .catch(function () { st.textContent = "Désolé, le message n'a pas pu être envoyé. Écrivez-nous à contact@cognosx.ca."; st.className = "cx-form-status bad"; })
+      .finally(function () { b.disabled = false; b.textContent = "Envoyer"; });
+  });
+})();
+</script>
+```
+:::
+:::
+:::
+:::

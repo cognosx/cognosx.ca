@@ -1,0 +1,57 @@
+::: {.band .band-soft #message}
+::: {.wrap}
+::: {.grid .grid-2}
+::: {}
+[Write to us]{.eyebrow}
+
+## Send us a message
+
+We reply within two working days, in English or French.
+
+[{{< var email >}}](mailto:{{< var email >}})
+:::
+
+::: {}
+```{=html}
+<form class="cx-form" id="cx-contact" novalidate>
+  <input type="hidden" name="access_key" value="d41811f1-2ad1-4578-b495-04db52b70a62">
+  <input type="hidden" name="subject" value="New message from cognosx.ca">
+  <input type="hidden" name="from_name" value="cognosx.ca">
+  <input type="checkbox" name="botcheck" class="cx-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <label>Your name<input type="text" name="name" required autocomplete="name"></label>
+  <label>Your email<input type="email" name="email" required autocomplete="email"></label>
+  <label>Organization (optional)<input type="text" name="organization" autocomplete="organization"></label>
+  <label>What is it about?<select name="topic"><option value="project">A project (report, landscape, evaluation)</option><option value="workshop">Workshops or a team session</option><option value="collab">Research collaboration</option><option value="media">Media or speaking</option><option value="other">Something else</option></select></label>
+  <label>Your message<textarea name="message" rows="6" required></textarea></label>
+  <p class="small-note">By sending this form you agree that we use your details to reply to you. <a href="/privacy.html">Privacy</a>.</p>
+  <button type="submit" class="btn-cx">Send message</button>
+  <p class="cx-form-status" role="status" aria-live="polite"></p>
+</form>
+<script>
+(function () {
+  var f = document.getElementById("cx-contact"); if (!f) return;
+  var topic = new URLSearchParams(location.search).get("topic");
+  if (topic) { var s = f.querySelector("select[name=topic]"); if (s.querySelector('option[value="' + topic + '"]')) s.value = topic; }
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var st = f.querySelector(".cx-form-status"), b = f.querySelector("button");
+    if (!f.checkValidity()) { f.reportValidity(); return; }
+    var data = Object.fromEntries(new FormData(f));
+    data.topic = f.querySelector("select[name=topic]").selectedOptions[0].text;
+    b.disabled = true; b.textContent = "Sending…"; st.className = "cx-form-status";
+    fetch("https://api.web3forms.com/submit", { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" }, body: JSON.stringify(data) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        if (j.success) { f.reset(); st.textContent = "Thank you! Your message has been sent. We will reply within two working days."; st.className = "cx-form-status ok"; }
+        else { throw new Error(j.message); }
+      })
+      .catch(function () { st.textContent = "Sorry, the message could not be sent. Please email us at contact@cognosx.ca."; st.className = "cx-form-status bad"; })
+      .finally(function () { b.disabled = false; b.textContent = "Send message"; });
+  });
+})();
+</script>
+```
+:::
+:::
+:::
+:::
