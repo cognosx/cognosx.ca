@@ -1,0 +1,50 @@
+---
+title: "Évaluer la recherche de façon responsable"
+description: "Choisir des indicateurs utiles et les lire avec prudence : production, collaborations, financements, et qui dirige la recherche."
+date: "2027-04-24"
+date_label: "Samedi 24 avril 2027"
+level: "Tous niveaux"
+audience: "Bureaux de recherche, bailleurs de fonds, responsables de programmes"
+local_times: "16 h à Yaoundé, 17 h à Paris, 15 h à Dakar, 11 h à Montréal, 8 h à Vancouver"
+# open = inscriptions ouvertes · soon = bientôt · full = complet · past = terminé
+status: "open"
+# Lien d'inscription propre à cet atelier (lien pré-rempli du formulaire Google)
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+# Texte exact de ce choix dans le formulaire Google
+form_choice: "24 avril 2027 : Évaluer la recherche de façon responsable"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Les principes d'une évaluation responsable (DORA, Manifeste de Leiden)
+- Choisir des indicateurs adaptés à votre question
+- Mesurer qui dirige la recherche : premier et dernier auteur, financements, pays
+- Présenter les résultats avec leur contexte et leurs limites
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Pourquoi les chiffres seuls trompent |
+| 0:20 | Choisir ses indicateurs |
+| 0:55 | Leadership et équité : l'exemple de la recherche en santé en Afrique |
+| 1:25 | Pause |
+| 1:35 | Atelier pratique : construire votre grille |
+| 2:30 | Présenter des résultats justes |
+| 2:45 | Questions |
+
+## Vous repartez avec
+
+Une grille d'évaluation adaptée à votre programme ou à votre institution.
+
+## Avant l'atelier
+
+Aucun prérequis technique.
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

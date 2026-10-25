@@ -1,0 +1,48 @@
+---
+# COMMENT AJOUTER UN ATELIER
+# 1. Copiez ce fichier dans le dossier ateliers/ et nommez-le AAAA-MM-JJ-titre-court.qmd
+#    (le nom ne doit pas commencer par _ ).
+# 2. Remplissez les champs ci-dessous et le texte plus bas.
+# 3. Dans le formulaire Google d'inscription, ajoutez le nouvel atelier comme choix
+#    à la question « Quel(s) atelier(s) ? », en copiant exactement form_choice.
+# 4. Pour un lien qui coche cet atelier : dans le formulaire, ⋮ > « Obtenir le lien pré-rempli »,
+#    cochez l'atelier, « Obtenir le lien », copiez-le dans register_url.
+# 5. Après l'atelier, mettez status: "past" : il passe dans « Ateliers passés ».
+title: "Titre de l'atelier"
+description: "Une phrase : ce que les participants vont faire."
+date: "2027-06-26"
+date_label: "Samedi 26 juin 2027"
+level: "Débutant"
+audience: "Étudiant·e·s, chercheur·e·s"
+local_times: "16 h à Yaoundé, 17 h à Paris, 15 h à Dakar, 11 h à Montréal, 8 h à Vancouver"
+status: "soon"
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+form_choice: "26 juin 2027 : Titre de l'atelier"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Point 1
+- Point 2
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Bienvenue |
+
+## Vous repartez avec
+
+Ce que chaque participant aura à la fin.
+
+## Avant l'atelier
+
+Prérequis.
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

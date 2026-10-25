@@ -1,0 +1,50 @@
+---
+title: "Lire un paysage de brevets"
+description: "Chercher des brevets, comprendre les familles, les classifications et les juridictions, et repérer qui invente quoi, et où."
+date: "2027-03-27"
+date_label: "Samedi 27 mars 2027"
+level: "Débutant"
+audience: "Chercheur·e·s, bureaux de transfert technologique, start-up et biotech"
+local_times: "16 h à Yaoundé et Paris, 15 h à Dakar, 11 h à Montréal, 8 h à Vancouver"
+# open = inscriptions ouvertes · soon = bientôt · full = complet · past = terminé
+status: "open"
+# Lien d'inscription propre à cet atelier (lien pré-rempli du formulaire Google)
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+# Texte exact de ce choix dans le formulaire Google
+form_choice: "27 mars 2027 : Lire un paysage de brevets"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Ce qu'est un brevet, une famille de brevets et une juridiction
+- Chercher dans Lens.org avec des mots-clés et des classifications (CIB et CPC)
+- Repérer les principaux déposants, inventeurs et pays
+- Lire les tendances avec prudence : délais de publication, doublons
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Pourquoi les brevets disent ce que les articles ne disent pas |
+| 0:15 | Familles, classifications et juridictions |
+| 0:50 | Chercher dans Lens.org et exporter |
+| 1:25 | Pause |
+| 1:35 | Qui dépose, qui invente, où : premiers graphiques |
+| 2:30 | Exemple : le paysage mondial des brevets sur la phagothérapie |
+| 2:45 | Questions |
+
+## Vous repartez avec
+
+Une première carte des brevets de votre domaine et une liste des acteurs clés.
+
+## Avant l'atelier
+
+Aucun prérequis. Un compte gratuit sur Lens.org est conseillé.
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

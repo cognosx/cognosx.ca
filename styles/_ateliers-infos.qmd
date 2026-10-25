@@ -1,0 +1,60 @@
+::: {.band .band-soft}
+::: {.wrap}
+::: {.grid .grid-2}
+::: {}
+[Horaire]{.eyebrow}
+
+## Le samedi, de 15 h à 18 h (UTC)
+
+Un horaire choisi pour réunir l'Afrique, l'Europe et le Canada. L'heure exacte dans votre ville est indiquée sur la page de chaque atelier.
+
+| Ville | Novembre à mi-mars | Avril à octobre |
+|---|---|---|
+| Dakar, Abidjan | 15–18 h | 15–18 h |
+| Yaoundé, Kinshasa, Libreville | 16–19 h | 16–19 h |
+| Paris, Bruxelles, Genève | 16–19 h | 17–20 h |
+| Montréal | 10–13 h | 11–14 h |
+| Vancouver | 7–10 h | 8–11 h |
+:::
+
+::: {}
+[Tarifs]{.eyebrow}
+
+## Un prix juste selon votre pays
+
+| Pays | Par atelier | Étudiant·e |
+|---|---|---|
+| Afrique et autres pays à revenu faible ou intermédiaire | 10 000 FCFA (15 €) | 5 000 FCFA (8 €) |
+| Europe, Canada et autres pays | 60 € (90 $ CA) | 30 € (45 $ CA) |
+
+- **Plusieurs ateliers :** à partir de 4 ateliers, le 5e est offert.
+- **Bourses :** 5 places gratuites par atelier pour des étudiant·e·s en Afrique.
+- **Séance privée** pour votre équipe ou votre institution (jusqu'à 20 personnes) : à partir de 1 500 $ CA.
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {.grid .grid-3}
+::: {.card-cx .reveal}
+[Format]{.card-num}
+
+En direct en ligne, 3 heures avec une pause. Groupes de 25 personnes au plus. Carnets Google Colab : rien à installer.
+:::
+
+::: {.card-cx .reveal}
+[Connexion faible ?]{.card-num}
+
+L'enregistrement et les carnets restent disponibles 30 jours. Vous pouvez rattraper ce que vous avez manqué.
+:::
+
+::: {.card-cx .reveal}
+[À la fin]{.card-num}
+
+Une attestation de participation, et un mois pour poser vos questions par courriel.
+:::
+:::
+:::
+:::

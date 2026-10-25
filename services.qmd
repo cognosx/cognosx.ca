@@ -83,7 +83,7 @@ Practical sessions where people learn by doing, on their own topic. Public works
 - Patent landscapes, responsible research evaluation, publishing a bibliometric study
 - Private sessions for teams and institutions (from CA$1,500)
 
-[See the five workshops](workshops.qmd)
+[See all workshops](workshops.qmd)
 :::
 :::
 

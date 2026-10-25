@@ -1,0 +1,50 @@
+---
+title: "De la donnée à l'article : publier une étude bibliométrique"
+description: "Formuler une question publiable, choisir les analyses, faire des figures claires, rédiger les méthodes et choisir une revue."
+date: "2027-05-29"
+date_label: "Samedi 29 mai 2027"
+level: "Intermédiaire"
+audience: "Doctorant·e·s, chercheur·e·s"
+local_times: "16 h à Yaoundé, 17 h à Paris, 15 h à Dakar, 11 h à Montréal, 8 h à Vancouver"
+# open = inscriptions ouvertes · soon = bientôt · full = complet · past = terminé
+status: "open"
+# Lien d'inscription propre à cet atelier (lien pré-rempli du formulaire Google)
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+# Texte exact de ce choix dans le formulaire Google
+form_choice: "29 mai 2027 : De la donnée à l'article : publier une étude bibliométrique"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Ce qui rend une étude bibliométrique publiable
+- Choisir les analyses qui répondent à votre question
+- Faire des figures claires
+- Rédiger les méthodes et choisir une revue
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Exemples d'études publiées, et pourquoi elles ont été acceptées |
+| 0:20 | Votre question et votre plan d'analyse |
+| 0:55 | Les figures qui comptent |
+| 1:25 | Pause |
+| 1:35 | Rédiger les méthodes |
+| 2:20 | Choisir une revue et répondre aux évaluateurs |
+| 2:45 | Questions |
+
+## Vous repartez avec
+
+Le plan de votre article et ses figures principales.
+
+## Avant l'atelier
+
+Avoir des données sur votre sujet (par exemple après l'atelier 1).
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

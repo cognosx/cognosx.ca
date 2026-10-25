@@ -1,0 +1,14 @@
+{{< include /styles/_ateliers-infos.qmd >}}
+
+::: {.band .band-dark}
+::: {.wrap}
+::: {.cta}
+## Cet atelier vous intéresse ?
+
+::: {}
+[S'inscrire à cet atelier]({{< meta register_url >}}){.btn-cx}
+[Poser une question](mailto:contact@cognosx.ca?subject=Ateliers){.btn-cx-ghost}
+:::
+:::
+:::
+:::

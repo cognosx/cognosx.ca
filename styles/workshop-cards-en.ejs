@@ -1,0 +1,19 @@
+```{=html}
+<div class="ws-cards">
+<% const lab = {open: "Registration open", soon: "Coming soon", full: "Full", past: "Past"}; %>
+<% if (items.length === 0) { %><p class="ws-empty">No workshops yet.</p><% } %>
+<% for (const item of items) { %>
+<div class="ws-card ws-<%= item.status || 'open' %>" <%= metadataAttrs(item) %>>
+<span class="card-num"><%= item.date_label %> · <%= item.level %></span>
+<a class="ws-card-title" href="<%- item.path %>"><%= item.title %></a>
+<span class="ws-card-desc"><%= item.description %></span>
+<span class="ws-card-aud"><%= item.audience %></span>
+<span class="ws-card-foot">
+<span class="ws-status"><%= lab[item.status || 'open'] %></span>
+<a class="btn-cx-ghost" href="<%- item.path %>">Details</a>
+<% if ((item.status || 'open') === 'open') { %><a class="btn-cx" href="<%- item.register_url %>" target="_blank" rel="noopener">Register</a><% } %>
+</span>
+</div>
+<% } %>
+</div>
+```

@@ -54,6 +54,6 @@ Ticks spread diseases to people and animals, and climate change is moving them t
 ::: {#proj-outputs}
 :::
 
-**Related workshop:** [Map a Research Field in 3 Hours](../workshops.qmd) uses examples from this project.
+**Related workshop (in French):** [Cartographier un domaine de recherche en 3 heures](../ateliers/2027-01-30-cartographier-un-domaine.qmd) uses examples from this project.
 
 {{< include ../styles/_join.qmd >}}

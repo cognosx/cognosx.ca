@@ -1,0 +1,50 @@
+---
+title: "Trier la littérature avec l'IA, et vérifier qu'elle a raison"
+description: "Faire trier des milliers de titres et de résumés par deux modèles d'IA, puis mesurer leur précision sur un échantillon annoté à la main."
+date: "2027-02-27"
+date_label: "Samedi 27 février 2027"
+level: "Intermédiaire"
+audience: "Équipes de revue systématique, doctorant·e·s, chercheur·e·s"
+local_times: "16 h à Yaoundé et Paris, 15 h à Dakar, 10 h à Montréal, 7 h à Vancouver"
+# open = inscriptions ouvertes · soon = bientôt · full = complet · past = terminé
+status: "open"
+# Lien d'inscription propre à cet atelier (lien pré-rempli du formulaire Google)
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+# Texte exact de ce choix dans le formulaire Google
+form_choice: "27 février 2027 : Trier la littérature avec l'IA, et vérifier qu'elle a raison"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Écrire des critères d'inclusion qu'une IA peut appliquer
+- Faire trier les documents par deux modèles, avec une règle claire en cas de désaccord
+- Annoter un petit échantillon à la main et calculer la précision, simplement
+- Décrire la méthode pour qu'elle soit acceptée par une revue
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Ce que l'IA fait bien, et mal, dans une revue |
+| 0:15 | Écrire les critères d'inclusion |
+| 0:45 | Tri par deux modèles : coût, vitesse, désaccords |
+| 1:25 | Pause |
+| 1:35 | Annoter 30 documents à la main et comparer |
+| 2:20 | Rédiger la note de méthode |
+| 2:45 | Questions |
+
+## Vous repartez avec
+
+Un corpus trié, une mesure de précision et une note de méthode que vous pouvez publier.
+
+## Avant l'atelier
+
+Avoir suivi l'atelier 1 ou savoir ouvrir un carnet Colab. Apportez une liste de documents à trier (ou utilisez notre exemple).
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

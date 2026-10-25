@@ -1,0 +1,50 @@
+---
+title: "Cartographier un domaine de recherche en 3 heures"
+description: "Construire une recherche dans OpenAlex, nettoyer les données et faire vos premiers graphiques sur votre propre sujet."
+date: "2027-01-30"
+date_label: "Samedi 30 janvier 2027"
+level: "Débutant"
+audience: "Étudiant·e·s, chercheur·e·s, bibliothécaires"
+local_times: "16 h à Yaoundé et Paris, 15 h à Dakar, 10 h à Montréal, 7 h à Vancouver"
+# open = inscriptions ouvertes · soon = bientôt · full = complet · past = terminé
+status: "open"
+# Lien d'inscription propre à cet atelier (lien pré-rempli du formulaire Google)
+register_url: "https://forms.gle/PUCL12KmP5pkfovX8"
+# Texte exact de ce choix dans le formulaire Google
+form_choice: "30 janvier 2027 : Cartographier un domaine de recherche en 3 heures"
+---
+
+{{< include /styles/_atelier-head.qmd >}}
+
+::: {.band}
+::: {.wrap .narrow}
+## Ce que vous allez apprendre
+
+- Transformer votre sujet en une question claire et en une recherche
+- Chercher dans OpenAlex : concepts, mots-clés, filtres, et l'API dans Google Colab
+- Nettoyer les données : doublons, résumés et affiliations manquants, limites connues
+- Faire deux premiers graphiques : la production dans le temps et par pays
+
+## Programme
+
+| Heure | Contenu |
+|---|---|
+| 0:00 | Bienvenue : pourquoi cartographier un domaine ? Ce qu'une carte montre, et ce qu'elle ne montre pas |
+| 0:15 | Chercher dans OpenAlex, puis télécharger les documents |
+| 0:50 | Nettoyer les données |
+| 1:25 | Pause |
+| 1:35 | Premiers résultats : dans le temps, par pays, par revue |
+| 2:30 | Lire les résultats avec prudence |
+| 2:45 | Vos prochaines étapes et questions |
+
+## Vous repartez avec
+
+Un jeu de données propre sur votre sujet, deux graphiques et le carnet Colab pour recommencer seul·e.
+
+## Avant l'atelier
+
+Aucune expérience en programmation n'est nécessaire. Un compte Google (pour Colab) et une connexion internet suffisent.
+:::
+:::
+
+{{< include /styles/_atelier-foot.qmd >}}

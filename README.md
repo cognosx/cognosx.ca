@@ -28,6 +28,8 @@ You can edit any file directly on github.com: open it, click the pencil, change,
 | Change text on a page | the page's `.qmd` file (e.g. `services.qmd`, `about.qmd`) |
 | Add a project | copy `projects/_template.qmd`, follow the notes inside |
 | Update a project's stage, plan or team | its file in `projects/` (change `stage`, `stage_note` and `updated` at the top) |
+| Add a workshop | copy `ateliers/_template.qmd`, follow the notes inside (also add it as a choice in the Google registration form) |
+| Mark a workshop as past, full or coming soon | its file in `ateliers/` (change `status`) |
 | Add a dashboard | copy `dashboards/_template.qmd`, follow the notes inside |
 | Change the Substack or YouTube source, or video types | `scripts/feeds.yml` |
 | Hide a publication | add its DOI to `hide_dois` in `scripts/feeds.yml` |

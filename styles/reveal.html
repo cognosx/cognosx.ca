@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Library: hide type sections that have no items yet, and their jump links
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".lib-group").forEach(function (g) {
-    if (!g.querySelector(".lib-list li")) {
+    if (!g.querySelector(".lib-list li, .ws-card")) {
       g.style.display = "none";
       var link = document.querySelector('.lib-jump a[href$="#' + g.id + '"]');
       if (link) link.style.display = "none";
@@ -44,10 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
   var pairs = { "index": "fr/index", "services": "fr/services", "workshops": "fr/ateliers",
                 "about": "fr/a-propos", "contact": "fr/contact", "privacy": "fr/confidentialite" };
   var path = location.pathname.replace(/\/$/, "/index.html");
-  var isFr = /\/fr\//.test(path);
+  var isWs = /\/ateliers\//.test(path);
+  var isFr = /\/fr\//.test(path) || isWs;
   var name = path.split("/").pop().replace(".html", "");
   var other;
-  if (isFr) {
+  if (isWs) {
+    other = "/workshops.html";
+  } else if (isFr) {
     other = "index";
     for (var k in pairs) { if (pairs[k] === "fr/" + name) other = k; }
     other = "/" + other + ".html";

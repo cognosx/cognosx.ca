@@ -83,7 +83,7 @@ Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En fra
 - Paysages de brevets, évaluation responsable de la recherche, publier une étude bibliométrique
 - Séances privées pour les équipes et les institutions (à partir de 1 500 $ CA, environ 950 €)
 
-[Voir les cinq ateliers](ateliers.qmd)
+[Voir tous les ateliers](ateliers.qmd)
 :::
 :::
 
