@@ -11,7 +11,7 @@ page-layout: custom
 
 # What we do {.page-title}
 
-[Each service ends with something you can use: a clear report, the data behind it, and, when it helps, an interactive dashboard. Prices are fixed per project, agreed before we start.]{.lead}
+[Each service ends with something you can use: a clear report, the data behind it, and, when it helps, an interactive dashboard. Prices are fixed per project and agreed before we start. Starting prices are shown below; organizations based in Africa pay 30 to 50% less.]{.lead}
 :::
 :::
 
@@ -30,7 +30,7 @@ A map of a field from publications, patents and funding: who is active, where, h
 - Research landscapes: topics, leading teams, collaborations
 - Partner, competitor and talent scouting
 
-[Typical result: a short report, the cleaned dataset, and a dashboard]{.tag .tag-amber}
+[Typical result: a short report, the cleaned dataset, and a dashboard]{.tag .tag-amber} [From CA$4,500]{.tag .tag-price}
 
 **Example:** our [patent landscape of phage therapy](https://doi.org/10.1038/s41587-024-02493-9), published in *Nature Biotechnology* (2024), and its [open protocol](https://doi.org/10.21203/rs.3.pex-2537/v1).
 :::
@@ -48,7 +48,7 @@ Help with the heavy steps of a review: building the search, removing duplicates,
 - Screening with two AI models and a clear tie-break rule
 - Accuracy checked against a hand-labelled sample, reported openly
 
-[Typical result: a screened set of records, a methods note you can publish]{.tag .tag-amber}
+[Typical result: a screened set of records, a methods note you can publish]{.tag .tag-amber} [From CA$2,500]{.tag .tag-price}
 :::
 :::
 
@@ -66,7 +66,7 @@ Fair, careful analysis of a research programme or field, using indicators respon
 **Example:** our [Research in Africa](projects/research-in-africa.qmd) programme, including a partner-led study of tick research.
 - Evidence for priority setting and grant applications
 
-[Typical result: an evaluation report with clear recommendations]{.tag .tag-amber}
+[Typical result: an evaluation report with clear recommendations]{.tag .tag-amber} [From CA$6,000]{.tag .tag-price}
 :::
 :::
 
@@ -81,7 +81,7 @@ Practical sessions where people learn by doing, on their own topic. Public works
 - Mapping a research field with OpenAlex
 - AI-assisted screening and how to check it
 - Patent landscapes, responsible research evaluation, publishing a bibliometric study
-- Private sessions for teams and institutions
+- Private sessions for teams and institutions (from CA$1,500)
 
 [See the five workshops](workshops.qmd)
 :::

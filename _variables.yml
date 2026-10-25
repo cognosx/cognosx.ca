@@ -13,7 +13,7 @@ booking_url: "https://cal.com/cognosx"
 workshop_title: "Five workshops in French"
 workshop_date: "January to May 2027"
 # Replace with your Tally, Google Form or Substack link when ready.
-workshop_waitlist_url: "mailto:contact@cognosx.ca?subject=Inscription%20aux%20ateliers"
+workshop_waitlist_url: "https://forms.gle/PUCL12KmP5pkfovX8"
 
 # Google Form for joining or proposing a project. Paste the form's "Send" link here.
 collab_form_url: "https://forms.gle/HBrk8uozHWFwMXZK7"

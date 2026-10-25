@@ -11,7 +11,7 @@ page-layout: custom
 
 # Ce que nous faisons {.page-title}
 
-[Chaque service se termine par un résultat utilisable : un rapport clair, les données derrière, et, si utile, un tableau de bord interactif. Le prix est fixé par projet et convenu avant de commencer.]{.lead}
+[Chaque service se termine par un résultat utilisable : un rapport clair, les données derrière, et, si utile, un tableau de bord interactif. Le prix est fixé par projet et convenu avant de commencer. Les prix de départ sont indiqués ci-dessous ; les organisations basées en Afrique paient 30 à 50 % de moins.]{.lead}
 :::
 :::
 
@@ -30,7 +30,7 @@ Une carte d'un domaine à partir des publications, des brevets et des financemen
 - Cartographies de la recherche : thèmes, équipes clés, collaborations
 - Repérage de partenaires, de concurrents et de talents
 
-[Résultat type : un rapport court, les données nettoyées et un tableau de bord]{.tag .tag-amber}
+[Résultat type : un rapport court, les données nettoyées et un tableau de bord]{.tag .tag-amber} [À partir de 4 500 $ CA (environ 2 800 €)]{.tag .tag-price}
 
 **Exemple :** notre [cartographie des brevets sur la phagothérapie](https://doi.org/10.1038/s41587-024-02493-9), publiée dans *Nature Biotechnology* (2024), et son [protocole ouvert](https://doi.org/10.21203/rs.3.pex-2537/v1).
 :::
@@ -48,7 +48,7 @@ Un appui pour les étapes lourdes d'une revue : construire la recherche, retirer
 - Tri par deux modèles d'IA, avec une règle claire en cas de désaccord
 - Précision vérifiée sur un échantillon annoté à la main, et publiée
 
-[Résultat type : un ensemble de documents triés et une note de méthode publiable]{.tag .tag-amber}
+[Résultat type : un ensemble de documents triés et une note de méthode publiable]{.tag .tag-amber} [À partir de 2 500 $ CA (environ 1 600 €)]{.tag .tag-price}
 :::
 :::
 
@@ -66,7 +66,7 @@ Une analyse juste et rigoureuse d'un programme ou d'un domaine de recherche, ave
 
 **Exemple :** notre programme [Recherche en Afrique](../projects/research-in-africa.qmd), dont une étude sur la recherche sur les tiques menée avec une équipe africaine.
 
-[Résultat type : un rapport d'évaluation avec des recommandations claires]{.tag .tag-amber}
+[Résultat type : un rapport d'évaluation avec des recommandations claires]{.tag .tag-amber} [À partir de 6 000 $ CA (environ 3 800 €)]{.tag .tag-price}
 :::
 :::
 
@@ -81,7 +81,7 @@ Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En fra
 - Cartographier un domaine de recherche avec OpenAlex
 - Le tri assisté par l'IA et comment le vérifier
 - Paysages de brevets, évaluation responsable de la recherche, publier une étude bibliométrique
-- Séances privées pour les équipes et les institutions
+- Séances privées pour les équipes et les institutions (à partir de 1 500 $ CA, environ 950 €)
 
 [Voir les cinq ateliers](ateliers.qmd)
 :::
