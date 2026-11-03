@@ -5,6 +5,8 @@
 # 2. Fill in the title, description, date and categories below.
 # 3. Keep ONE of the three options and delete the other two.
 # 4. Save. The Dashboards page lists it automatically.
+# CognosX explorers built in the page itself (no iframe, no server) follow
+#    dashboards/phage-funding.qmd: data in dashboards/files/<name>/, charts with Observable Plot.
 title: "Dashboard title"
 description: "One sentence about what people can explore."
 date: "2026-11-01"

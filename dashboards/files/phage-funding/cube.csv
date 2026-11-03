@@ -1,0 +1,624 @@
+year,funder_country,funder,recipient_country,recipient_income,topic,grants,usd
+1999,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,11418.0
+1999,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,16828.0
+1999,European Union,European Commission,Georgia,Upper middle income,Bacterial genetics and mechanisms,0.5,24064.0
+1999,European Union,European Commission,United Kingdom,High income,Bacterial genetics and mechanisms,0.5,24064.0
+1999,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,2.0,550939.0
+1999,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Antibiotic resistance strategies,1.0,222292.0
+1999,United States,National Institute of Neurological Disorders and Stroke,United States,High income,Immunotherapy and targeted treatments,1.0,100000.0
+2000,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,2.0,17551.0
+2000,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,5609.0
+2000,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,13284.0
+2000,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,21001.0
+2000,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,30629.0
+2000,United Kingdom,"Department for Environment, Food and Rural Affairs",United Kingdom,High income,Infectious disease control,2.0,884466.0
+2000,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,2.0,420875.0
+2000,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,2.0,1440020.0
+2000,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Infectious disease control,1.0,99929.0
+2000,United States,National Institute of Dental and Craniofacial Research,United States,High income,Bacterial genetics and mechanisms,1.0,589264.0
+2000,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Immunotherapy and targeted treatments,2.0,1599619.0
+2000,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,1.0,267433.0
+2000,United States,National Institute on Aging,United States,High income,Immunotherapy and targeted treatments,1.0,853531.0
+2001,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,25827.0
+2001,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,18114.0
+2001,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,133307.0
+2001,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,16214.0
+2001,Switzerland,Swiss National Science Foundation,Switzerland,High income,Immunotherapy and targeted treatments,1.0,625730.0
+2001,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,2.0,502371.0
+2001,United States,National Institute of Food and Agriculture,United States,High income,Bacterial genetics and mechanisms,1.0,240000.0
+2001,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,526001.0
+2002,Australia,National Health and Medical Research Council,Australia,High income,Immunotherapy and targeted treatments,1.0,203499.0
+2002,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,6367.0
+2002,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,2.0,45890.0
+2002,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,501000.0
+2003,Czechia,Czech Science Foundation,Czechia,High income,Bacterial genetics and mechanisms,1.0,288102.0
+2003,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,29483.0
+2003,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,16079.0
+2003,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,2.0,159381.0
+2003,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,30378.0
+2003,United Kingdom,Wellcome Trust,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,188238.0
+2003,United States,American Heart Association,United States,High income,Immunotherapy and targeted treatments,1.0,260000.0
+2003,United States,Directorate for Computer & Information Science & Engineering,United States,High income,Bacterial genetics and mechanisms,1.0,799623.0
+2004,European Union,European Commission,Belgium,High income,Antibiotic resistance strategies,0.25,32208.0
+2004,European Union,European Commission,Belgium,High income,Infectious disease control,0.2,36505.0
+2004,European Union,European Commission,Georgia,Upper middle income,Antibiotic resistance strategies,0.25,32208.0
+2004,European Union,European Commission,Georgia,Upper middle income,Infectious disease control,0.4,73010.0
+2004,European Union,European Commission,Germany,High income,Antibiotic resistance strategies,0.25,32208.0
+2004,European Union,European Commission,Russia,Upper middle income,Antibiotic resistance strategies,0.25,32208.0
+2004,European Union,European Commission,Ukraine,Lower middle income,Infectious disease control,0.2,36505.0
+2004,European Union,European Commission,United Kingdom,High income,Infectious disease control,0.2,36505.0
+2004,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,30241.0
+2004,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,32070.0
+2004,United Kingdom,"Department for Environment, Food and Rural Affairs",United Kingdom,High income,Infectious disease control,1.0,769659.0
+2004,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,130240.0
+2004,United States,National Institute of Neurological Disorders and Stroke,United States,High income,Immunotherapy and targeted treatments,1.0,374626.0
+2005,Canada,Canadian Institutes of Health Research,Canada,High income,Bacterial genetics and mechanisms,1.0,58419.0
+2005,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,25253.0
+2005,European Union,European Commission,Portugal,High income,Infectious disease control,0.3333,299876.0
+2005,European Union,European Commission,Russia,Upper middle income,Infectious disease control,0.1667,149938.0
+2005,European Union,European Commission,Spain,High income,Infectious disease control,0.1667,149938.0
+2005,European Union,European Commission,United Kingdom,High income,Infectious disease control,0.3333,299876.0
+2005,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,30050.0
+2005,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,22095.0
+2005,United States,UC Discovery Grants (formerly IUCRP),United States,High income,Infectious disease control,1.0,128305.0
+2006,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,18511.0
+2006,Ireland,Science Foundation Ireland,Ireland,High income,Infectious disease control,1.0,297990.0
+2006,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,2.0,57612.0
+2006,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,28188.0
+2006,Portugal,Agência Nacional de Inovação,Portugal,High income,Infectious disease control,1.0,165818.0
+2006,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.0,237406.0
+2006,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,446734.0
+2006,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,1.0,67727.0
+2006,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,1.0,1300847.0
+2007,Australia,Australian Research Council,Australia,High income,Infectious disease control,1.0,131401.0
+2007,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,1.0,126681.0
+2007,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,19546.0
+2007,Finland,Academy of Finland,Finland,High income,Immunotherapy and targeted treatments,1.0,198945.0
+2007,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,26316.0
+2007,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Bacterial genetics and mechanisms,1.0,111153.0
+2007,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,1.0,121333.0
+2007,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,1929255.0
+2007,United States,National Center for Complementary and Integrative Health,United States,High income,Infectious disease control,1.0,269232.0
+2007,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,1033750.0
+2007,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Immunotherapy and targeted treatments,1.0,472180.0
+2007,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,1.0,348703.0
+2007,United States,United States Department of the Army,United States,High income,Infectious disease control,1.0,1328270.0
+2008,Canada,Canadian Institutes of Health Research,Canada,High income,Bacterial genetics and mechanisms,1.0,1066833.0
+2008,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,2.0,2735528.0
+2008,Canada,Fonds de Recherche du Québec - Santé,Canada,High income,Infectious disease control,2.0,215388.0
+2008,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,19690.0
+2008,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,1.0,43790.0
+2008,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,3.0,102170.0
+2008,India,Department of Biotechnology,India,Lower middle income,Infectious disease control,1.0,44634.0
+2008,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,49504.0
+2008,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,198033.0
+2008,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,2.0,55846.0
+2008,Poland,National Centre for Research and Development,Poland,High income,Infectious disease control,1.0,26899.0
+2008,United Kingdom,Medical Research Council,Australia,High income,Bacterial genetics and mechanisms,0.2,122784.0
+2008,United Kingdom,Medical Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.8,491135.0
+2008,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,530189.0
+2009,Canada,Canada Foundation for Innovation,Canada,High income,Bacterial genetics and mechanisms,1.0,70331.0
+2009,Canada,Ministry of Colleges and Universities,Canada,High income,Immunotherapy and targeted treatments,1.0,288576.0
+2009,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,120698.0
+2009,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,4.0,137358.0
+2009,Norway,The Research Council of Norway,Norway,High income,Infectious disease control,1.0,14620.0
+2009,Poland,Ministry of Science and Higher Education,Poland,High income,Infectious disease control,1.0,4396460.0
+2009,Slovakia,"Ministry of Education, Science, Research and Sport of the Slovak Republic",Slovakia,High income,Bacterial genetics and mechanisms,1.0,11937.0
+2009,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,3.0,771455.0
+2009,United States,Defense Advanced Research Projects Agency,United States,High income,Antibiotic resistance strategies,1.0,100000.0
+2009,United States,Defense Advanced Research Projects Agency,United States,High income,Infectious disease control,2.0,199988.0
+2009,United States,Directorate for Engineering,United States,High income,Immunotherapy and targeted treatments,1.0,300000.0
+2009,United States,National Cancer Institute,United States,High income,Bacterial genetics and mechanisms,1.0,7215082.0
+2009,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,356954.0
+2009,United States,National Heart Lung and Blood Institute,United States,High income,Immunotherapy and targeted treatments,1.0,805785.0
+2009,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,6785645.0
+2009,United States,National Institute of Biomedical Imaging and Bioengineering,United States,High income,Immunotherapy and targeted treatments,1.0,398654.0
+2009,United States,National Institute of General Medical Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,100000.0
+2009,United States,National Institute of Neurological Disorders and Stroke,United States,High income,Immunotherapy and targeted treatments,1.0,441701.0
+2009,United States,National Oceanic and Atmospheric Administration,United States,High income,Bacterial genetics and mechanisms,1.0,185645.0
+2010,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,1.0,104345.0
+2010,Canada,Fonds de Recherche du Québec – Nature et Technologies,Canada,High income,Infectious disease control,1.0,102811.0
+2010,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,1.0,30715.0
+2010,India,Department of Biotechnology,India,Lower middle income,Antibiotic resistance strategies,1.0,22823.0
+2010,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,200668.0
+2010,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,40443.0
+2010,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Antibiotic resistance strategies,1.0,98284.0
+2010,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,2.0,222499.0
+2010,Sweden,Swedish Research Council,Sweden,High income,Antibiotic resistance strategies,1.0,242263.0
+2010,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,1.0,41899.0
+2010,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,573294.0
+2010,United Kingdom,Natural Environment Research Council,United Kingdom,High income,Antibiotic resistance strategies,1.0,103377.0
+2010,United Kingdom,Wellcome Trust,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,538150.0
+2010,United States,American Heart Association,United States,High income,Bacterial genetics and mechanisms,1.0,86000.0
+2010,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Infectious disease control,2.0,349974.0
+2010,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Immunotherapy and targeted treatments,1.0,200035.0
+2010,United States,National Institute of Dental and Craniofacial Research,United States,High income,Bacterial genetics and mechanisms,1.0,420366.0
+2010,United States,United States Food and Drug Administration,United States,High income,Infectious disease control,1.0,90000.0
+2011,Canada,Canada Foundation for Innovation,Canada,High income,Bacterial genetics and mechanisms,1.0,193705.0
+2011,Canada,Fonds de Recherche du Québec – Nature et Technologies,Canada,High income,Antibiotic resistance strategies,1.0,96951.0
+2011,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Immunotherapy and targeted treatments,1.0,25272.0
+2011,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,2.0,61680.0
+2011,Czechia,Technology Agency of the Czech Republic,Czechia,High income,Bacterial genetics and mechanisms,1.0,510090.0
+2011,Denmark,Danish Ministry of Higher Education and Science,Denmark,High income,Infectious disease control,2.0,1055306.0
+2011,European Union,European Commission,Denmark,High income,Infectious disease control,0.25,118327.0
+2011,European Union,European Commission,Greece,High income,Infectious disease control,0.5,236654.0
+2011,European Union,European Commission,Ireland,High income,Infectious disease control,0.25,118327.0
+2011,Finland,Academy of Finland,Finland,High income,Bacterial genetics and mechanisms,1.0,408355.0
+2011,India,Department of Biotechnology,India,Lower middle income,Infectious disease control,1.0,33265.0
+2011,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,44384.0
+2011,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,2.0,70276.0
+2011,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,48889.0
+2011,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,214152.0
+2011,Poland,Ministry of Science and Higher Education,Poland,High income,Immunotherapy and targeted treatments,1.0,103290.0
+2011,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,1.0,199773.0
+2011,Slovakia,Slovak Research and Development Agency,Slovakia,High income,Bacterial genetics and mechanisms,1.0,292686.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,Germany,High income,Bacterial genetics and mechanisms,0.3333,193803.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,Germany,High income,Infectious disease control,0.4,256711.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,Italy,High income,Infectious disease control,0.2,128356.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Antibiotic resistance strategies,1.0,147399.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.6667,387607.0
+2011,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,0.4,256711.0
+2011,United Kingdom,British Society for Antimicrobial Chemotherapy,United Kingdom,High income,Infectious disease control,1.0,3688.0
+2011,United Kingdom,Engineering and Physical Sciences Research Council,Switzerland,High income,Bacterial genetics and mechanisms,0.25,505678.0
+2011,United Kingdom,Engineering and Physical Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.5,1011356.0
+2011,United Kingdom,Engineering and Physical Sciences Research Council,United Kingdom,High income,Infectious disease control,1.0,1055037.0
+2011,United Kingdom,Engineering and Physical Sciences Research Council,United States,High income,Bacterial genetics and mechanisms,0.25,505678.0
+2011,United Kingdom,Royal Society,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,469322.0
+2011,United States,Directorate for Biological Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,13974.0
+2011,United States,Directorate for Engineering,United States,High income,Bacterial genetics and mechanisms,1.0,513743.0
+2011,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Infectious disease control,1.0,150000.0
+2011,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,236000.0
+2011,United States,National Institute of Arthritis and Musculoskeletal and Skin Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,520822.0
+2011,United States,United States Department of Veterans Affairs,United States,High income,Immunotherapy and targeted treatments,1.0,729689.0
+2011,United States,United States Department of the Army,United States,High income,Antibiotic resistance strategies,1.0,749969.0
+2012,Australia,Australian Research Council,Australia,High income,Infectious disease control,1.0,202620.0
+2012,Canada,Canadian Institutes of Health Research,Canada,High income,Immunotherapy and targeted treatments,1.0,17501.0
+2012,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Antibiotic resistance strategies,1.0,24950.0
+2012,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Immunotherapy and targeted treatments,1.0,114737.0
+2012,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,2.0,455526.0
+2012,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,2.0,192924.0
+2012,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,2.0,133452.0
+2012,China,National Natural Science Foundation of China,China,Upper middle income,Infectious disease control,1.0,36990.0
+2012,Czechia,Ministry of Industry and Trade,Czechia,High income,Bacterial genetics and mechanisms,1.0,470372.0
+2012,European Union,European Commission,Ireland,High income,Infectious disease control,0.5,678565.0
+2012,European Union,European Commission,United Kingdom,High income,Infectious disease control,0.5,678565.0
+2012,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,405899.0
+2012,Poland,Ministry of Science and Higher Education,Poland,High income,Bacterial genetics and mechanisms,1.0,249278.0
+2012,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,1.0,251780.0
+2012,Portugal,Fundação para a Ciência e Tecnologia,France,High income,Immunotherapy and targeted treatments,0.125,19115.0
+2012,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Bacterial genetics and mechanisms,1.0,73545.0
+2012,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Immunotherapy and targeted treatments,0.75,114688.0
+2012,Portugal,Fundação para a Ciência e Tecnologia,Sweden,High income,Immunotherapy and targeted treatments,0.125,19115.0
+2012,United Kingdom,Biotechnology and Biological Sciences Research Council,Belgium,High income,Bacterial genetics and mechanisms,0.5,494478.0
+2012,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.5,494478.0
+2012,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Immunotherapy and targeted treatments,1.0,647481.0
+2012,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,2.0,1063245.0
+2012,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,354310.0
+2012,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,427625.0
+2012,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,1.0,449865.0
+2012,United States,National Institute of General Medical Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,214214.0
+2013,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,1.0,1936.0
+2013,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,1.0,152450.0
+2013,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,42003.0
+2013,European Union,European Commission,Belgium,High income,Infectious disease control,0.25,1153034.0
+2013,European Union,European Commission,France,High income,Infectious disease control,0.5,2306068.0
+2013,European Union,European Commission,Switzerland,High income,Infectious disease control,0.25,1153034.0
+2013,India,Department of Science and Technology,India,Lower middle income,Infectious disease control,1.0,48037.0
+2013,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,153612.0
+2013,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,3.0,578690.0
+2013,Portugal,Fundação para a Ciência e Tecnologia,France,High income,Immunotherapy and targeted treatments,0.5,33172.0
+2013,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Antibiotic resistance strategies,1.0,5964.0
+2013,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Immunotherapy and targeted treatments,0.5,33172.0
+2013,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,2.0,87993.0
+2013,Slovakia,"Ministry of Education, Science, Research and Sport of the Slovak Republic",Slovakia,High income,Bacterial genetics and mechanisms,1.0,23010.0
+2013,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,1.0,144090.0
+2013,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,349338.0
+2013,United States,American Heart Association,United States,High income,Immunotherapy and targeted treatments,1.0,86000.0
+2013,United States,Cure Alzheimer’s Fund,United States,High income,Immunotherapy and targeted treatments,1.0,200000.0
+2013,United States,National Eye Institute,United States,High income,Immunotherapy and targeted treatments,1.0,410113.0
+2014,Canada,Fonds de Recherche du Québec – Nature et Technologies,Canada,High income,Antibiotic resistance strategies,1.0,86719.0
+2014,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,22636.0
+2014,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,2.0,160658.0
+2014,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,2.0,165323.0
+2014,France,Agence Nationale de la Recherche,Belgium,High income,Infectious disease control,0.25,30336.0
+2014,France,Agence Nationale de la Recherche,Denmark,High income,Infectious disease control,0.25,30336.0
+2014,France,Agence Nationale de la Recherche,France,High income,Bacterial genetics and mechanisms,1.0,226522.0
+2014,France,Agence Nationale de la Recherche,France,High income,Infectious disease control,1.25,374128.0
+2014,France,Agence Nationale de la Recherche,United States,High income,Infectious disease control,0.25,30336.0
+2014,Ireland,Science Foundation Ireland,Ireland,High income,Antibiotic resistance strategies,1.0,3090552.0
+2014,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,44079.0
+2014,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,31318.0
+2014,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,45237.0
+2014,Poland,National Centre for Research and Development,Poland,High income,Infectious disease control,1.0,328668.0
+2014,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,1.0,252368.0
+2014,Portugal,Fundação para a Ciência e Tecnologia,France,High income,Infectious disease control,0.5,52870.0
+2014,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Immunotherapy and targeted treatments,1.0,58481.0
+2014,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,0.5,52870.0
+2014,Spain,Instituto de Salud Carlos III,Spain,High income,Bacterial genetics and mechanisms,1.0,71858.0
+2014,Switzerland,Swiss National Science Foundation,Georgia,Upper middle income,Antibiotic resistance strategies,0.5,54897.0
+2014,Switzerland,Swiss National Science Foundation,Georgia,Upper middle income,Infectious disease control,0.5,100342.0
+2014,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,0.5,54897.0
+2014,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,1.0,751992.0
+2014,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.25,258223.0
+2014,Switzerland,Swiss National Science Foundation,United States,High income,Infectious disease control,0.25,50171.0
+2014,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,33700.0
+2014,United States,National Eye Institute,United States,High income,Immunotherapy and targeted treatments,1.0,412444.0
+2014,United States,National Institute of Arthritis and Musculoskeletal and Skin Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,530280.0
+2014,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,581476.0
+2014,United States,National Institute of Neurological Disorders and Stroke,United States,High income,Immunotherapy and targeted treatments,1.0,412865.0
+2015,Australia,Australian Research Council,Australia,High income,Infectious disease control,0.5,212860.0
+2015,Australia,Australian Research Council,Canada,High income,Infectious disease control,0.5,212860.0
+2015,Canada,Fonds de Recherche du Québec – Nature et Technologies,Canada,High income,Infectious disease control,1.0,15507.0
+2015,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,86199.0
+2015,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Immunotherapy and targeted treatments,1.0,3518.0
+2015,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,4692.0
+2015,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,1.0,36716.0
+2015,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,4.0,431805.0
+2015,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,3.0,108622.0
+2015,Czechia,Czech Science Foundation,Czechia,High income,Antibiotic resistance strategies,1.0,355419.0
+2015,Czechia,Ministry of Agriculture,Czechia,High income,Infectious disease control,1.0,552354.0
+2015,Czechia,Ministry of Industry and Trade,Czechia,High income,Antibiotic resistance strategies,1.0,4063021.0
+2015,Finland,Academy of Finland,Finland,High income,Bacterial genetics and mechanisms,1.0,651802.0
+2015,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,2.0,188628.0
+2015,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,1.0,42591.0
+2015,Poland,National Science Center,Poland,High income,Immunotherapy and targeted treatments,1.0,39177.0
+2015,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Antibiotic resistance strategies,2.0,73091.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,Belgium,High income,Infectious disease control,0.2,108883.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,Denmark,High income,Infectious disease control,0.2,108883.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,France,High income,Infectious disease control,0.2,108883.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,Thailand,Upper middle income,Immunotherapy and targeted treatments,0.3333,75805.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Immunotherapy and targeted treatments,0.6667,151609.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,0.2,108883.0
+2015,United Kingdom,Biotechnology and Biological Sciences Research Council,United States,High income,Infectious disease control,0.2,108883.0
+2015,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,328492.0
+2015,United States,American Heart Association,United States,High income,Immunotherapy and targeted treatments,1.0,4000.0
+2015,United States,Bill & Melinda Gates Foundation,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,100000.0
+2015,United States,Bill & Melinda Gates Foundation,United States,High income,Antibiotic resistance strategies,2.0,198762.0
+2015,United States,Bill & Melinda Gates Foundation,United States,High income,Bacterial genetics and mechanisms,1.0,100000.0
+2015,United States,Crohn's and Colitis Foundation,United States,High income,Antibiotic resistance strategies,1.0,2500.0
+2015,United States,National Center for Advancing Translational Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,289826.0
+2015,United States,National Institute of Allergy and Infectious Diseases,Australia,High income,Infectious disease control,2.0,885509.0
+2015,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,6.0,4230778.0
+2015,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,798225.0
+2015,United States,National Institute of Food and Agriculture,United States,High income,Bacterial genetics and mechanisms,1.0,100000.0
+2015,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,1.0,149000.0
+2015,United States,North Carolina Biotechnology Center,United States,High income,Infectious disease control,1.0,75000.0
+2016,Australia,National Health and Medical Research Council,Australia,High income,Immunotherapy and targeted treatments,1.0,405812.0
+2016,Australia,National Health and Medical Research Council,Australia,High income,Infectious disease control,1.0,505435.0
+2016,Canada,Fonds de Recherche du Québec - Santé,Canada,High income,Infectious disease control,1.0,11370.0
+2016,Canada,Ministry of Colleges and Universities,Canada,High income,Infectious disease control,1.0,306225.0
+2016,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,2.0,45260.0
+2016,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,4.0,312288.0
+2016,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,26822.0
+2016,China,National Natural Science Foundation of China,China,Upper middle income,Infectious disease control,1.0,86180.0
+2016,Czechia,Ministry of Health,Czechia,High income,Antibiotic resistance strategies,1.0,459680.0
+2016,European Union,European Commission,Denmark,High income,Bacterial genetics and mechanisms,1.0,226626.0
+2016,Finland,Academy of Finland,Finland,High income,Bacterial genetics and mechanisms,1.0,480672.0
+2016,France,Agence Nationale de la Recherche,Belgium,High income,Infectious disease control,0.3333,24130.0
+2016,France,Agence Nationale de la Recherche,France,High income,Bacterial genetics and mechanisms,2.0,765814.0
+2016,France,Agence Nationale de la Recherche,France,High income,Infectious disease control,0.3333,24130.0
+2016,France,Agence Nationale de la Recherche,Norway,High income,Infectious disease control,0.3333,24130.0
+2016,Germany,Deutsche Bundesstiftung Umwelt,Germany,High income,Infectious disease control,1.0,563953.0
+2016,India,Department of Biotechnology,India,Lower middle income,Antibiotic resistance strategies,1.0,78364.0
+2016,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,40195.0
+2016,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,2.0,58895.0
+2016,Norway,The Research Council of Norway,Norway,High income,Antibiotic resistance strategies,1.0,205014.0
+2016,Poland,Ministry of Science and Higher Education,Poland,High income,Antibiotic resistance strategies,2.0,3110.0
+2016,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,1.0,39805.0
+2016,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,1.0,16371.0
+2016,Sweden,Swedish Research Council for Environment Agricultural Sciences and Spatial Planning,Sweden,High income,Infectious disease control,1.0,397010.0
+2016,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,2.0,1014715.0
+2016,United Kingdom,Biotechnology and Biological Sciences Research Council,Hungary,High income,Bacterial genetics and mechanisms,0.125,49724.0
+2016,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.75,298344.0
+2016,United Kingdom,Biotechnology and Biological Sciences Research Council,United States,High income,Bacterial genetics and mechanisms,0.125,49724.0
+2016,United Kingdom,Medical Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,236585.0
+2016,United Kingdom,Wellcome Trust,Ireland,High income,Bacterial genetics and mechanisms,1.0,2699.0
+2016,United Kingdom,Wellcome Trust,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,118322.0
+2016,United States,Bill & Melinda Gates Foundation,United States,High income,Bacterial genetics and mechanisms,1.0,100000.0
+2016,United States,Bill & Melinda Gates Foundation,United States,High income,Infectious disease control,1.0,100000.0
+2016,United States,Congressionally Directed Medical Research Programs,United States,High income,Antibiotic resistance strategies,1.0,563498.0
+2016,United States,Congressionally Directed Medical Research Programs,United States,High income,Immunotherapy and targeted treatments,1.0,120870.0
+2016,United States,Congressionally Directed Medical Research Programs,United States,High income,Infectious disease control,1.0,599838.0
+2016,United States,Directorate for Engineering,United States,High income,Bacterial genetics and mechanisms,1.0,118095.0
+2016,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,441000.0
+2016,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,3893293.0
+2016,United States,National Institute of Arthritis and Musculoskeletal and Skin Diseases,United States,High income,Antibiotic resistance strategies,2.0,426689.0
+2016,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,1.0,483700.0
+2016,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,2300933.0
+2017,Australia,Australian Research Council,Australia,High income,Infectious disease control,1.0,287251.0
+2017,Canada,Canadian Institutes of Health Research,Canada,High income,Bacterial genetics and mechanisms,2.0,3112908.0
+2017,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,2.0,30419.0
+2017,China,National Natural Science Foundation of China,Canada,High income,Bacterial genetics and mechanisms,0.5,48567.0
+2017,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,3.5,260655.0
+2017,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,3.0,129723.0
+2017,China,National Natural Science Foundation of China,Singapore,High income,Immunotherapy and targeted treatments,1.0,29588.0
+2017,Finland,Academy of Finland,Finland,High income,Infectious disease control,2.0,558326.0
+2017,Germany,Federal Ministry of Education and Research,Germany,High income,Infectious disease control,3.0,5873831.0
+2017,India,Department of Biotechnology,India,Lower middle income,Immunotherapy and targeted treatments,1.0,92962.0
+2017,Israel,United States-Israel Binational Science Foundation,Israel,High income,Infectious disease control,1.0,199600.0
+2017,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,386288.0
+2017,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,1.0,58707.0
+2017,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,43374.0
+2017,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,2.0,547707.0
+2017,Poland,National Centre for Research and Development,Poland,High income,Infectious disease control,1.0,1215539.0
+2017,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,2.0,212353.0
+2017,Poland,National Science Center,Poland,High income,Infectious disease control,1.0,364871.0
+2017,Portugal,Fundação para a Ciência e Tecnologia,Netherlands,High income,Infectious disease control,0.5,43160.0
+2017,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,0.5,43160.0
+2017,Slovakia,Slovak Research and Development Agency,Slovakia,High income,Infectious disease control,1.0,269883.0
+2017,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,1.0,535505.0
+2017,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,1.0,432677.0
+2017,United Kingdom,Biotechnology and Biological Sciences Research Council,Tanzania,Lower middle income,Infectious disease control,0.25,72949.0
+2017,United Kingdom,Biotechnology and Biological Sciences Research Council,Uganda,Low income,Infectious disease control,0.5,145898.0
+2017,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.5,238558.0
+2017,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,0.25,72949.0
+2017,United Kingdom,Biotechnology and Biological Sciences Research Council,United States,High income,Bacterial genetics and mechanisms,0.5,238558.0
+2017,United States,Bill & Melinda Gates Foundation,United States,High income,Infectious disease control,1.0,40000.0
+2017,United States,Congressionally Directed Medical Research Programs,United States,High income,Infectious disease control,2.0,1416476.0
+2017,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Infectious disease control,2.0,100000.0
+2017,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,3.0,1270647.0
+2017,United States,National Institute of Food and Agriculture,United States,High income,Bacterial genetics and mechanisms,1.0,100000.0
+2018,Australia,National Health and Medical Research Council,Australia,High income,Infectious disease control,1.0,400125.0
+2018,Canada,Canadian Institutes of Health Research,Canada,High income,Bacterial genetics and mechanisms,1.0,13499.0
+2018,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,3.0,96744.0
+2018,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Immunotherapy and targeted treatments,1.0,63578.0
+2018,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,2.0,28930.0
+2018,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,1.0,95319.0
+2018,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,3.0,167907.0
+2018,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,53613.0
+2018,Czechia,Czech Science Foundation,Czechia,High income,Bacterial genetics and mechanisms,1.0,345409.0
+2018,Denmark,Novo Nordisk Foundation,Denmark,High income,Infectious disease control,1.0,250178.0
+2018,European Union,European Commission,France,High income,Infectious disease control,1.0,2811187.0
+2018,European Union,European Commission,Switzerland,High income,Bacterial genetics and mechanisms,1.0,213602.0
+2018,European Union,European Research Council,Israel,High income,Infectious disease control,1.0,169267.0
+2018,European Union,European Research Council,Italy,High income,Immunotherapy and targeted treatments,1.0,173982.0
+2018,France,Agence Nationale de la Recherche,France,High income,Infectious disease control,1.0,324362.0
+2018,India,Department of Biotechnology,India,Lower middle income,Infectious disease control,2.0,184180.0
+2018,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,35695.0
+2018,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,3.0,117957.0
+2018,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,3.0,182630.0
+2018,Netherlands,Dutch Research Council,Netherlands,High income,Antibiotic resistance strategies,1.0,881945.0
+2018,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,3.0,1121279.0
+2018,Poland,National Science Center,Poland,High income,Infectious disease control,1.0,534991.0
+2018,Portugal,Agência Nacional de Inovação,Portugal,High income,Infectious disease control,2.0,2567201.0
+2018,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,3.0,803270.0
+2018,Switzerland,Swiss National Science Foundation,Canada,High income,Bacterial genetics and mechanisms,1.0,95480.0
+2018,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,1.0,733207.0
+2018,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.0,955337.0
+2018,United Kingdom,Biotechnology and Biological Sciences Research Council,Germany,High income,Bacterial genetics and mechanisms,0.5,51738.0
+2018,United Kingdom,Biotechnology and Biological Sciences Research Council,Thailand,Upper middle income,Antibiotic resistance strategies,0.3333,238187.0
+2018,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Antibiotic resistance strategies,0.6667,476373.0
+2018,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.5,51738.0
+2018,United Kingdom,Engineering and Physical Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,817768.0
+2018,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,1853694.0
+2018,United Kingdom,Medical Research Scotland,United Kingdom,High income,Antibiotic resistance strategies,1.0,2000.0
+2018,United Kingdom,Wellcome Trust,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,130761.0
+2018,United States,Congressionally Directed Medical Research Programs,United States,High income,Infectious disease control,3.0,2843936.0
+2018,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Infectious disease control,1.0,225000.0
+2018,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,2751751.0
+2018,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,4.0,9437179.0
+2018,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,3.0,3481706.0
+2018,United States,National Institute of Biomedical Imaging and Bioengineering,United States,High income,Immunotherapy and targeted treatments,1.0,1852114.0
+2018,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,2.0,1010173.0
+2018,United States,Orthopaedic Research and Education Foundation,United States,High income,Infectious disease control,1.0,50000.0
+2019,Australia,National Health and Medical Research Council,Australia,High income,Infectious disease control,3.0,1431498.0
+2019,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Antibiotic resistance strategies,1.0,3388.0
+2019,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,1.0,26376.0
+2019,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,2.5,81495.0
+2019,China,National Natural Science Foundation of China,China,Upper middle income,Bacterial genetics and mechanisms,8.0,389833.0
+2019,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,1.0,84524.0
+2019,China,National Natural Science Foundation of China,China,Upper middle income,Infectious disease control,1.0,84524.0
+2019,China,National Natural Science Foundation of China,United States,High income,Antibiotic resistance strategies,0.5,17781.0
+2019,China,University Grants Committee,China,Upper middle income,Infectious disease control,1.0,76643.0
+2019,Czechia,Ministry of Industry and Trade,Czechia,High income,Infectious disease control,3.0,3931357.0
+2019,European Union,European Commission,Netherlands,High income,Infectious disease control,1.0,187057.0
+2019,European Union,European Commission,Spain,High income,Antibiotic resistance strategies,0.5,137936.0
+2019,European Union,European Commission,Spain,High income,Bacterial genetics and mechanisms,1.0,191014.0
+2019,European Union,European Commission,United States,High income,Antibiotic resistance strategies,0.5,137936.0
+2019,European Union,European Research Council,Germany,High income,Bacterial genetics and mechanisms,1.0,1663172.0
+2019,Finland,Kone Foundation,Finland,High income,Infectious disease control,1.0,32238.0
+2019,France,Agence Nationale de la Recherche,France,High income,Antibiotic resistance strategies,1.0,558282.0
+2019,India,Department of Biotechnology,India,Lower middle income,Antibiotic resistance strategies,1.0,57114.0
+2019,Japan,Japan Agency for Medical Research and Development,Japan,High income,Immunotherapy and targeted treatments,1.0,4026274.0
+2019,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,3.0,114263.0
+2019,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,6.0,312054.0
+2019,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,38484.0
+2019,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,3.0,105524.0
+2019,New Zealand,"Ministry of Business, Innovation and Employment",New Zealand,High income,Infectious disease control,1.0,659966.0
+2019,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,3.0,663407.0
+2019,Poland,National Science Center,Poland,High income,Infectious disease control,3.0,369092.0
+2019,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,0.5,41734.0
+2019,Portugal,Fundação para a Ciência e Tecnologia,Spain,High income,Infectious disease control,0.5,41734.0
+2019,Switzerland,Swiss National Science Foundation,Belgium,High income,Antibiotic resistance strategies,0.4,121588.0
+2019,Switzerland,Swiss National Science Foundation,Germany,High income,Antibiotic resistance strategies,0.4,121588.0
+2019,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,0.2,60794.0
+2019,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,1.0,93785.0
+2019,United Kingdom,Biotechnology and Biological Sciences Research Council,Brazil,Upper middle income,Bacterial genetics and mechanisms,0.3333,149136.0
+2019,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,0.6667,298273.0
+2019,United States,Bill & Melinda Gates Foundation,India,Lower middle income,Infectious disease control,1.0,250000.0
+2019,United States,Burroughs Wellcome Fund,United States,High income,Bacterial genetics and mechanisms,1.0,500000.0
+2019,United States,Directorate for Biological Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,550458.0
+2019,United States,Directorate for Mathematical & Physical Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,430908.0
+2019,United States,Directorate for STEM Education,United States,High income,Bacterial genetics and mechanisms,1.0,299942.0
+2019,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Immunotherapy and targeted treatments,1.0,225000.0
+2019,United States,National Heart Lung and Blood Institute,United States,High income,Antibiotic resistance strategies,1.0,1678619.0
+2019,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,3.0,3178138.0
+2019,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,424875.0
+2019,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Bacterial genetics and mechanisms,1.0,1821346.0
+2019,United States,National Institute of Food and Agriculture,United States,High income,Antibiotic resistance strategies,1.0,194000.0
+2019,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,3.0,789983.0
+2019,United States,National Institute of General Medical Sciences,United States,High income,Antibiotic resistance strategies,1.0,1189400.0
+2019,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,2186053.0
+2020,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,1.0,13044.0
+2020,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,2.0,46969.0
+2020,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,1.0,37278.0
+2020,China,National Natural Science Foundation of China,China,Upper middle income,Antibiotic resistance strategies,2.0,59782.0
+2020,China,National Natural Science Foundation of China,China,Upper middle income,Immunotherapy and targeted treatments,5.0,250050.0
+2020,China,National Natural Science Foundation of China,China,Upper middle income,Unclassified,1.0,49400.0
+2020,Czechia,Technology Agency of the Czech Republic,Czechia,High income,Antibiotic resistance strategies,1.0,4069259.0
+2020,European Union,European Commission,Switzerland,High income,Immunotherapy and targeted treatments,1.0,221230.0
+2020,Finland,Academy of Finland,Finland,High income,Infectious disease control,2.0,443599.0
+2020,Finland,Business Finland,Finland,High income,Infectious disease control,1.0,382735.0
+2020,Germany,Federal Ministry of Education and Research,Germany,High income,Antibiotic resistance strategies,1.0,1045931.0
+2020,Germany,Federal Ministry of Education and Research,Germany,High income,Infectious disease control,1.0,557365.0
+2020,Israel,Israel Science Foundation,Israel,High income,Infectious disease control,1.0,1235059.0
+2020,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,3.0,95339.0
+2020,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,3.0,228453.0
+2020,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,3.0,120085.0
+2020,Latvia,Ministry of Education and Science,Latvia,High income,Infectious disease control,1.0,23266.0
+2020,Norway,The Research Council of Norway,Norway,High income,Infectious disease control,1.0,308459.0
+2020,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,2.0,602248.0
+2020,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,2.0,130689.0
+2020,Switzerland,Swiss National Science Foundation,Canada,High income,Bacterial genetics and mechanisms,1.0,94584.0
+2020,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.8571,2959727.0
+2020,Switzerland,Swiss National Science Foundation,United States,High income,Infectious disease control,0.1429,492782.0
+2020,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,2.0,696141.0
+2020,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,2.0,1253857.0
+2020,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,390041.0
+2020,United Kingdom,Medical Research Council,United Kingdom,High income,Immunotherapy and targeted treatments,1.0,666140.0
+2020,United Kingdom,Wellcome Trust,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,382196.0
+2020,United States,Arnold and Mabel Beckman Foundation,United States,High income,Infectious disease control,1.0,26000.0
+2020,United States,Congressionally Directed Medical Research Programs,United States,High income,Infectious disease control,1.0,280826.0
+2020,United States,"Directorate for Social, Behavioral & Economic Sciences",United States,High income,Infectious disease control,1.0,8840.0
+2020,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Bacterial genetics and mechanisms,1.0,245000.0
+2020,United States,National Cancer Institute,United States,High income,Immunotherapy and targeted treatments,1.0,300000.0
+2020,United States,National Eye Institute,United States,High income,Antibiotic resistance strategies,1.0,392225.0
+2020,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,6.0,2476487.0
+2020,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,856483.0
+2020,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Immunotherapy and targeted treatments,1.0,416625.0
+2020,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Infectious disease control,2.0,6276854.0
+2020,United States,National Institute of Dental and Craniofacial Research,United States,High income,Bacterial genetics and mechanisms,1.0,312000.0
+2020,United States,National Institute of Dental and Craniofacial Research,United States,High income,Infectious disease control,1.0,267556.0
+2020,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Antibiotic resistance strategies,2.0,2076284.0
+2020,United States,United States Department of Defense,United States,High income,Infectious disease control,1.0,167499.0
+2021,Australia,Australian Research Council,Australia,High income,Infectious disease control,0.75,300619.0
+2021,Australia,Australian Research Council,United States,High income,Infectious disease control,0.25,100206.0
+2021,Australia,National Health and Medical Research Council,Australia,High income,Infectious disease control,1.0,428280.0
+2021,Canada,Alberta Innovates,Canada,High income,Infectious disease control,1.0,343661.0
+2021,Canada,Canadian Institutes of Health Research,Canada,High income,Bacterial genetics and mechanisms,1.0,426874.0
+2021,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,4.0,125209.0
+2021,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Infectious disease control,4.0,51431.0
+2021,China,National Natural Science Foundation of China,China,Upper middle income,Infectious disease control,1.0,24284.0
+2021,China,University Grants Committee,China,Upper middle income,Antibiotic resistance strategies,1.0,136204.0
+2021,Czechia,Ministry of Health,Czechia,High income,Infectious disease control,1.0,310095.0
+2021,Czechia,Technology Agency of the Czech Republic,Czechia,High income,Infectious disease control,1.0,1353205.0
+2021,Denmark,The Velux Foundations,Denmark,High income,Bacterial genetics and mechanisms,1.0,317593.0
+2021,European Union,European Commission,Denmark,High income,Bacterial genetics and mechanisms,1.0,237512.0
+2021,European Union,European Research Council,Netherlands,High income,Bacterial genetics and mechanisms,1.0,2173362.0
+2021,France,Agence Nationale de la Recherche,France,High income,Immunotherapy and targeted treatments,1.0,1728350.0
+2021,Germany,Federal Ministry of Education and Research,Germany,High income,Infectious disease control,2.0,2102327.0
+2021,Japan,Japan Agency for Medical Research and Development,Japan,High income,Antibiotic resistance strategies,1.0,817696.0
+2021,Japan,Japan Agency for Medical Research and Development,Japan,High income,Bacterial genetics and mechanisms,1.0,314212.0
+2021,Japan,Japan Agency for Medical Research and Development,Japan,High income,Infectious disease control,1.0,314212.0
+2021,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,1.0,32952.0
+2021,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,3.0,127058.0
+2021,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,2.0,65904.0
+2021,Poland,National Science Center,Poland,High income,Antibiotic resistance strategies,1.0,49967.0
+2021,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,2.0,811123.0
+2021,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,3.0,94239.0
+2021,Spain,Instituto de Salud Carlos III,Spain,High income,Infectious disease control,1.0,96240.0
+2021,Sweden,Swedish Research Council,Sweden,High income,Immunotherapy and targeted treatments,1.0,217528.0
+2021,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.0,1586.0
+2021,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Antibiotic resistance strategies,1.0,962572.0
+2021,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,585020.0
+2021,United Kingdom,"Department for Environment, Food and Rural Affairs",United Kingdom,High income,Immunotherapy and targeted treatments,1.0,129231.0
+2021,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,2.0,488673.0
+2021,United States,Defense Threat Reduction Agency,United States,High income,Infectious disease control,1.0,1151244.0
+2021,United States,Directorate for Biological Sciences,United States,High income,Bacterial genetics and mechanisms,3.0,1695623.0
+2021,United States,Directorate for STEM Education,United States,High income,Bacterial genetics and mechanisms,1.0,299942.0
+2021,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Antibiotic resistance strategies,1.0,256000.0
+2021,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Bacterial genetics and mechanisms,1.0,256000.0
+2021,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Infectious disease control,2.0,1245571.0
+2021,United States,National Institute of Allergy and Infectious Diseases,Australia,High income,Antibiotic resistance strategies,1.0,347980.0
+2021,United States,National Institute of Allergy and Infectious Diseases,Taiwan,High income,Antibiotic resistance strategies,2.0,680843.0
+2021,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,9.0,3192069.0
+2021,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,3.0,1915303.0
+2021,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Immunotherapy and targeted treatments,1.0,594562.0
+2021,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Infectious disease control,1.0,464631.0
+2021,United States,National Institute of Food and Agriculture,United States,High income,Bacterial genetics and mechanisms,1.0,200000.0
+2021,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,6.0,1831238.0
+2021,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,2.0,1468163.0
+2021,United States,National Institute on Drug Abuse,United States,High income,Immunotherapy and targeted treatments,1.0,1572708.0
+2021,United States,Orthopaedic Research and Education Foundation,United States,High income,Antibiotic resistance strategies,1.0,500.0
+2021,United States,United States Department of Defense,United States,High income,Antibiotic resistance strategies,1.0,249488.0
+2021,United States,United States Department of Defense,United States,High income,Infectious disease control,2.0,498379.0
+2021,United States,United States Department of the Army,United States,High income,Infectious disease control,2.0,332901.0
+2022,Australia,Department of Health,Australia,High income,Infectious disease control,1.0,1163710.0
+2022,Australia,National Health and Medical Research Council,Australia,High income,Infectious disease control,3.0,3694247.0
+2022,Canada,Canada Foundation for Innovation,Canada,High income,Infectious disease control,1.0,316221.0
+2022,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,2.0,128189.0
+2022,Canada,Natural Sciences and Engineering Research Council,Canada,High income,Bacterial genetics and mechanisms,2.0,147547.0
+2022,Czechia,Ministry of Health,Czechia,High income,Antibiotic resistance strategies,1.0,404750.0
+2022,Czechia,Ministry of the Interior,Czechia,High income,Infectious disease control,1.0,647165.0
+2022,Denmark,Danish Agency for Science and Higher Education,Denmark,High income,Immunotherapy and targeted treatments,1.0,872835.0
+2022,European Union,European Commission,Netherlands,High income,Antibiotic resistance strategies,0.3333,85560.0
+2022,European Union,European Commission,South Africa,Upper middle income,Antibiotic resistance strategies,0.6667,171119.0
+2022,France,Agence Nationale de la Recherche,France,High income,Infectious disease control,1.0,717397.0
+2022,Japan,Japan Agency for Medical Research and Development,Japan,High income,Infectious disease control,2.0,1485200.0
+2022,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,3.0,98430.0
+2022,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,2.0,69216.0
+2022,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,3.0,364154.0
+2022,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,5.0,248257.0
+2022,New Zealand,Health Research Council of New Zealand,New Zealand,High income,Infectious disease control,1.0,94350.0
+2022,Norway,The Research Council of Norway,Norway,High income,Infectious disease control,1.0,88669.0
+2022,Poland,National Science Center,Poland,High income,Bacterial genetics and mechanisms,1.0,169262.0
+2022,Poland,National Science Center,Poland,High income,Infectious disease control,1.0,159779.0
+2022,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Bacterial genetics and mechanisms,1.0,30766.0
+2022,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,2.0,53576.0
+2022,Slovakia,"Ministry of Education, Science, Research and Sport of the Slovak Republic",Slovakia,High income,Bacterial genetics and mechanisms,1.0,64389.0
+2022,Sweden,Swedish Research Council,Sweden,High income,Infectious disease control,1.0,270420.0
+2022,Switzerland,Swiss National Science Foundation,Singapore,High income,Infectious disease control,1.0,110105.0
+2022,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,1.0,786359.0
+2022,Switzerland,Swiss National Science Foundation,Switzerland,High income,Infectious disease control,1.0,4867.0
+2022,United Kingdom,Innovate UK,United Kingdom,High income,Immunotherapy and targeted treatments,1.0,176705.0
+2022,United Kingdom,Innovate UK,United Kingdom,High income,Infectious disease control,1.0,470558.0
+2022,United Kingdom,Medical Research Council,United Kingdom,High income,Infectious disease control,2.0,1024510.0
+2022,United States,Craig H Neilsen Foundation,United States,High income,Antibiotic resistance strategies,1.0,800000.0
+2022,United States,Directorate for Biological Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,1259324.0
+2022,United States,Directorate for Mathematical & Physical Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,459001.0
+2022,United States,"Directorate for Technology, Innovation and Partnerships",United States,High income,Immunotherapy and targeted treatments,1.0,1010597.0
+2022,United States,National Cancer Institute,United States,High income,Antibiotic resistance strategies,1.0,387838.0
+2022,United States,National Center for Advancing Translational Sciences,United States,High income,Infectious disease control,1.0,272074.0
+2022,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,6.0,5431448.0
+2022,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,3.0,2102983.0
+2022,United States,National Institute of Arthritis and Musculoskeletal and Skin Diseases,United States,High income,Antibiotic resistance strategies,1.0,851961.0
+2022,United States,National Institute of Dental and Craniofacial Research,United States,High income,Bacterial genetics and mechanisms,1.0,320500.0
+2022,United States,National Institute of Food and Agriculture,United States,High income,Bacterial genetics and mechanisms,1.0,120000.0
+2022,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,2.0,775723.0
+2022,United States,United States Department of Defense,United States,High income,Infectious disease control,4.0,1849706.0
+2022,United States,United States Department of the Army,United States,High income,Infectious disease control,1.0,1099787.0
+2023,Australia,Department of Health,Australia,High income,Infectious disease control,1.0,1332624.0
+2023,Canada,Canadian Institutes of Health Research,Canada,High income,Infectious disease control,1.0,33286.0
+2023,China,University Grants Committee,China,Upper middle income,Bacterial genetics and mechanisms,1.0,148681.0
+2023,Czechia,Technology Agency of the Czech Republic,Czechia,High income,Antibiotic resistance strategies,1.0,820525.0
+2023,Denmark,The Velux Foundations,Denmark,High income,Bacterial genetics and mechanisms,1.0,286354.0
+2023,European Union,European Commission,Austria,High income,Bacterial genetics and mechanisms,1.0,198385.0
+2023,European Union,European Commission,Belgium,High income,Infectious disease control,1.0,1945022.0
+2023,European Union,European Commission,Spain,High income,Bacterial genetics and mechanisms,1.0,178625.0
+2023,France,Agence Nationale de la Recherche,France,High income,Antibiotic resistance strategies,1.0,1428267.0
+2023,Germany,Federal Ministry of Education and Research,Germany,High income,Antibiotic resistance strategies,1.0,29129.0
+2023,Germany,Federal Ministry of Education and Research,Germany,High income,Bacterial genetics and mechanisms,1.0,214780.0
+2023,Germany,Federal Ministry of Education and Research,Germany,High income,Infectious disease control,1.0,265569.0
+2023,Japan,Japan Society for the Promotion of Science,Japan,High income,Antibiotic resistance strategies,3.0,103763.0
+2023,Japan,Japan Society for the Promotion of Science,Japan,High income,Bacterial genetics and mechanisms,3.0,98921.0
+2023,Japan,Japan Society for the Promotion of Science,Japan,High income,Immunotherapy and targeted treatments,1.0,34912.0
+2023,Japan,Japan Society for the Promotion of Science,Japan,High income,Infectious disease control,6.0,278274.0
+2023,New Zealand,Health Research Council of New Zealand,New Zealand,High income,Bacterial genetics and mechanisms,1.0,372473.0
+2023,Portugal,Fundação para a Ciência e Tecnologia,Portugal,High income,Infectious disease control,1.0,54021.0
+2023,Switzerland,Innosuisse – Swiss Innovation Agency,Switzerland,High income,Infectious disease control,1.0,505400.0
+2023,Switzerland,Swiss National Science Foundation,France,High income,Bacterial genetics and mechanisms,0.6667,501503.0
+2023,Switzerland,Swiss National Science Foundation,Switzerland,High income,Antibiotic resistance strategies,2.0,222647.0
+2023,Switzerland,Swiss National Science Foundation,Switzerland,High income,Bacterial genetics and mechanisms,0.3333,250751.0
+2023,United Kingdom,Academy of Medical Sciences,United Kingdom,High income,Antibiotic resistance strategies,1.0,11057.0
+2023,United Kingdom,Academy of Medical Sciences,United Kingdom,High income,Immunotherapy and targeted treatments,1.0,122554.0
+2023,United Kingdom,Biotechnology and Biological Sciences Research Council,Canada,High income,Infectious disease control,0.5,92936.0
+2023,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Bacterial genetics and mechanisms,1.0,180144.0
+2023,United Kingdom,Biotechnology and Biological Sciences Research Council,United Kingdom,High income,Infectious disease control,0.5,92936.0
+2023,United States,Directorate for Mathematical & Physical Sciences,United States,High income,Infectious disease control,1.0,189811.0
+2023,United States,National Center for Advancing Translational Sciences,United States,High income,Immunotherapy and targeted treatments,1.0,334571.0
+2023,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Antibiotic resistance strategies,6.0,2644614.0
+2023,United States,National Institute of Allergy and Infectious Diseases,United States,High income,Bacterial genetics and mechanisms,2.0,498950.0
+2023,United States,National Institute of Diabetes and Digestive and Kidney Diseases,United States,High income,Antibiotic resistance strategies,1.0,47694.0
+2023,United States,National Institute of Food and Agriculture,United States,High income,Infectious disease control,2.0,480000.0
+2023,United States,National Institute of General Medical Sciences,United States,High income,Bacterial genetics and mechanisms,1.0,383143.0
+2023,United States,National Institute on Drug Abuse,United States,High income,Immunotherapy and targeted treatments,1.0,37094.0
