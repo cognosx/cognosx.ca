@@ -1,0 +1,179 @@
+---
+title: "Who funds phage therapy research?"
+description: "Explore 25 years of phage therapy research grants by country, funder, topic and year."
+date: "2026-11-02"
+categories: [Dashboard, Explorer, Research funding]
+projects: ["phage-therapy"]
+aliases: [/phage-funding.html]
+page-layout: full
+---
+
+```{=html}
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.16/dist/plot.umd.min.js"></script>
+<style>
+.cx-explorer{--bg:#ffffff;--ink:#141414;--quiet:#5c5c5c;--line:#e6e3dd;--panel:#f7f5f0;--amber:#C98000;--amber-text:#9a5b00;--amber-soft:#f6cf85;--grey:#9a9890;--chip:#fff;--c2:#2F64B5;--c3:#C24A2E;--c4:#0E9A7E;--c5:#8A4FB0;color:var(--ink);font-size:15px;line-height:1.45}
+.cx-explorer .lead{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin:6px 0 14px}
+.cx-explorer .headline{font-size:19px;font-weight:600}.cx-explorer .headline b{color:var(--amber-text)}
+.cx-explorer .howto{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13.5px}
+.cx-explorer .howto h3{margin:0 0 4px;font-size:14px;font-weight:700}
+.cx-explorer .filters{border:2px solid var(--amber);border-radius:10px;padding:10px 12px;display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin:8px 0 14px;background:var(--bg)}
+.cx-explorer .filters label{display:flex;flex-direction:column;font-size:12px;color:var(--quiet);gap:3px;margin:0}
+.cx-explorer .filters select{font:inherit;font-size:14px;color:var(--ink);background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:6px 8px;max-width:220px}
+.cx-explorer .filters button{font:inherit;font-weight:600;background:#0a0a0a;color:#fff;border:0;border-radius:999px;padding:8px 18px;cursor:pointer;margin-left:auto}
+.cx-explorer .filters .share{background:none;color:var(--ink);border:1px solid var(--line)}
+.cx-explorer .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.cx-explorer .kpi{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.cx-explorer .kpi .v{font-size:24px;font-weight:700}.cx-explorer .kpi .l{color:var(--quiet);font-size:13px}
+.cx-explorer .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cx-explorer .card{border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}
+.cx-explorer .card h2{font-size:16px;margin:0;border:0;padding:0;font-weight:700}.cx-explorer .card .sub{color:var(--quiet);font-size:13px;margin:2px 0 8px}
+.cx-explorer .card .n{color:var(--quiet);font-size:12px;margin-top:6px}
+.cx-explorer .empty{color:var(--quiet);padding:30px 0;text-align:center}
+.cx-explorer .wide{grid-column:1/-1}
+.cx-explorer table{border-collapse:collapse;width:100%;font-size:13px;margin:0}
+.cx-explorer th,.cx-explorer td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+.cx-explorer td.num,.cx-explorer th.num{text-align:right}
+.cx-explorer .tablewrap{max-height:340px;overflow:auto}
+.cx-explorer .dl{font:inherit;font-size:13px;background:none;border:1px solid var(--line);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer;float:right}
+.cx-explorer footer{margin-top:16px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;font-size:13.5px}
+.cx-explorer .note{font-size:12px;color:var(--quiet)}
+.cx-explorer .chips{display:flex;gap:6px;flex-wrap:wrap;margin:-6px 0 12px}
+.cx-explorer .chip{border:1px solid var(--amber);border-radius:14px;padding:2px 10px;font-size:12.5px;cursor:pointer;background:none;color:var(--ink)}
+.cx-explorer svg{overflow:visible}
+@media (max-width:760px){.cx-explorer .lead,.cx-explorer .grid{grid-template-columns:1fr}.cx-explorer .kpis{grid-template-columns:1fr 1fr}.cx-explorer .filters select{max-width:100%}}
+</style>
+<div class="cx-explorer">
+<div class="lead">
+  <div class="headline" id="headline"></div>
+  <div class="howto"><h3>How to read this</h3>Recorded amounts only: 802 grants with an amount, 1999–2023 (272 relevant grants without an amount are not included). A grant with several recipient institutions is split equally between them, so grant counts can be fractional. 2023 is incomplete. Amounts are nominal US dollars.</div>
+</div>
+
+<div class="filters" id="filters" aria-label="Filters">
+  <label>From <select id="f-from"></select></label>
+  <label>To <select id="f-to"></select></label>
+  <label>Funder country <select id="f-fc"></select></label>
+  <label>Recipient country <select id="f-rc"></select></label>
+  <label>Recipient income group <select id="f-inc"></select></label>
+  <label>Topic <select id="f-topic"></select></label>
+  <label>Funder <select id="f-funder"></select></label>
+  <button class="share" id="share" type="button">Copy link</button>
+  <button id="reset" type="button">Reset</button>
+</div>
+<div class="chips" id="chips"></div>
+
+<section class="kpis" aria-label="Key numbers">
+  <div class="kpi"><div class="v" id="k-usd"></div><div class="l">recorded funding</div></div>
+  <div class="kpi"><div class="v" id="k-grants"></div><div class="l">grants (fractional)</div></div>
+  <div class="kpi"><div class="v" id="k-share"></div><div class="l">of all recorded funding</div></div>
+  <div class="kpi"><div class="v" id="k-countries"></div><div class="l">funders</div></div>
+</section>
+
+<section class="grid">
+  <div class="card"><h2 id="t-trend">Funding per year</h2><div class="sub">Recorded funding by grant start year, USD million; 2023 incomplete</div><div id="trend"></div><div class="n" id="n-trend"></div></div>
+  <div class="card"><h2>Top funders</h2><div class="sub">Share of the selection's funding, %. Click a bar to filter.</div><div id="funders"></div><div class="n" id="n-funders"></div></div>
+  <div class="card"><h2>Where the money goes</h2><div class="sub">Recipient countries, USD million (fractional). Click a bar to filter.</div><div id="geo"></div><div class="n" id="n-geo"></div></div>
+  <div class="card"><h2>What it funds</h2><div class="sub">Topic shares of funding by period, %</div><div id="topics"></div><div class="n">Topics come from a topic model and are approximate; read them as trends.</div></div>
+  <div class="card wide"><h2>Funder country → recipient country <button class="dl" id="dl" type="button">Download CSV</button></h2><div class="sub">The selection, by funder country and recipient country</div><div class="tablewrap"><table id="tbl"></table></div></div>
+</section>
+
+<footer>
+<b>Cite:</b> CognosX (2026). <i>Who funds phage therapy research? Explorer</i>, version 0.2. https://cognosx.ca/phage-funding. The preprint and dataset DOIs will be added here when they are published.<br>
+<b>Source:</b> CognosX analysis of the Dimensions grants database, searched 13 February 2024. Code: <code>github.com/descartesmbogning/phage-therapy-funding-complete</code>.<br>
+<b>Continue:</b> <a href="https://cognosxinsights.substack.com">the CognosX newsletter</a> · <a href="/contact.html">book a call</a> · <a href="/projects/phage-therapy.html">the phage therapy project</a><br>
+<span class="note">Let science data speak<b style="color:var(--amber-text)">.</b></span>
+</footer>
+</div>
+<script>
+(async () => {
+const DATA = await d3.csv('files/phage-funding/cube.csv', d3.autoType);
+const TOTAL = d3.sum(DATA, d => d.usd);
+const ROOT = document.querySelector('.cx-explorer');
+const css = n => getComputedStyle(ROOT).getPropertyValue(n).trim();
+const TOPICS = ["Antibiotic resistance strategies", "Infectious disease control", "Bacterial genetics and mechanisms", "Immunotherapy and targeted treatments", "Unclassified"];
+const PERIODS = [[1999,2005,"1999–2005"],[2006,2010,"2006–2010"],[2011,2015,"2011–2015"],[2016,2020,"2016–2020"],[2021,2023,"2021–2023"]];
+const INCOME = ["High income","Upper middle income","Lower middle income","Low income"];
+const F = {from:"f-from", to:"f-to", fc:"f-fc", rc:"f-rc", inc:"f-inc", topic:"f-topic", funder:"f-funder"};
+const KEY = {fc:"funder_country", rc:"recipient_country", inc:"recipient_income", topic:"topic", funder:"funder"};
+const LABEL = {fc:"Funder country", rc:"Recipient country", inc:"Income group", topic:"Topic", funder:"Funder"};
+const SHORT = {"National Institute of Allergy and Infectious Diseases":"NIAID (US)","National Cancer Institute":"NCI (US)","National Institute of General Medical Sciences":"NIGMS (US)","Congressionally Directed Medical Research Programs":"CDMRP (US)","National Institute of Food and Agriculture":"NIFA (US)","European Commission":"European Commission","Swiss National Science Foundation":"SNSF (Switzerland)","Biotechnology and Biological Sciences Research Council":"BBSRC (UK)","Federal Ministry of Education and Research":"BMBF (Germany)","Ministry of Industry and Trade":"MPO (Czechia)","Technology Agency of the Czech Republic":"TA CR (Czechia)","Canadian Institutes of Health Research":"CIHR (Canada)","Japan Society for the Promotion of Science":"JSPS (Japan)","Japan Agency for Medical Research and Development":"AMED (Japan)","National Health and Medical Research Council":"NHMRC (Australia)","Other funders":"Other funders"};
+const short = n => SHORT[n] || n;
+const ALL = "All";
+const years = d3.range(1999, 2024);
+function fill(id, values, all=true){const s=document.getElementById(id); s.innerHTML=(all?`<option value="${ALL}">${ALL}</option>`:"")+values.map(v=>`<option value="${v}">${v}</option>`).join("");}
+fill(F.from, years, false); fill(F.to, years, false);
+const byUsd = k => d3.groupSort(DATA, g => -d3.sum(g, d => d.usd), d => d[k]);
+fill(F.fc, byUsd("funder_country")); fill(F.rc, byUsd("recipient_country")); fill(F.inc, INCOME);
+fill(F.topic, TOPICS); fill(F.funder, byUsd("funder"));
+document.querySelectorAll("#f-funder option").forEach(o=>{if(o.value!==ALL) o.textContent=short(o.value);});
+const state = {from:1999, to:2023, fc:ALL, rc:ALL, inc:ALL, topic:ALL, funder:ALL};
+function readURL(){const p=new URLSearchParams(location.search); for(const k in state){if(p.has(k)) state[k]=(k==="from"||k==="to")?+p.get(k):p.get(k);} }
+function writeURL(){const p=new URLSearchParams(); for(const k in state){const def=k==="from"?1999:k==="to"?2023:ALL; if(state[k]!==def) p.set(k,state[k]);} try{history.replaceState(null,"",p.toString()?`?${p}`:location.pathname);}catch(e){} }
+function sync(){for(const k in F) document.getElementById(F[k]).value = state[k];}
+for(const k in F) document.getElementById(F[k]).addEventListener("change", e => {state[k]=(k==="from"||k==="to")?+e.target.value:e.target.value; if(state.from>state.to){ if(k==="from") state.to=state.from; else state.from=state.to; } render();});
+document.getElementById("reset").onclick = () => {Object.assign(state,{from:1999,to:2023,fc:ALL,rc:ALL,inc:ALL,topic:ALL,funder:ALL}); render();};
+document.getElementById("share").onclick = async e => {try{await navigator.clipboard.writeText(location.href); e.target.textContent="Link copied";}catch(err){e.target.textContent="Copy the address bar";} setTimeout(()=>e.target.textContent="Copy link",1800);};
+const sel = (except=[]) => DATA.filter(d => d.year>=state.from && d.year<=state.to && Object.keys(KEY).every(k => except.includes(k) || state[k]===ALL || d[KEY[k]]===state[k]));
+const fmtUSD = v => v>=1e6 ? `USD ${(v/1e6).toFixed(1)}M` : `USD ${Math.round(v/1e3)}k`;
+const fmtG = v => Math.abs(v-Math.round(v))<0.05 ? String(Math.round(v)) : v.toFixed(1);
+function describe(){const parts=[]; if(state.rc!==ALL) parts.push(`to ${state.rc}`); if(state.inc!==ALL) parts.push(`to ${state.inc.toLowerCase()} countries`); if(state.fc!==ALL) parts.push(`from ${state.fc}`); if(state.funder!==ALL) parts.push(`from ${short(state.funder)}`); if(state.topic!==ALL) parts.push(`on ${state.topic.toLowerCase()}`); if(state.from!==1999||state.to!==2023) parts.push(`${state.from}–${state.to}`); return parts.join(", ");}
+function plotOr(el, data, make, emptyMsg="No recorded grants for this selection."){el.innerHTML=""; if(!data.length){el.innerHTML=`<div class="empty">${emptyMsg}</div>`; return null;} const p=make(); el.append(p); return p;}
+function clickable(plot, rows, key){ if(!plot) return; plot.querySelectorAll('g[aria-label="bar"] rect').forEach(r => {const i=r.__data__; const row=rows[i]; if(!row) return; r.style.cursor="pointer"; r.addEventListener("click",()=>{state[key]=state[key]===row.name?ALL:row.name; render();}); }); }
+function render(){
+  sync(); writeURL();
+  const ink=css('--ink'), quiet=css('--quiet'), amber=css('--amber'), grey=css('--grey'), soft=css('--amber-soft'), line=css('--line');
+  const s = sel(); const usd = d3.sum(s, d=>d.usd); const n = d3.sum(s, d=>d.grants);
+  const isAll = describe()==="";
+  const llmic = d3.sum(DATA.filter(d=>d.recipient_income==="Low income"||d.recipient_income==="Lower middle income"), d=>d.usd)/TOTAL*100;
+  document.getElementById("headline").innerHTML = isAll ? `Low- and lower-middle-income countries received <b>${llmic.toFixed(2)}%</b> of recorded phage therapy funding, 1999–2023.` : `Your selection (${describe()}): <b>${fmtUSD(usd)}</b>, ${(usd/TOTAL*100).toFixed(usd/TOTAL*100<1?2:1)}% of all recorded funding.`;
+  document.getElementById("chips").innerHTML = Object.keys(KEY).filter(k=>state[k]!==ALL).map(k=>`<button class="chip" data-k="${k}" type="button">${LABEL[k]}: ${k==='funder'?short(state[k]):state[k]} ✕</button>`).join("");
+  document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{state[c.dataset.k]=ALL; render();});
+  document.getElementById("k-usd").textContent = fmtUSD(usd);
+  document.getElementById("k-grants").textContent = fmtG(n);
+  document.getElementById("k-share").textContent = `${(usd/TOTAL*100).toFixed(usd/TOTAL*100<1?2:1)}%`;
+  document.getElementById("k-countries").textContent = new Set(s.filter(d=>d.usd>0).map(d=>d.funder)).size;
+  const small = n>0 && n<5 ? " · Small sample: read with care." : "";
+  // trend (ignores period filter)
+  const st = DATA.filter(d => Object.keys(KEY).every(k => state[k]===ALL || d[KEY[k]]===state[k]));
+  const ty = years.map(y => ({year:y, usd:d3.sum(st.filter(d=>d.year===y), d=>d.usd)/1e6, inSel: y>=state.from && y<=state.to}));
+  const w = el => Math.max(280, document.getElementById(el).clientWidth);
+  plotOr(document.getElementById("trend"), st, () => Plot.plot({width:w("trend"), height:220, marginLeft:36, style:{background:"transparent", color:ink, fontSize:"12px"},
+    x:{label:null, tickFormat:d=>d%4===3?String(d):"", type:"band"}, y:{label:null, grid:true},
+    marks:[Plot.barY(ty,{x:"year", y:"usd", fill:d=>d.year===2023?soft:(d.inSel?amber:grey), title:d=>`${d.year}: USD ${d.usd.toFixed(2)}M`}), Plot.ruleY([0],{stroke:line})]}));
+  document.getElementById("n-trend").textContent = `n = ${fmtG(d3.sum(st,d=>d.grants))} grants across all years${small}`;
+  // funders
+  const fr0 = d3.rollups(sel(["funder"]), g=>d3.sum(g,d=>d.usd), d=>d.funder).map(([name,v])=>({name, v})).sort((a,b)=>b.v-a.v);
+  const fr = fr0.filter(r=>r.name!=="Other funders").slice(0,10).concat(fr0.filter(r=>r.name==="Other funders"));
+  const fsum = d3.sum(sel(["funder"]), d=>d.usd); fr.forEach(r=>r.pct=r.v/fsum*100);
+  clickable(plotOr(document.getElementById("funders"), fr, () => Plot.plot({width:w("funders"), height:Math.max(120, fr.length*26+20), marginLeft:Math.min(230, w("funders")*0.5), style:{background:"transparent", color:ink, fontSize:"12px"},
+    x:{label:null, axis:null, domain:[0, (d3.max(fr,d=>d.pct)||1)*1.18]}, y:{label:null, domain:fr.map(d=>d.name), tickFormat:n=>{const s=short(n); return s.length>32?s.slice(0,30)+"…":s;}},
+    marks:[Plot.barX(fr,{y:"name", x:"pct", fill:d=>state.funder===d.name||(state.funder===ALL&&d===fr[0]&&d.name!=="Other funders")?amber:grey, title:d=>`${d.name}: ${d.pct.toFixed(1)}%`}),
+           Plot.text(fr,{y:"name", x:"pct", text:d=>`${d.pct.toFixed(1)}%`, dx:4, textAnchor:"start", fill:ink})]})), fr, "funder");
+  document.getElementById("n-funders").textContent = `Top ${Math.min(10,fr0.length)} of ${fr0.length} funders in the selection. Hover a bar for the full name.`;
+  // geography
+  const gr = d3.rollups(sel(["rc"]), g=>d3.sum(g,d=>d.usd), d=>d.recipient_country).map(([name,v])=>({name, v:v/1e6})).sort((a,b)=>b.v-a.v).slice(0,12);
+  clickable(plotOr(document.getElementById("geo"), gr, () => Plot.plot({width:w("geo"), height:Math.max(120, gr.length*24+20), marginLeft:130, style:{background:"transparent", color:ink, fontSize:"12px"},
+    x:{label:null, axis:null, domain:[0, (d3.max(gr,d=>d.v)||1)*1.15]}, y:{label:null, domain:gr.map(d=>d.name)},
+    marks:[Plot.barX(gr,{y:"name", x:"v", fill:d=>state.rc===d.name?amber:(state.rc===ALL&&d===gr[0]?amber:grey), title:d=>`${d.name}: USD ${d.v.toFixed(2)}M`}),
+           Plot.text(gr,{y:"name", x:"v", text:d=>d.v>=0.1?d.v.toFixed(1):d.v.toFixed(2), dx:4, textAnchor:"start", fill:ink})]})), gr, "rc");
+  document.getElementById("n-geo").textContent = (()=>{const m=new Set(sel(["rc"]).map(d=>d.recipient_country)).size; return m>12?`Top 12 of ${m} recipient countries in the selection.`:`${m} recipient ${m===1?"country":"countries"} in the selection.`;})();
+  // topics by period (ignores topic + period filters)
+  const tp = []; const stp = DATA.filter(d => Object.keys(KEY).every(k => k==="topic" || state[k]===ALL || d[KEY[k]]===state[k]));
+  for(const [a,b,lab] of PERIODS){const g=stp.filter(d=>d.year>=a&&d.year<=b); const tot=d3.sum(g,d=>d.usd); if(!tot) continue; for(const t of TOPICS){const v=d3.sum(g.filter(d=>d.topic===t),d=>d.usd); if(v>0) tp.push({period:lab, topic:t, pct:v/tot*100});}}
+  const tcol = [amber, css('--c2'), css('--c3'), css('--c4'), grey];
+  plotOr(document.getElementById("topics"), tp, () => Plot.plot({width:w("topics"), height:230, marginLeft:80, style:{background:"transparent", color:ink, fontSize:"12px"},
+    color:{domain:TOPICS, range:tcol, legend:true}, x:{label:null, domain:[0,100]}, y:{label:null, domain:PERIODS.map(p=>p[2])},
+    marks:[Plot.barX(tp,{y:"period", x:"pct", fill:"topic", order:TOPICS, title:d=>`${d.period} · ${d.topic}: ${d.pct.toFixed(0)}%`, stroke:css('--bg'), strokeWidth:.5})]}));
+  // table
+  const rows = d3.rollups(s, g=>({grants:d3.sum(g,d=>d.grants), usd:d3.sum(g,d=>d.usd)}), d=>d.funder_country, d=>d.recipient_country)
+    .flatMap(([fc, arr]) => arr.map(([rc, v]) => ({fc, rc, ...v}))).sort((a,b)=>b.usd-a.usd);
+  window._rows = rows;
+  document.getElementById("tbl").innerHTML = rows.length ? `<thead><tr><th>Funder country</th><th>Recipient country</th><th class="num">Grants</th><th class="num">USD million</th><th class="num">% of selection</th></tr></thead><tbody>` +
+    rows.map(r=>`<tr><td>${r.fc}</td><td>${r.rc}</td><td class="num">${fmtG(r.grants)}</td><td class="num">${(r.usd/1e6).toFixed(2)}</td><td class="num">${(r.usd/usd*100).toFixed(1)}</td></tr>`).join("") + "</tbody>" : `<tr><td class="empty">No recorded grants for this selection.</td></tr>`;
+}
+document.getElementById("dl").onclick = () => {const r=window._rows||[]; const csv="funder_country,recipient_country,grants_fractional,usd\n"+r.map(x=>`"${x.fc}","${x.rc}",${x.grants.toFixed(2)},${Math.round(x.usd)}`).join("\n"); const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv"})); a.download="phage_funding_selection.csv"; a.click();};
+readURL(); render();
+let rt; addEventListener("resize", () => {clearTimeout(rt); rt=setTimeout(render, 150);});
+})();
+</script>
+```

@@ -4,7 +4,7 @@ description: "Who invents and patents phage therapies around the world, where, a
 order: 2
 stage: 6
 stage_note: "Results published in Nature Biotechnology"
-updated: "2026-10-23"
+updated: "2026-11-02"
 match:
   keywords: ["phage", "phages", "bacteriophage", "bacteriophages", "phage therapy"]
   links: []
@@ -23,6 +23,8 @@ listing:
 
 Phage therapy uses viruses that kill bacteria. As antibiotics fail more often, it is one of the most watched alternatives. This project asked: who is inventing phage therapies, in which countries, and how fast is the field moving? We answered it with machine learning on large patent datasets.
 
+A second study follows the money that goes into the field: who has paid for phage therapy research since 1999, where the money goes, and who is left out. Explore it in the [phage therapy funding explorer](../dashboards/phage-funding.qmd).
+
 ## Where we are
 
 | Step | Status |
@@ -31,7 +33,9 @@ Phage therapy uses viruses that kill bacteria. As antibiotics fail more often, i
 | Analyse inventors, applicants, countries and technologies | Done |
 | Share the method as a protocol | Done · January 2024 |
 | Publish the results in Nature Biotechnology | Done · December 2024 |
-| Next steps | To be announced |
+| Map 25 years of phage therapy research funding (802 grants) | Done |
+| Share the funding explorer online | Done · November 2026 |
+| Post the funding study as a preprint | In preparation |
 
 ## Team
 
