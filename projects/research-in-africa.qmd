@@ -4,7 +4,7 @@ description: "Who produces, leads and funds health research in Africa, and how t
 order: 3
 stage: 0
 stage_note: "Four studies, from published to in progress"
-updated: "2026-10-23"
+updated: "2026-11-03"
 match:
   keywords: ["africa", "african", "sub-saharan"]
   links: []
@@ -28,7 +28,7 @@ Africa carries a large share of the world's health problems, but a small share o
 | Study | Status |
 |---|---|
 | [Ticks, climate and research equity](ticks-climate-equity.qmd), proposed by an African research team | In progress |
-| Open access and research inequalities in Africa | Manuscript in preparation |
+| [The open access landscape in Africa, 2002–2021](https://doi.org/10.20944/preprints202611.0240.v1) · [explorer](../dashboards/oa-africa.qmd) | Preprint · 2026 |
 | [The determinants of COVID-19 case reporting across Africa](https://doi.org/10.3389/fpubh.2024.1406363) | Published · 2024 |
 | [COVID-19 research in Africa: output, collaboration and leadership](https://www.mdpi.com/1660-4601/18/14/7273) | Published · 2021 |
 

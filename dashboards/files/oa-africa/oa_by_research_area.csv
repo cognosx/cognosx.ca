@@ -1,0 +1,153 @@
+area,articles,oa_pct,gold_pct,green_pct,hybrid_pct,bronze_pct
+astronomy & astrophysics,9975,81.1,8.2,36.9,7.9,28.1
+health care sciences & services,11075,77.4,50.8,7.8,5.9,12.8
+infectious diseases,33260,77.3,46.7,12.6,5.5,12.5
+tropical medicine,16452,74.6,50.4,12.5,2.9,8.8
+general & internal medicine,21675,74.4,55.4,8.7,4.1,6.1
+microbiology,17187,72.7,26.9,14.7,8.6,22.5
+"public, environmental & occupational health",39674,71.4,44.4,12.1,4.9,10.1
+science & technology - other topics,48853,71.1,59.9,4.5,2.7,3.9
+parasitology,13702,70.4,60.6,4.8,2.6,2.4
+medical ethics,696,65.1,40.9,12.9,7.9,3.3
+religion,5437,64.7,59.5,2.1,1.6,1.4
+life sciences & biomedicine - other topics,6041,63.5,31.8,11.1,5.6,14.9
+research & experimental medicine,7823,62.5,42.4,7.7,7.7,4.7
+immunology,19753,62.1,19.6,16.8,9.5,16.2
+substance abuse,1224,60.8,27.5,21.8,5.5,6.0
+virology,7913,58.9,22.0,23.1,4.1,9.8
+biodiversity & conservation,5964,56.6,23.5,14.6,6.8,11.7
+emergency medicine,1473,55.8,41.5,6.4,1.4,6.4
+genetics & heredity,8035,55.7,25.3,10.9,6.9,12.6
+medical informatics,1193,55.6,33.8,11.2,4.1,6.5
+evolutionary biology,4575,55.5,15.9,18.1,5.9,15.7
+cardiovascular system & cardiology,8295,54.7,18.0,11.5,4.2,21.0
+nutrition & dietetics,7156,54.5,23.3,9.4,5.9,15.9
+crystallography,5544,53.9,37.4,3.1,1.1,12.2
+social issues,1091,53.1,22.8,9.3,17.6,3.4
+anesthesiology,2391,53.0,36.7,2.7,0.7,12.9
+rheumatology,3186,52.5,17.6,2.6,1.8,30.4
+architecture,281,52.0,36.7,5.7,2.5,7.1
+biomedical social sciences,4024,51.5,5.0,28.5,12.5,5.4
+respiratory system,6642,51.2,15.2,17.0,5.0,14.0
+mathematical & computational biology,2189,49.8,24.2,11.6,7.9,6.2
+psychiatry,6622,49.3,26.0,11.5,4.6,7.1
+oncology,9978,48.8,24.6,7.3,5.5,11.4
+cell biology,5265,48.6,21.1,10.9,4.9,11.7
+audiology & speech-language pathology,659,47.6,22.2,19.6,2.6,3.3
+plant sciences,23438,47.5,13.3,6.2,20.8,7.2
+mycology,1847,46.7,19.4,15.4,3.7,8.1
+"radiology, nuclear medicine & medical imaging",6812,46.4,25.6,7.7,7.0,6.1
+veterinary sciences,11619,46.3,28.6,8.1,4.8,4.8
+mathematical methods in social sciences,430,46.0,9.1,29.5,3.7,3.7
+mathematics,31306,45.8,18.9,10.3,3.2,13.4
+obstetrics & gynecology,9505,45.0,25.9,7.2,3.8,8.2
+meteorology & atmospheric sciences,6176,44.6,23.3,9.6,6.5,5.3
+pediatrics,10760,44.4,20.2,9.6,4.7,9.9
+education & educational research,11141,43.9,28.6,7.9,3.6,3.8
+remote sensing,3545,43.8,30.4,6.6,5.2,1.6
+oceanography,2614,43.0,10.2,11.6,3.9,17.2
+integrative & complementary medicine,4019,42.9,29.4,4.8,1.7,7.1
+geriatrics & gerontology,862,42.8,16.9,10.7,7.5,7.7
+ophthalmology,4251,42.5,24.9,7.0,3.2,7.5
+orthopedics,3009,42.4,21.9,11.2,3.8,5.6
+social sciences - other topics,7089,42.0,24.0,9.9,4.8,3.4
+urology & nephrology,5543,41.9,27.7,4.7,1.4,8.2
+gastroenterology & hepatology,3705,41.9,13.5,7.5,10.0,10.9
+biotechnology & applied microbiology,12472,41.2,19.9,9.0,4.5,7.8
+mining & mineral processing,2435,40.6,31.0,5.4,3.1,1.1
+environmental sciences & ecology,56099,40.5,19.3,10.4,4.8,6.0
+business & economics,20467,40.1,16.3,14.9,4.4,4.6
+reproductive biology,2699,39.6,12.3,7.9,2.3,17.1
+behavioral sciences,1857,39.6,5.2,19.7,6.4,8.3
+otorhinolaryngology,2240,39.4,20.6,7.6,1.7,9.4
+hematology,3962,39.4,10.8,10.0,4.5,14.1
+neurosciences & neurology,11983,39.0,15.3,10.7,4.4,8.6
+rehabilitation,1855,38.9,17.1,11.9,3.4,6.5
+biochemistry & molecular biology,24234,38.6,19.8,7.6,4.7,6.5
+allergy,849,38.6,12.7,8.8,7.4,9.7
+imaging science & photographic technology,3228,38.5,25.2,8.4,3.0,1.9
+anatomy & morphology,1402,38.3,19.3,9.8,2.9,6.3
+agriculture,31210,38.2,20.1,7.7,6.2,4.1
+telecommunications,9796,37.8,26.3,8.2,1.0,2.3
+urban studies,1589,37.7,15.7,8.7,5.3,8.0
+nursing,2173,37.1,14.5,11.5,4.7,6.4
+psychology,9602,36.9,9.7,17.9,5.6,3.8
+demography,977,36.5,8.8,11.5,7.5,8.8
+pharmacology & pharmacy,29427,36.5,18.3,9.6,3.1,5.4
+developmental biology,669,36.3,8.1,8.8,3.3,16.1
+zoology,10074,35.8,11.5,14.2,2.6,7.5
+physical geography,3009,35.2,11.8,15.0,4.5,3.9
+sport sciences,2722,34.9,9.8,13.5,3.9,7.7
+arts & humanities - other topics,1049,34.7,22.0,4.3,1.8,6.6
+endocrinology & metabolism,6994,34.6,14.9,7.9,4.5,7.3
+forestry,3723,34.0,14.0,9.6,4.2,6.1
+physiology,2952,33.8,13.9,12.0,2.2,5.8
+geochemistry & geophysics,4773,33.7,8.5,10.4,3.8,11.0
+water resources,15009,33.5,19.7,5.1,3.5,5.2
+food science & technology,16290,33.4,16.3,9.2,3.6,4.3
+"dentistry, oral surgery & medicine",3516,33.1,18.3,7.8,2.5,4.5
+family studies,1378,32.9,0.9,17.1,7.9,7.0
+history & philosophy of science,426,32.9,5.6,11.0,7.0,9.2
+surgery,11339,32.8,14.3,5.9,2.8,9.7
+entomology,6659,31.6,13.3,9.5,4.4,4.4
+physics,54412,31.5,13.7,12.6,3.4,1.8
+fisheries,3028,31.5,12.6,7.2,2.9,8.7
+pathology,3115,31.4,10.9,7.3,2.2,10.9
+metallurgy & metallurgical engineering,7076,30.6,24.3,3.8,0.9,1.6
+computer science,33208,30.0,15.2,8.6,2.6,3.5
+geography,2665,29.8,9.9,10.5,6.5,2.9
+transplantation,899,29.5,1.6,4.8,5.8,17.4
+instruments & instrumentation,4856,29.5,16.8,8.9,2.7,1.1
+transportation,1451,29.2,12.7,11.9,2.0,2.6
+marine & freshwater biology,8314,29.0,7.6,9.6,2.6,9.2
+energy & fuels,18025,29.0,19.9,5.6,1.5,2.0
+linguistics,3330,28.7,16.3,7.9,1.4,3.1
+literature,2197,28.7,23.0,2.5,0.9,2.3
+development studies,4481,28.7,0.3,16.4,8.9,3.0
+criminology & penology,842,28.4,11.9,11.5,3.4,1.5
+public administration,3442,27.8,6.2,12.7,5.5,3.4
+social work,1246,27.8,5.9,12.8,4.2,4.9
+paleontology,1837,27.6,11.3,8.4,2.8,5.1
+construction & building technology,4102,27.4,18.4,6.0,1.0,2.0
+medical laboratory technology,1922,27.4,3.8,5.4,2.2,16.0
+chemistry,73795,27.3,15.5,5.6,1.8,4.4
+acoustics,1273,27.2,8.5,7.8,5.5,5.4
+engineering,83133,26.9,16.2,6.4,1.6,2.6
+anthropology,3151,26.2,1.1,13.0,5.1,7.0
+information science & library science,3235,25.8,9.3,9.6,3.6,3.2
+geology,20363,25.6,12.0,7.8,2.7,3.2
+materials science,46158,25.5,16.4,5.4,1.8,1.9
+toxicology,7008,25.4,12.9,5.9,2.1,4.5
+biophysics,2585,25.0,1.4,10.0,4.3,9.3
+archaeology,1741,24.9,1.0,10.7,5.9,7.4
+legal medicine,838,24.7,8.2,12.8,2.6,1.1
+sociology,1976,24.4,5.0,11.0,5.5,2.9
+automation & control systems,5622,24.4,11.5,8.3,2.2,2.4
+government & law,4549,23.4,7.8,9.3,3.0,3.3
+operations research & management science,3325,22.9,6.7,11.0,2.1,3.2
+communication,1702,21.8,8.2,8.2,2.9,2.5
+mechanics,9829,21.3,7.6,6.7,1.2,5.7
+international relations,1490,20.5,3.6,9.5,3.9,3.6
+dermatology,3644,20.5,9.4,5.2,1.4,4.5
+philosophy,1463,20.2,5.5,8.9,2.5,3.3
+area studies,5051,19.9,5.9,7.1,2.9,4.0
+mineralogy,2805,19.9,7.2,7.5,2.3,2.9
+robotics,1171,19.8,8.6,6.9,3.5,0.8
+electrochemistry,5099,19.5,4.1,5.9,1.5,8.0
+women's studies,1136,19.0,0.5,9.9,3.2,5.4
+thermodynamics,8342,18.9,10.7,5.0,0.5,2.7
+art,416,18.0,1.2,5.3,4.8,6.7
+optics,9662,17.4,6.5,8.9,1.0,1.1
+ethnic studies,539,16.1,3.0,6.3,4.6,2.2
+history,1862,14.6,2.7,4.9,3.2,3.8
+nuclear science & technology,5219,14.5,3.2,4.2,0.9,6.3
+polymer science,9514,14.2,6.6,4.5,1.6,1.5
+classics,124,13.7,9.7,3.2,0.0,0.8
+dance,15,13.3,0.0,13.3,0.0,0.0
+music,419,11.9,0.2,3.6,1.2,6.9
+spectroscopy,3159,11.6,6.6,3.2,0.7,1.0
+cultural studies,1073,10.7,0.7,5.6,1.4,3.0
+microscopy,466,10.3,1.3,6.9,0.9,1.3
+asian studies,130,7.7,0.0,4.6,0.8,2.3
+theater,231,6.9,0.0,3.9,1.3,1.7
+"film, radio & television",291,6.9,2.1,4.1,0.3,0.3

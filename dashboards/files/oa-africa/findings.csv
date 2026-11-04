@@ -1,0 +1,9 @@
+ID,Finding,Number,Uncertainty and scope,Source,Chart,Audience,Used in
+F1,Almost half of African-affiliated articles were free to read in August 2022.,"44.3% (378,955 of 854,785)","WoS articles with an African address and a DOI, 2002-2021; OA status from Unpaywall, Aug 2022",oa_by_year (sum),Headline number,All,explorer
+F2,The yearly share of open articles more than tripled in twenty years.,16.7% (2002) to 56.0% (2020) and 55.0% (2021),"n = 11,101 articles in 2002 and 112,826 in 2021",oa_by_year; Fig 1,Line,All,explorer
+F3,Most open articles are published in fully open journals (Gold).,67.6% of OA articles in 2021,"n = 62,043 OA articles in 2021",oa_by_year; Fig 2,Stacked area,"Researchers, funders",explorer
+F4,Open access differs widely between African regions.,61.5% (Eastern) vs 33.9% (Northern),Full counting; 2002-2021,oa_by_region; Fig 3A,Bar,Policy makers,explorer
+F5,Country shares range from under a third to over three quarters.,28.5% (Tunisia) to 78.4% (Gambia),"54 countries; mean 57.7%, SD 11.2; small countries (<500 articles) vary more",oa_by_country; Fig 4A,Map + ranking,Policy makers,explorer
+F6,Articles with a co-author outside Africa are more often open.,50.4% vs 36.5% (single country),"n = 466,602 international, 368,194 national; descriptive",oa_by_collaboration_type; Fig 6A,Bar,"Researchers, funders",explorer
+F7,Funded articles are more often open than unfunded ones.,56.9% vs 35.5%,Funding = WoS Funding Orgs field not empty; under-recorded before 2008; descriptive,oa_by_funding; Fig 8A,Bar,Funders,explorer
+F8,"Open articles have higher mean citations, without adjustment for field or journal.",46.1 vs 29.3 (2002-2006),WoS Times Cited at export (2022); not normalised; association only,citations_by_period; Fig 9A,Dot plot,Researchers,explorer

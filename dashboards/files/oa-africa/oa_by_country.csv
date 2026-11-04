@@ -1,0 +1,55 @@
+country,iso,region,articles,oa,oa_pct,z,gold_pct,green_pct,hybrid_pct,bronze_pct
+Gambia,270,Western Africa,2615,2051,78.4,1.84,39.4,14.1,12.2,12.6
+Liberia,430,Western Africa,659,505,76.6,1.68,43.2,12.0,9.3,12.1
+Equatorial Guinea,226,Central Africa,108,81,75.0,1.54,54.6,8.3,1.9,10.2
+Sierra Leone,694,Western Africa,1458,1072,73.5,1.4,43.9,8.8,9.9,10.8
+South Sudan,728,Eastern Africa,254,184,72.4,1.31,52.8,7.1,6.7,5.9
+Malawi,454,Southern Africa,8225,5831,70.9,1.17,35.9,15.7,9.6,9.7
+Comoros,174,Eastern Africa,146,103,70.5,1.14,47.3,8.9,6.2,8.2
+Zambia,894,Southern Africa,6419,4449,69.3,1.03,35.8,15.8,8.0,9.8
+Mozambique,508,Southern Africa,4646,3164,68.1,0.92,39.1,11.5,8.7,8.8
+Uganda,800,Eastern Africa,19134,12909,67.5,0.87,37.7,13.3,7.7,8.7
+Mali,466,Western Africa,3379,2279,67.4,0.86,33.4,15.5,9.4,9.1
+Ethiopia,231,Eastern Africa,30785,20104,65.3,0.67,50.1,5.8,5.1,4.3
+Guinea,324,Western Africa,1212,790,65.2,0.66,37.5,10.6,6.4,10.7
+DR Congo,180,Central Africa,4326,2801,64.7,0.62,37.8,12.4,5.9,8.6
+Guinea-Bissau,624,Western Africa,733,471,64.3,0.58,30.8,10.2,7.6,15.6
+Cabo Verde,132,Western Africa,424,272,64.2,0.57,35.1,14.6,4.7,9.7
+Congo Republic,178,Central Africa,2082,1334,64.1,0.56,36.0,9.0,9.2,9.8
+Rwanda,646,Eastern Africa,4107,2589,63.0,0.47,37.1,9.9,8.0,8.0
+Seychelles,690,Eastern Africa,722,455,63.0,0.47,22.2,18.6,8.4,13.9
+Tanzania,834,Eastern Africa,17851,11220,62.9,0.45,36.8,10.8,7.8,7.5
+Somalia,706,Eastern Africa,318,199,62.6,0.43,46.9,6.3,5.0,4.4
+Kenya,404,Eastern Africa,33722,20971,62.2,0.4,31.7,13.1,9.2,8.3
+Gabon,266,Central Africa,2460,1527,62.1,0.39,31.7,12.6,5.5,12.2
+Niger,562,Western Africa,2080,1290,62.0,0.38,30.7,15.3,7.6,8.4
+Burkina Faso,854,Western Africa,6287,3824,60.8,0.27,35.7,9.8,6.9,8.5
+Angola,024,Southern Africa,1113,673,60.5,0.24,36.9,12.5,6.1,4.9
+Central African Republic,140,Central Africa,633,381,60.2,0.22,35.7,11.5,3.2,9.8
+Chad,148,Central Africa,561,335,59.7,0.18,33.5,11.2,8.6,6.4
+Sao Tome and Principe,678,Central Africa,81,47,58.0,0.02,38.3,9.9,2.5,7.4
+Burundi,108,Eastern Africa,657,374,56.9,-0.07,33.6,9.6,7.6,6.1
+Madagascar,450,Eastern Africa,4054,2283,56.3,-0.13,28.5,12.7,5.9,9.3
+Benin,204,Western Africa,5380,2971,55.2,-0.22,30.4,11.3,6.7,6.8
+Senegal,686,Western Africa,8213,4517,55.0,-0.24,29.2,11.8,4.9,9.0
+Cote d'Ivoire,384,Western Africa,5296,2889,54.6,-0.28,29.1,11.3,6.3,7.9
+Ghana,288,Western Africa,23696,12900,54.4,-0.29,34.6,8.4,5.7,5.9
+Eswatini,748,Southern Africa,1096,596,54.4,-0.3,30.6,11.3,6.0,6.5
+Namibia,516,Southern Africa,3455,1855,53.7,-0.36,23.7,12.4,6.2,11.4
+Zimbabwe,716,Southern Africa,8645,4644,53.7,-0.36,29.0,10.9,7.2,6.6
+Djibouti,262,Northern Africa,212,112,52.8,-0.44,30.2,12.3,2.4,8.0
+Lesotho,426,Southern Africa,635,332,52.3,-0.49,33.7,7.7,3.5,7.4
+Mauritania,478,Western Africa,631,330,52.3,-0.48,31.9,9.4,3.8,7.3
+Sudan,729,Eastern Africa,7860,4109,52.3,-0.49,34.9,6.8,4.0,6.5
+South Africa,710,Southern Africa,242100,119542,49.4,-0.74,23.3,12.8,5.7,7.6
+Togo,768,Western Africa,1727,843,48.8,-0.79,28.5,9.4,4.7,6.1
+Cameroon,120,Central Africa,16714,7940,47.5,-0.91,28.4,9.2,3.6,6.3
+Nigeria,566,Western Africa,65380,31009,47.4,-0.92,31.1,7.0,3.8,5.6
+Eritrea,232,Eastern Africa,534,250,46.8,-0.97,29.6,8.1,3.6,5.6
+Botswana,072,Southern Africa,6124,2826,46.1,-1.03,23.8,11.3,4.2,6.8
+Libya,434,Northern Africa,4334,1937,44.7,-1.16,24.8,9.5,3.9,6.5
+Morocco,504,Northern Africa,48985,18324,37.4,-1.81,22.3,6.9,2.5,5.7
+Mauritius,480,Eastern Africa,2993,1086,36.3,-1.91,18.8,7.5,4.9,5.1
+Egypt,818,Northern Africa,194450,70028,36.0,-1.93,22.2,5.1,2.6,6.1
+Algeria,012,Northern Africa,54164,16701,30.8,-2.39,16.5,7.5,1.7,5.1
+Tunisia,788,Northern Africa,71400,20371,28.5,-2.6,14.1,6.7,1.9,5.8
