@@ -1,22 +1,22 @@
 # This file is written automatically by scripts/update_feeds.py.
 # Edits here are replaced at the next update; change scripts/feeds.yml instead.
+- title: 'The Open Access Landscape in Africa: A Two-Decade Analysis of Access, Collaboration and Funding, 2002–2021'
+  path: https://doi.org/10.20944/preprints202611.0240.v1
+  date: '2026-11-03'
+  description: Preprints.org
+  categories:
+  - Preprint
+  - Bibliometrics
+  projects:
+  - research-in-africa
+  project_names:
+  - Research in Africa
 - title: Leveraging machine learning and big data techniques to map the global patent landscape of phage therapy
   path: https://doi.org/10.1038/s41587-024-02493-9
   date: '2024-12-01'
   description: Nature Biotechnology
   categories:
   - Peer-reviewed article
-  - Bibliometrics
-  projects:
-  - phage-therapy
-  project_names:
-  - Phage therapy innovation map
-- title: 'Phage Therapy: Leveraging Machine Learning and Big Data techniques to Unveil the Evolution, Innovations, and Global Landscape in the Fight Against Antibiotic Resistance'
-  path: https://doi.org/10.21203/rs.3.pex-2537/v1
-  date: '2024-01-19'
-  description: Research Square
-  categories:
-  - Proposal, framework or technical document
   - Bibliometrics
   projects:
   - phage-therapy
