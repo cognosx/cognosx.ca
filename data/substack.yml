@@ -38,7 +38,7 @@
 - title: What Is a Patent Jurisdiction — And Why It Matters More Than You Think
   path: https://cognosxinsights.substack.com/p/what-is-a-patent-jurisdiction-and
   date: '2026-02-20'
-  description: ''
+  description: 'When people first explore patent data, one term appears everywhere:'
   categories:
   - Substack
   - Article
@@ -73,7 +73,7 @@
 - title: '🚫 The Hidden Cost of Perfectionism in Research: Why You Need to Publish Before You''re Ready'
   path: https://cognosxinsights.substack.com/p/the-hidden-cost-of-perfectionism
   date: '2025-06-12'
-  description: A quote arguing that the biggest rejection in academia often comes from researchers themselves.
+  description: 💡 “The biggest rejection in academia often comes from ourselves, long before reviewers ever read our work.”
   categories:
   - Substack
   - Article
@@ -88,7 +88,7 @@
 - title: '🧠 Beyond Citations: How to Track the Real Impact of Your Research Using Open Data'
   path: https://cognosxinsights.substack.com/p/beyond-citations-how-to-track-the
   date: '2025-06-11'
-  description: A reflection on why citation metrics like the h-index no longer tell the full story.
+  description: 'On LinkedIn, Samira Hosseini shared something that resonated deeply with me: “My h-index reached 33… but I realized it doesn’t matter that much.” She’s right. Citations alone no longer tell the full'
   categories:
   - Substack
   - Article
@@ -106,7 +106,7 @@
 - title: 'Zotero Is Not Enough: What Makes a Science of Science Study Publishable'
   path: https://cognosxinsights.substack.com/p/zotero-is-not-enough-what-makes-a
   date: '2025-06-09'
-  description: Argues that high-impact publishing requires clean, enriched, and reproducible data workflows.
+  description: Zotero is a great starting point, but publishing in high-impact journals requires clean, enriched, and reproducible data workflows — just like any research project.
   categories:
   - Substack
   - Article
@@ -144,7 +144,7 @@
 - title: Introduction — From Hidden Patterns to Transformative Insights
   path: https://cognosxinsights.substack.com/p/introduction-from-hidden-patterns
   date: '2025-05-21'
-  description: Announces the book Let Science Data Speak for researchers who want the bigger picture.
+  description: Announcing Let Science Data Speak—A Book for Researchers Who Want to See the Bigger Picture
   categories:
   - Substack
   - Article
@@ -158,7 +158,7 @@
 - title: What Do Science of Science Studies Really Look Like?
   path: https://cognosxinsights.substack.com/p/what-do-science-of-science-studies
   date: '2025-04-21'
-  description: Curated examples of Science of Science outputs, from peer-reviewed papers to institutional reports.
+  description: This post illustrates practical examples of Science of Science outputs, providing clear insights into how he contributes to improving research practices and informing critical decisions in science.
   categories:
   - Substack
   - Article
@@ -175,7 +175,7 @@
 - title: Why Should Researchers Care About the Science of Science?
   path: https://cognosxinsights.substack.com/p/why-should-researchers-care-about
   date: '2025-04-19'
-  description: Explores how data can help researchers understand the research ecosystem beyond publishing papers.
+  description: Let’s talk about how data can help you better understand the research ecosystem—beyond just publishing papers.
   categories:
   - Substack
   - Article
@@ -191,7 +191,7 @@
 - title: Why Scientific Production Is the Next Frontier for Innovation and Recruitment
   path: https://cognosxinsights.substack.com/p/why-scientific-production-is-the
   date: '2025-02-13'
-  description: ''
+  description: 'Introduction: Why Scientific Production Matters'
   categories:
   - Substack
   - Article
@@ -207,3 +207,11 @@
   - Patents
   - Scientometrics
   - Technology Trends
+- title: Coming soon
+  path: https://cognosxinsights.substack.com/p/coming-soon
+  date: '2025-02-13'
+  description: This is CognosX Insights.
+  categories:
+  - Substack
+  - Article
+  tags: []
