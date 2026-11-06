@@ -1,5 +1,16 @@
 # This file is written automatically by scripts/update_feeds.py.
 # Edits here are replaced at the next update; change scripts/feeds.yml instead.
+- title: 'Who leads Marburg virus research? Gender, geography and funding in authorship, 2008 to early 2023: a bibliometric baseline before the 2023-2025 outbreaks'
+  path: https://doi.org/10.64898/2026.11.04.26367239
+  date: '2026-11-05'
+  description: medRxiv
+  categories:
+  - Preprint
+  - Bibliometrics
+  projects:
+  - research-in-africa
+  project_names:
+  - Research in Africa
 - title: 'The Open Access Landscape in Africa: A Two-Decade Analysis of Access, Collaboration and Funding, 2002–2021'
   path: https://doi.org/10.20944/preprints202611.0240.v1
   date: '2026-11-03'
