@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "Publications"
 description: "Published research outputs, sorted by type. Updated automatically every day."
 listing:
   - id: lib-articles
@@ -53,6 +53,8 @@ pagetitle: "Publications, datasets and dashboards"
 ---
 
 Everything we publish and share, sorted by type. Datasets, dashboards, protocols and frameworks are open for others to reuse; please cite them using their DOI. To see how outputs fit together, visit the [Projects](projects.qmd).
+
+This page shows work from 2024 onward. Earlier publications in clinical microbiology and infectious diseases are on [Google Scholar]({{< var scholar_url >}}).
 
 ::: {.lib-jump}
 [Articles](#articles) [Preprints](#preprints) [Datasets](#datasets) [Dashboards](#dashboards) [Proposals & technical documents](#technical) [Reports](#reports) [Books](#books) [Theses](#theses)

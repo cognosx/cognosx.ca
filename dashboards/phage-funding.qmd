@@ -4,6 +4,7 @@ description: "Explore 25 years of phage therapy research grants by country, fund
 date: "2026-11-02"
 categories: [Dashboard, Explorer, Research funding]
 projects: ["phage-therapy"]
+project_names: ["Phage therapy innovation map"]
 aliases: [/phage-funding.html]
 page-layout: full
 ---
@@ -177,3 +178,5 @@ let rt; addEventListener("resize", () => {clearTimeout(rt); rt=setTimeout(render
 })();
 </script>
 ```
+
+{{< include /styles/_dashboard-cta.qmd >}}

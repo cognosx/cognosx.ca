@@ -1,7 +1,7 @@
 ---
 title: "CognosX · Laissons parler les données de la science"
-pagetitle: "Intelligence scientifique pour la santé : publications, brevets et financements de la recherche"
-description: "Des réponses claires à partir des publications, des brevets et des financements de la recherche, pour de meilleures décisions en santé."
+pagetitle: "Formation des chercheurs en santé et données probantes claires pour les organisations"
+description: "Nous aidons les chercheurs en santé à faire parler les données de leur sujet, et donnons aux organisations des données probantes claires à partir des publications, des financements, des essais et des brevets."
 page-layout: custom
 ---
 
@@ -10,13 +10,14 @@ page-layout: custom
 <img class="hero-dots" src="../images/halftone.svg" alt="">
 ```
 ::: {.wrap}
-[Intelligence scientifique pour la santé]{.eyebrow}
+[Santé mondiale et sciences biomédicales]{.eyebrow}
 
 # Laissons parler les données de la science[.]{.x}
 
-[Nous lisons la production scientifique (publications, brevets et financements de la recherche) et la transformons en réponses claires. Pour vous aider à décider où investir, avec qui travailler, et ce qui manque encore.]{.lead}
+[Nous aidons les chercheurs en santé à faire parler les données de leur sujet, et nous donnons aux ONG, aux bailleurs de fonds et aux institutions des données probantes claires pour agir. Maladies infectieuses et non infectieuses, en français et en anglais.]{.lead}
 
-[Prendre rendez-vous](contact.qmd){.btn-cx}
+[Appel gratuit]({{< var booking_url >}}){.btn-cx}
+[Rejoindre un atelier](ateliers.qmd){.btn-cx-ghost}
 [Nos services](services.qmd){.btn-cx-ghost}
 :::
 :::
@@ -48,6 +49,60 @@ page-layout: custom
 **IA générative, phagothérapie, recherche en Afrique, tiques et climat.** Chaque projet montre son plan, son avancement et ses résultats.
 
 [Voir les projets (en anglais)](../projects.qmd){.card-link}
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head .reveal}
+[Tableaux de bord]{.eyebrow}
+
+## Ce que les données peuvent montrer
+
+[Des explorateurs ouverts et interactifs, construits à partir des publications, des financements et des brevets (en anglais). Chacun montre le type de données probantes que nous pouvons construire pour votre sujet.]{.lead}
+:::
+
+::: {.grid .grid-2}
+::: {.card-cx .reveal}
+[Équité · virus Marburg]{.card-num}
+
+### Qui mène la recherche sur le virus Marburg ?
+
+Genre, leadership local, financements et priorités de recherche de l'OMS dans 684 articles, 2008–2023.
+
+[Ouvrir l'explorateur](../dashboards/marburg-equity.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Financement · phagothérapie]{.card-num}
+
+### Qui finance la recherche sur la phagothérapie ?
+
+25 ans de subventions par pays, bailleur, thème et année.
+
+[Ouvrir l'explorateur](../dashboards/phage-funding.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Accès ouvert · Afrique]{.card-num}
+
+### L'accès ouvert en Afrique, 2002–2021
+
+Quelle part de la recherche africaine est en libre accès, par année, pays, domaine, collaboration et financement.
+
+[Ouvrir l'explorateur](../dashboards/oa-africa.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Brevets · oncologie]{.card-num}
+
+### Brevets sur les inhibiteurs de points de contrôle immunitaire
+
+Qui brevète les thérapies anti-PD-1, PD-L1, CTLA-4 et les plus récentes, où et sur quoi.
+
+[Ouvrir l'explorateur](../dashboards/immune-checkpoint.qmd){.card-link}
 :::
 :::
 :::

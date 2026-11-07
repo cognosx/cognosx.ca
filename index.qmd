@@ -1,7 +1,7 @@
 ---
 title: "CognosX · Let science data speak"
-pagetitle: "Science intelligence for health: publications, patents and research funding"
-description: "Clear evidence from publications, patents and research funding, for better health decisions."
+pagetitle: "Training for health researchers and clear evidence for health organizations"
+description: "We help health researchers make the data of their topic speak, and give NGOs, funders and institutions clear evidence from publications, funding, trials and patents."
 page-layout: custom
 listing:
   - id: home-projects
@@ -29,14 +29,15 @@ listing:
 <img class="hero-dots" src="images/halftone.svg" alt="">
 ```
 ::: {.wrap}
-[Science intelligence for health]{.eyebrow}
+[Global health and biomedical science]{.eyebrow}
 
 # Let science data speak[.]{.x}
 
-[We read the scientific record (publications, patents and research funding) and turn it into clear answers. So you can decide where to invest, who to work with, and what is still missing.]{.lead}
+[We help health researchers make the data of their topic speak, and give NGOs, funders and institutions clear evidence to act on. Infectious and non-infectious diseases, in English and French.]{.lead}
 
-[Book a call]({{< var booking_url >}}){.btn-cx}
-[See what we do](services.qmd){.btn-cx-ghost}
+[Book a free call]({{< var booking_url >}}){.btn-cx}
+[Join a workshop](workshops.qmd){.btn-cx-ghost}
+[See our services](services.qmd){.btn-cx-ghost}
 :::
 :::
 
@@ -67,6 +68,60 @@ listing:
 **Generative AI, phage therapy, research in Africa, ticks and climate.** Each project shows its plan, its stage and what it has produced.
 
 [See the projects](projects.qmd){.card-link}
+:::
+:::
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head .reveal}
+[Dashboards]{.eyebrow}
+
+## See what the data can show
+
+[Open, interactive explorers built from publications, funding and patents. Each one shows the kind of evidence we can build for your topic.]{.lead}
+:::
+
+::: {.grid .grid-2}
+::: {.card-cx .reveal}
+[Research equity · Marburg virus]{.card-num}
+
+### Who leads Marburg virus research?
+
+Gender, local leadership, funding and WHO research priorities in 684 papers, 2008–2023.
+
+[Open the explorer](dashboards/marburg-equity.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Research funding · phage therapy]{.card-num}
+
+### Who funds phage therapy research?
+
+25 years of research grants by country, funder, topic and year.
+
+[Open the explorer](dashboards/phage-funding.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Open access · Africa]{.card-num}
+
+### Open access in Africa, 2002–2021
+
+How much African research is free to read, by year, country, field, collaboration and funding.
+
+[Open the explorer](dashboards/oa-africa.qmd){.card-link}
+:::
+
+::: {.card-cx .reveal}
+[Patents · oncology]{.card-num}
+
+### Immune checkpoint therapy patents
+
+Who patents PD-1, PD-L1, CTLA-4 and newer checkpoint therapies, where, and on what.
+
+[Open the explorer](dashboards/immune-checkpoint.qmd){.card-link}
 :::
 :::
 :::

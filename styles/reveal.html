@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", function () {
       else { a.setAttribute("lang", "fr"); }
     }
     if (isFr) {
-      var fr = { "Services": ["Services", "/fr/services.html"], "Projects": ["Projets", null], "Work": ["Publications", null],
-                 "Insights": ["Articles", null], "Workshops": ["Ateliers", "/fr/ateliers.html"],
+      var fr = { "Services": ["Services", "/fr/services.html"], "Projects": ["Projets", null], "Dashboards": ["Tableaux de bord", null], "Publications": ["Publications", null],
+                 "Articles & videos": ["Articles et vidéos", null], "Workshops": ["Ateliers", "/fr/ateliers.html"],
                  "About": ["À propos", "/fr/a-propos.html"], "Book a call": ["Prendre rendez-vous", "/fr/contact.html"] };
       if (fr[t]) {
         var m = a.querySelector(".menu-text"); if (m) m.textContent = fr[t][0];

@@ -1,5 +1,5 @@
 ---
-title: "Insights"
+title: "Articles & videos"
 description: "Articles, videos and posts for a wider audience. Updated automatically every day."
 listing:
   - id: ins-substack

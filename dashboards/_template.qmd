@@ -43,3 +43,5 @@ Short introduction: what the data is, where it comes from, what to look at first
   <iframe src="files/my-chart.html" title="Chart" loading="lazy"></iframe>
 </div>
 ```
+
+{{< include /styles/_dashboard-cta.qmd >}}

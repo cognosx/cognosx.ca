@@ -9,11 +9,11 @@ project:
 
 website:
   title: "CognosX"
-  description: "Clear evidence from the scientific record, for better health decisions."
+  description: "Training for health researchers and clear evidence for health organizations, from publications, funding, trials and patents."
   site-url: "https://cognosx.ca"
   favicon: images/favicon.png
   image: images/social-card.png
-  image-alt: "CognosX: Let science data speak. Landscape reports, evidence synthesis and research evaluation."
+  image-alt: "CognosX: Let science data speak. Training for health researchers and clear evidence for health organizations."
   open-graph: true
   twitter-card:
     card-style: summary_large_image
@@ -29,9 +29,11 @@ website:
         href: services.qmd
       - text: Projects
         href: projects.qmd
-      - text: Work
+      - text: Dashboards
+        href: work.qmd#dashboards
+      - text: Publications
         href: work.qmd
-      - text: Insights
+      - text: Articles & videos
         href: insights.qmd
       - text: Workshops
         href: workshops.qmd

@@ -4,6 +4,7 @@ description: "Explore how much African research is free to read, by year, countr
 date: "2026-11-03"
 categories: [Dashboard, Explorer, Open access]
 projects: ["research-in-africa"]
+project_names: ["Research in Africa"]
 page-layout: full
 title-block-style: none
 ---
@@ -596,3 +597,5 @@ new MutationObserver(renderAll).observe(document.documentElement,{attributes:tru
 </script>
 
 ```
+
+{{< include /styles/_dashboard-cta.qmd >}}

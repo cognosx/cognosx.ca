@@ -508,3 +508,7 @@ h1.page-title, .page-title > h1 {
 .cx-form-status.ok { color: #1f7a3a; }
 .cx-form-status.bad { color: #a02020; }
 #message, #book { scroll-margin-top: 80px; }
+
+// Call to action at the end of each dashboard
+.dash-cta { margin-top: 48px; border-radius: 14px; }
+.dash-cta .dash-cta-text { display: block; color: #cfcfcf; margin-bottom: 1rem; }

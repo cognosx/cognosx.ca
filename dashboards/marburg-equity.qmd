@@ -4,6 +4,7 @@ description: "Explore gender, local leadership, funding and WHO research priorit
 date: "2026-11-03"
 categories: [Dashboard, Explorer, Research equity]
 projects: ["research-in-africa"]
+project_names: ["Research in Africa"]
 page-layout: full
 title-block-style: none
 ---
@@ -395,3 +396,5 @@ let lastN = narrow(), tmr; window.addEventListener('resize',()=>{clearTimeout(tm
 });
 </script>
 ```
+
+{{< include /styles/_dashboard-cta.qmd >}}

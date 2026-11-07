@@ -495,3 +495,5 @@ let lastN = narrow(), tmr; window.addEventListener('resize',()=>{clearTimeout(tm
 </script>
 
 ```
+
+{{< include /styles/_dashboard-cta.qmd >}}
