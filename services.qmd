@@ -1,89 +1,194 @@
 ---
 title: "Services"
-pagetitle: "Services: landscape reports, evidence synthesis and research evaluation"
-description: "Landscape reports, evidence synthesis, research evaluation and training."
+pagetitle: "Services: training for health researchers, and clear evidence for organizations"
+description: "We teach health researchers to make the data of their topic speak, and deliver clear evidence briefs, landscape reports and dashboards for organizations."
 page-layout: custom
 ---
 
 ::: {.band .band-dark}
 ::: {.wrap}
-[Services]{.eyebrow}
+[Services · global health and biomedical science]{.eyebrow}
 
-# What we do {.page-title}
+# Make the data of your health research speak {.page-title}
 
-[Each service ends with something you can use: a clear report, the data behind it, and, when it helps, an interactive dashboard. Prices are fixed per project and agreed before we start. Starting prices are shown below; organizations based in Africa pay 30 to 50% less.]{.lead}
+[Every health topic has data that can tell a story: what is known, who works on it, who funds it, and where the gaps are. We help in two ways: **we teach researchers to do it themselves**, and **we deliver clear evidence for organizations that need to act**. Infectious and non-infectious diseases alike.]{.lead}
+
+[Book a free 20-minute call]({{< var booking_url >}}){.btn-cx}
+[Write to us](contact.qmd#message){.btn-cx-ghost}
 :::
 :::
 
 ::: {.band}
 ::: {.wrap}
+::: {#researchers .section-head}
+[For researchers and students]{.eyebrow}
 
-::: {#landscapes .work-item .reveal}
-[For biotech, investors, tech-transfer offices]{.work-meta}
+## Learn to do it yourself
+
+[You know your topic better than anyone. We help you turn that knowledge into a dataset, a dashboard and an article, and you keep the skills. Every session works on your own topic. No coding experience needed. In French or English.]{.lead}
+:::
+
+::: {#discovery .work-item .reveal}
+[3 hours · online · group]{.work-meta}
 
 ::: {}
-### Landscape reports
+### Discovery workshop
 
-A map of a field from publications, patents and funding: who is active, where, how fast the field is growing, and where the gaps are.
+A first, practical look at what the data on your topic can show.
 
-- Patent landscapes: inventors, applicants, countries, trends
-- Research landscapes: topics, leading teams, collaborations
-- Partner, competitor and talent scouting
+- The open sources you can use: OpenAlex, PubMed, ClinicalTrials.gov, funding and patent data
+- How to turn a health problem into a clear data question
+- Real examples from health research
 
-[Typical result: a short report, the cleaned dataset, and a dashboard]{.tag .tag-amber} [From CA$4,500]{.tag .tag-price}
+[Result: a clear plan for your own topic]{.tag .tag-amber}
 
-**Example:** our [patent landscape of phage therapy](https://doi.org/10.1038/s41587-024-02493-9), published in *Nature Biotechnology* (2024), and its [open protocol](https://doi.org/10.21203/rs.3.pex-2537/v1).
+[See the public workshops](workshops.qmd)
 :::
 :::
 
-::: {#evidence .work-item .reveal}
-[For researchers, health agencies, review teams]{.work-meta}
+::: {#bootcamp .work-item .reveal}
+[4 weeks · 8 live sessions · small group]{.work-meta}
 
 ::: {}
-### Evidence synthesis and AI-assisted screening
+### Bootcamp: make your topic's data speak
 
-Help with the heavy steps of a review: building the search, removing duplicates, and screening thousands of titles and abstracts.
+From the first day, you work on your own topic, step by step, with a small group of peers.
 
-- Searches across OpenAlex and other open sources
-- Screening with two AI models and a clear tie-break rule
-- Accuracy checked against a hand-labelled sample, reported openly
+- Build a literature and funding corpus on your topic
+- Use Python or R in Google Colab, from zero
+- Use AI and large language models for screening and extraction, with human checking
+- Build a simple dashboard and write up your results
 
-[Typical result: a screened set of records, a methods note you can publish]{.tag .tag-amber} [From CA$2,500]{.tag .tag-price}
+[Result: your own dataset, a dashboard and a draft article]{.tag .tag-amber}
 :::
 :::
 
-::: {#evaluation .work-item .reveal}
-[For funders, universities, research offices]{.work-meta}
+::: {#coaching .work-item .reveal}
+[One-to-one · 6 to 8 weeks]{.work-meta}
 
 ::: {}
-### Research evaluation and equity analysis
+### Build together: coaching on your project
 
-Fair, careful analysis of a research programme or field, using indicators responsibly and always with context.
+We work side by side on your real project: a review, a grant application, a thesis chapter or a new study. You learn by doing, and you finish with a real output.
 
-- Who produces the research, who leads it, who funds it
-- Collaboration and leadership patterns, including local leadership in Africa
-
-**Example:** our [Research in Africa](projects/research-in-africa.qmd) programme, including a partner-led study of tick research.
-- Evidence for priority setting and grant applications
-
-[Typical result: an evaluation report with clear recommendations]{.tag .tag-amber} [From CA$6,000]{.tag .tag-price}
+[Result: a finished output and new skills]{.tag .tag-amber}
 :::
 :::
 
-::: {#training .work-item .reveal}
-[For research offices, libraries, labs, students]{.work-meta}
+::: {#teams .work-item .reveal}
+[2 to 3 days · online or on site]{.work-meta}
 
 ::: {}
-### Workshops and training
+### Training for teams and labs
 
-Practical sessions where people learn by doing, on their own topic. Public workshops are taught in French; private team sessions in French or English.
+Your whole team learns one shared method, adapted to your field, so you can repeat the work on every new project.
 
-- Mapping a research field with OpenAlex
-- AI-assisted screening and how to check it
-- Patent landscapes, responsible research evaluation, publishing a bibliometric study
-- Private sessions for teams and institutions (from CA$1,500)
+[Result: a team that can do it again]{.tag .tag-amber}
+:::
+:::
 
-[See all workshops](workshops.qmd)
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[What you learn]{.eyebrow}
+
+## Four levels, from first steps to advanced
+
+[Every level uses health examples from infectious diseases (such as Marburg virus, antimicrobial resistance and phage therapy) and non-infectious diseases (such as cancer, diabetes and mental health).]{.lead}
+:::
+
+::: {.grid .grid-2}
+::: {.card-cx .reveal}
+[Level 1]{.card-num}
+
+### Foundations
+
+- Turn a health problem into a data question
+- Open sources: OpenAlex, PubMed, ClinicalTrials.gov, funding and patents, Global Burden of Disease
+- Build a good search strategy, with no-code tools
+:::
+
+::: {.card-cx .reveal}
+[Level 2]{.card-num}
+
+### Build
+
+- Python or R in Google Colab
+- Collect data through APIs and clean it
+- Screen and extract with AI, and check the results
+:::
+
+::: {.card-cx .reveal}
+[Level 3]{.card-num}
+
+### Communicate
+
+- Charts and dashboards (Quarto, Tableau Public)
+- Write articles and policy briefs
+- Publish an open dataset with a DOI (Zenodo)
+:::
+
+::: {.card-cx .reveal}
+[Level 4]{.card-num}
+
+### Advanced
+
+- Collaboration networks and topic modelling
+- Equity analysis: funding, gender, geography
+- Patent analysis
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {#organizations .section-head}
+[For NGOs, health programs, funders and institutions]{.eyebrow}
+
+## Clear evidence, delivered
+
+[You need to understand a health topic quickly, without technical detail. We do the work and give you results you can read, share and act on.]{.lead}
+:::
+
+::: {#snapshot .work-item .reveal}
+[About 2 weeks]{.work-meta}
+
+::: {}
+### Evidence snapshot
+
+A short brief with key charts that answers one clear question. For example: *Who is researching and funding this disease in our region, and what is missing?*
+
+[Result: a 2-page brief, the charts and the data]{.tag .tag-amber}
+:::
+:::
+
+::: {#landscape .work-item .reveal}
+[4 to 6 weeks]{.work-meta}
+
+::: {}
+### Landscape report
+
+A complete picture of a health topic from publications, funding, trials and patents: research trends, main actors, collaborations, gaps and equity (countries, gender, neglected areas).
+
+[Result: a report, an open dataset and an interactive dashboard]{.tag .tag-amber}
+
+**Examples:** our [patent landscape of phage therapy](https://doi.org/10.1038/s41587-024-02493-9), published in *Nature Biotechnology* (2024), and our [Marburg virus equity explorer](dashboards/marburg-equity.qmd).
+:::
+:::
+
+::: {#dashboard .work-item .reveal}
+[Setup, then regular updates]{.work-meta}
+
+::: {}
+### Living dashboard
+
+An online observatory for your topic, updated regularly, so your team and partners always have current evidence.
+
+[Result: a dashboard that stays up to date]{.tag .tag-amber}
 :::
 :::
 
@@ -96,31 +201,41 @@ Practical sessions where people learn by doing, on their own topic. Public works
 [Working together]{.eyebrow}
 
 ## A simple process
+
+[Each project gets a clear proposal with a fixed price, agreed before we start. Prices are adapted to your country's income level.]{.lead}
 :::
 
-::: {.grid .grid-3}
-::: {.card-cx .reveal}
-[1]{.card-num}
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Step 1]{.card-num}
 
-### A short call
+### A free call
 
-We talk about your question and what you need to decide. Free and short.
+20 minutes on your topic and your goal.
 :::
 
-::: {.card-cx .reveal}
-[2]{.card-num}
+::: {.step .reveal}
+[Step 2]{.card-num}
 
-### A fixed-price proposal
+### A one-page proposal
 
-Within a few days: scope, deliverables, timeline and price. No surprises.
+Within 48 hours: scope, timeline, deliverables and a fixed price.
 :::
 
-::: {.card-cx .reveal}
-[3]{.card-num}
+::: {.step .reveal}
+[Step 3]{.card-num}
 
-### Delivery and follow-up
+### A mid-point review
 
-You receive the results and we walk you through them. Questions after delivery are welcome.
+You see the work in progress, so there are no surprises.
+:::
+
+::: {.step .reveal}
+[Step 4]{.card-num}
+
+### Delivery and handover
+
+You receive the results and we walk you through them. For training, a certificate.
 :::
 :::
 :::
@@ -129,10 +244,10 @@ You receive the results and we walk you through them. Questions after delivery a
 ::: {.band .band-dark}
 ::: {.wrap}
 ::: {.cta}
-## Not sure which service fits?
+## Not sure which option fits?
 
 ::: {}
-[Book a call]({{< var booking_url >}}){.btn-cx}
+[Book a free call]({{< var booking_url >}}){.btn-cx}
 :::
 :::
 :::

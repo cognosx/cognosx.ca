@@ -1,89 +1,194 @@
 ---
 title: "Services"
-pagetitle: "Services : cartographies, synthèses de données probantes et évaluation de la recherche"
-description: "Cartographies de brevets et de la recherche, synthèses de données probantes, évaluation de la recherche et formation."
+pagetitle: "Services : formation des chercheurs en santé et données probantes claires pour les organisations"
+description: "Nous formons les chercheurs en santé à faire parler les données de leur sujet, et produisons des notes, des cartographies et des tableaux de bord clairs pour les organisations."
 page-layout: custom
 ---
 
 ::: {.band .band-dark}
 ::: {.wrap}
-[Services]{.eyebrow}
+[Services · santé mondiale et sciences biomédicales]{.eyebrow}
 
-# Ce que nous faisons {.page-title}
+# Faites parler les données de votre recherche en santé {.page-title}
 
-[Chaque service se termine par un résultat utilisable : un rapport clair, les données derrière, et, si utile, un tableau de bord interactif. Le prix est fixé par projet et convenu avant de commencer. Les prix de départ sont indiqués ci-dessous ; les organisations basées en Afrique paient 30 à 50 % de moins.]{.lead}
+[Chaque sujet de santé a des données qui peuvent raconter une histoire : ce que l'on sait, qui y travaille, qui le finance et où sont les lacunes. Nous aidons de deux façons : **nous formons les chercheurs à le faire eux-mêmes**, et **nous produisons des données probantes claires pour les organisations qui doivent agir**. Maladies infectieuses comme non infectieuses.]{.lead}
+
+[Appel gratuit de 20 minutes]({{< var booking_url >}}){.btn-cx}
+[Nous écrire](contact.qmd#message){.btn-cx-ghost}
 :::
 :::
 
 ::: {.band}
 ::: {.wrap}
+::: {#researchers .section-head}
+[Pour les chercheurs et les étudiants]{.eyebrow}
 
-::: {#landscapes .work-item .reveal}
-[Pour la biotech, les investisseurs, les bureaux de transfert technologique]{.work-meta}
+## Apprendre à le faire vous-même
+
+[Vous connaissez votre sujet mieux que personne. Nous vous aidons à transformer ce savoir en base de données, en tableau de bord et en article, et les compétences restent les vôtres. Chaque séance porte sur votre propre sujet. Aucune expérience en programmation nécessaire. En français ou en anglais.]{.lead}
+:::
+
+::: {#discovery .work-item .reveal}
+[3 heures · en ligne · en groupe]{.work-meta}
 
 ::: {}
-### Cartographies
+### Atelier découverte
 
-Une carte d'un domaine à partir des publications, des brevets et des financements : qui est actif, où, à quelle vitesse le domaine grandit, et où sont les manques.
+Un premier regard pratique sur ce que les données de votre sujet peuvent montrer.
 
-- Cartographies de brevets : inventeurs, déposants, pays, tendances
-- Cartographies de la recherche : thèmes, équipes clés, collaborations
-- Repérage de partenaires, de concurrents et de talents
+- Les sources ouvertes à utiliser : OpenAlex, PubMed, ClinicalTrials.gov, données de financement et de brevets
+- Transformer un problème de santé en question claire sur les données
+- Des exemples réels de recherche en santé
 
-[Résultat type : un rapport court, les données nettoyées et un tableau de bord]{.tag .tag-amber} [À partir de 4 500 $ CA (environ 2 800 €)]{.tag .tag-price}
+[Résultat : un plan clair pour votre propre sujet]{.tag .tag-amber}
 
-**Exemple :** notre [cartographie des brevets sur la phagothérapie](https://doi.org/10.1038/s41587-024-02493-9), publiée dans *Nature Biotechnology* (2024), et son [protocole ouvert](https://doi.org/10.21203/rs.3.pex-2537/v1).
+[Voir les ateliers publics](ateliers.qmd)
 :::
 :::
 
-::: {#evidence .work-item .reveal}
-[Pour les chercheurs, les agences de santé, les équipes de revue]{.work-meta}
+::: {#bootcamp .work-item .reveal}
+[4 semaines · 8 séances en direct · petit groupe]{.work-meta}
 
 ::: {}
-### Synthèse de données probantes et tri assisté par l'IA
+### Bootcamp : faire parler les données de votre sujet
 
-Un appui pour les étapes lourdes d'une revue : construire la recherche, retirer les doublons, et trier des milliers de titres et de résumés.
+Dès le premier jour, vous travaillez sur votre propre sujet, étape par étape, avec un petit groupe de pairs.
 
-- Recherches dans OpenAlex et d'autres sources ouvertes
-- Tri par deux modèles d'IA, avec une règle claire en cas de désaccord
-- Précision vérifiée sur un échantillon annoté à la main, et publiée
+- Construire un corpus de publications et de financements sur votre sujet
+- Utiliser Python ou R dans Google Colab, en partant de zéro
+- Utiliser l'IA et les grands modèles de langage pour trier et extraire, avec une vérification humaine
+- Construire un tableau de bord simple et rédiger vos résultats
 
-[Résultat type : un ensemble de documents triés et une note de méthode publiable]{.tag .tag-amber} [À partir de 2 500 $ CA (environ 1 600 €)]{.tag .tag-price}
+[Résultat : votre base de données, un tableau de bord et un projet d'article]{.tag .tag-amber}
 :::
 :::
 
-::: {#evaluation .work-item .reveal}
-[Pour les bailleurs de fonds, les universités, les bureaux de recherche]{.work-meta}
+::: {#coaching .work-item .reveal}
+[Individuel · 6 à 8 semaines]{.work-meta}
 
 ::: {}
-### Évaluation de la recherche et analyse de l'équité
+### Construire ensemble : accompagnement sur votre projet
 
-Une analyse juste et rigoureuse d'un programme ou d'un domaine de recherche, avec des indicateurs utilisés de façon responsable et toujours mis en contexte.
+Nous travaillons côte à côte sur votre vrai projet : une revue, une demande de subvention, un chapitre de thèse ou une nouvelle étude. Vous apprenez en faisant, et vous terminez avec un vrai résultat.
 
-- Qui produit la recherche, qui la dirige, qui la finance
-- Collaborations et leadership, y compris le leadership local en Afrique
-- Données pour fixer les priorités et préparer des demandes de subvention
-
-**Exemple :** notre programme [Recherche en Afrique](../projects/research-in-africa.qmd), dont une étude sur la recherche sur les tiques menée avec une équipe africaine.
-
-[Résultat type : un rapport d'évaluation avec des recommandations claires]{.tag .tag-amber} [À partir de 6 000 $ CA (environ 3 800 €)]{.tag .tag-price}
+[Résultat : un livrable terminé et de nouvelles compétences]{.tag .tag-amber}
 :::
 :::
 
-::: {#training .work-item .reveal}
-[Pour les bureaux de recherche, les bibliothèques, les laboratoires, les étudiants]{.work-meta}
+::: {#teams .work-item .reveal}
+[2 à 3 jours · en ligne ou sur place]{.work-meta}
 
 ::: {}
-### Ateliers et formation
+### Formation pour les équipes et les laboratoires
 
-Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En français et en anglais.
+Toute votre équipe apprend une même méthode, adaptée à votre domaine, pour la répéter sur chaque nouveau projet.
 
-- Cartographier un domaine de recherche avec OpenAlex
-- Le tri assisté par l'IA et comment le vérifier
-- Paysages de brevets, évaluation responsable de la recherche, publier une étude bibliométrique
-- Séances privées pour les équipes et les institutions (à partir de 1 500 $ CA, environ 950 €)
+[Résultat : une équipe capable de refaire le travail]{.tag .tag-amber}
+:::
+:::
 
-[Voir tous les ateliers](ateliers.qmd)
+:::
+:::
+
+::: {.band .band-soft}
+::: {.wrap}
+::: {.section-head}
+[Ce que vous apprenez]{.eyebrow}
+
+## Quatre niveaux, des premiers pas au niveau avancé
+
+[Chaque niveau s'appuie sur des exemples en santé, des maladies infectieuses (virus Marburg, résistance aux antimicrobiens, phagothérapie) aux maladies non infectieuses (cancer, diabète, santé mentale).]{.lead}
+:::
+
+::: {.grid .grid-2}
+::: {.card-cx .reveal}
+[Niveau 1]{.card-num}
+
+### Les bases
+
+- Transformer un problème de santé en question sur les données
+- Sources ouvertes : OpenAlex, PubMed, ClinicalTrials.gov, financements et brevets, Global Burden of Disease
+- Construire une bonne stratégie de recherche, avec des outils sans code
+:::
+
+::: {.card-cx .reveal}
+[Niveau 2]{.card-num}
+
+### Construire
+
+- Python ou R dans Google Colab
+- Collecter des données par API et les nettoyer
+- Trier et extraire avec l'IA, et vérifier les résultats
+:::
+
+::: {.card-cx .reveal}
+[Niveau 3]{.card-num}
+
+### Communiquer
+
+- Graphiques et tableaux de bord (Quarto, Tableau Public)
+- Rédiger des articles et des notes de politique
+- Publier une base de données ouverte avec un DOI (Zenodo)
+:::
+
+::: {.card-cx .reveal}
+[Niveau 4]{.card-num}
+
+### Avancé
+
+- Réseaux de collaboration et modélisation de thèmes
+- Analyse de l'équité : financement, genre, géographie
+- Analyse des brevets
+:::
+:::
+:::
+:::
+
+::: {.band}
+::: {.wrap}
+::: {#organizations .section-head}
+[Pour les ONG, les programmes de santé, les bailleurs de fonds et les institutions]{.eyebrow}
+
+## Des données probantes claires, livrées
+
+[Vous devez comprendre rapidement un sujet de santé, sans détails techniques. Nous faisons le travail et vous remettons des résultats faciles à lire, à partager et à utiliser.]{.lead}
+:::
+
+::: {#snapshot .work-item .reveal}
+[Environ 2 semaines]{.work-meta}
+
+::: {}
+### Note de synthèse rapide
+
+Une note courte, avec des graphiques clés, qui répond à une question claire. Par exemple : *Qui étudie et finance cette maladie dans notre région, et que manque-t-il ?*
+
+[Résultat : une note de 2 pages, les graphiques et les données]{.tag .tag-amber}
+:::
+:::
+
+::: {#landscape .work-item .reveal}
+[4 à 6 semaines]{.work-meta}
+
+::: {}
+### Cartographie complète
+
+Une vue d'ensemble d'un sujet de santé à partir des publications, des financements, des essais cliniques et des brevets : tendances, acteurs principaux, collaborations, lacunes et équité (pays, genre, domaines négligés).
+
+[Résultat : un rapport, une base de données ouverte et un tableau de bord interactif]{.tag .tag-amber}
+
+**Exemples :** notre [cartographie des brevets sur la phagothérapie](https://doi.org/10.1038/s41587-024-02493-9), publiée dans *Nature Biotechnology* (2024), et notre [explorateur sur l'équité dans la recherche sur le virus Marburg](../dashboards/marburg-equity.qmd) (en anglais).
+:::
+:::
+
+::: {#dashboard .work-item .reveal}
+[Mise en place, puis mises à jour régulières]{.work-meta}
+
+::: {}
+### Tableau de bord vivant
+
+Un observatoire en ligne pour votre sujet, mis à jour régulièrement, pour que votre équipe et vos partenaires disposent toujours de données à jour.
+
+[Résultat : un tableau de bord qui reste à jour]{.tag .tag-amber}
 :::
 :::
 
@@ -96,31 +201,41 @@ Des séances pratiques où l'on apprend en faisant, sur son propre sujet. En fra
 [Travailler ensemble]{.eyebrow}
 
 ## Un processus simple
+
+[Chaque projet fait l'objet d'une proposition claire à prix fixe, convenue avant de commencer. Les prix sont adaptés au niveau de revenu de votre pays.]{.lead}
 :::
 
-::: {.grid .grid-3}
-::: {.card-cx .reveal}
-[1]{.card-num}
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Étape 1]{.card-num}
 
-### Un court appel
+### Un appel gratuit
 
-Nous parlons de votre question et de ce que vous devez décider. Gratuit et court.
+20 minutes sur votre sujet et votre objectif.
 :::
 
-::: {.card-cx .reveal}
-[2]{.card-num}
+::: {.step .reveal}
+[Étape 2]{.card-num}
 
-### Une proposition à prix fixe
+### Une proposition d'une page
 
-En quelques jours : périmètre, livrables, calendrier et prix. Pas de surprise.
+Sous 48 heures : périmètre, calendrier, livrables et prix fixe.
 :::
 
-::: {.card-cx .reveal}
-[3]{.card-num}
+::: {.step .reveal}
+[Étape 3]{.card-num}
 
-### Livraison et suivi
+### Un point à mi-parcours
 
-Vous recevez les résultats et nous les parcourons ensemble. Vos questions après la livraison sont les bienvenues.
+Vous voyez le travail en cours : pas de surprise.
+:::
+
+::: {.step .reveal}
+[Étape 4]{.card-num}
+
+### Livraison et passation
+
+Vous recevez les résultats et nous les parcourons ensemble. Pour les formations, une attestation.
 :::
 :::
 :::
@@ -129,10 +244,10 @@ Vous recevez les résultats et nous les parcourons ensemble. Vos questions aprè
 ::: {.band .band-dark}
 ::: {.wrap}
 ::: {.cta}
-## Vous ne savez pas quel service choisir ?
+## Vous ne savez pas quelle option choisir ?
 
 ::: {}
-[Prendre rendez-vous](contact.qmd){.btn-cx}
+[Prendre rendez-vous]({{< var booking_url >}}){.btn-cx}
 :::
 :::
 :::
