@@ -86,15 +86,15 @@ listing:
 ::: {.card-cx .reveal}
 [01]{.card-num}
 
-### Funders and institutions
+### NGOs, funders and health programs
 
-Understand a research field before you fund it, and see who is left out.
+Understand a health topic before you act or fund, and see who is left out.
 
-- Research evaluation
-- Equity and leadership analysis
-- Evidence for priority setting
+- Evidence snapshots on one clear question
+- Landscape reports with an equity lens
+- Living dashboards for your topic
 
-[Research evaluation](services.qmd#evaluation){.card-link}
+[Clear evidence, delivered](services.qmd#organizations){.card-link}
 :::
 
 ::: {.card-cx .reveal}
@@ -102,13 +102,13 @@ Understand a research field before you fund it, and see who is left out.
 
 ### Biotech and investors
 
-See who is inventing what, where the space is crowded, and where it is open.
+See who is researching and inventing what, where the space is crowded, and where it is open.
 
-- Patent landscapes
+- Landscape reports from publications, trials and patents
 - Research and competitor mapping
-- Partner and talent scouting
+- Living dashboards to follow a field
 
-[Landscape reports](services.qmd#landscapes){.card-link}
+[Landscape reports](services.qmd#landscape){.card-link}
 :::
 
 ::: {.card-cx .reveal}
@@ -116,13 +116,13 @@ See who is inventing what, where the space is crowded, and where it is open.
 
 ### Researchers and students
 
-Find and screen the literature faster, with methods you can trust and repeat.
+Learn to make the data of your health topic speak: a dataset, a dashboard and an article.
 
-- Evidence synthesis support
-- AI-assisted screening, validated
-- Hands-on workshops
+- Discovery workshops and bootcamps
+- One-to-one coaching on your project
+- Training for teams and labs
 
-[Evidence and training](services.qmd#evidence){.card-link}
+[Learn to do it yourself](services.qmd#researchers){.card-link}
 :::
 
 ::: {.card-cx .reveal}
@@ -212,7 +212,7 @@ A short report, charts and, when useful, an interactive dashboard.
 
 ## {{< var workshop_title >}}
 
-Five live online workshops, one Saturday a month, for researchers in French-speaking Africa, Europe and Canada. From 10,000 FCFA (about €15) in Africa; €60 elsewhere.
+Five live online workshops, one Saturday a month, for researchers in French-speaking Africa, Europe and Canada. Fair prices adapted to your country, shared when you register.
 
 [Reserve a seat]({{< var workshop_waitlist_url >}}){.btn-cx}
 [See all workshops](workshops.qmd){.btn-cx-ghost}
