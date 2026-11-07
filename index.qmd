@@ -212,7 +212,7 @@ A short report, charts and, when useful, an interactive dashboard.
 
 ## {{< var workshop_title >}}
 
-Five live online workshops, one Saturday a month, for researchers in French-speaking Africa, Europe and Canada. From 10,000 FCFA (about €15) in Africa; €60 elsewhere.
+Five live online workshops, one Saturday a month, for researchers in French-speaking Africa, Europe and Canada. Fair prices adapted to your country, shared when you register.
 
 [Reserve a seat]({{< var workshop_waitlist_url >}}){.btn-cx}
 [See all workshops](workshops.qmd){.btn-cx-ghost}
