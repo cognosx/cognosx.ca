@@ -21,6 +21,7 @@ import html
 import os
 import re
 import sys
+import time
 from pathlib import Path
 
 import feedparser
@@ -159,10 +160,23 @@ def update_substack() -> None:
         print(f"  archive not available ({exc}); trying the RSS feed instead.")
         items = []
         feed = feedparser.parse(f"{url}/feed", request_headers=HEADERS)
-        if feed.bozo and not feed.entries:
+        entries = feed.entries
+        if not entries:
+            # Substack often blocks GitHub's servers: read the feed through a public RSS relay.
+            try:
+                r = requests.get("https://api.rss2json.com/v1/api.json", params={"rss_url": f"{url}/feed"}, timeout=30)
+                r.raise_for_status()
+                entries = [{"title": i.get("title", ""), "link": i.get("link", url), "summary": i.get("description", ""),
+                            "published_parsed": time.strptime(i["pubDate"][:10], "%Y-%m-%d") if i.get("pubDate") else None,
+                            "links": [], "tags": [{"term": c} for c in (i.get("categories") or [])]}
+                           for i in (r.json().get("items") or [])]
+                print(f"  read {len(entries)} recent posts through the rss2json relay.")
+            except Exception as exc2:
+                print(f"  relay not available either ({exc2}).")
+        if not entries:
             print("  could not read the feed; keeping the old file.")
             return
-        for e in feed.entries:
+        for e in entries:
             d = e.get("published_parsed")
             kind = "Podcast" if any("audio" in (l.get("type") or "") for l in e.get("links", [])) else "Article"
             tags = [t.get("term", "") for t in e.get("tags", [])]
