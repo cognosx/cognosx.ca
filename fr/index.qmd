@@ -113,7 +113,7 @@ Qui brevète les thérapies anti-PD-1, PD-L1, CTLA-4 et les plus récentes, où 
 ::: {.section-head .reveal}
 [Pour qui]{.eyebrow}
 
-## Les mêmes données, quatre types de décisions
+## Qui nous aidons
 
 [Chaque projet part d'une question à laquelle vous devez répondre. Nous apportons les données, la méthode et le regard d'un scientifique.]{.lead}
 :::
@@ -178,50 +178,6 @@ Mener des études sur les problèmes de santé qui comptent là où vous travail
 :::
 :::
 
-::: {.band .band-dark}
-::: {.wrap}
-::: {.section-head .reveal}
-[Notre méthode]{.eyebrow}
-
-## D'une question à une réponse utile
-:::
-
-::: {.grid .grid-4 .steps}
-::: {.step .reveal}
-[Étape 1]{.card-num}
-
-### Définir la question
-
-Nous précisons ce que vous devez décider, et à quoi ressemble une bonne réponse.
-:::
-
-::: {.step .reveal}
-[Étape 2]{.card-num}
-
-### Réunir les données
-
-Publications, brevets, subventions et essais cliniques, issus de sources ouvertes et fiables.
-:::
-
-::: {.step .reveal}
-[Étape 3]{.card-num}
-
-### Trier et vérifier
-
-L'IA aide à trier les documents ; des personnes vérifient les résultats sur un échantillon annoté à la main.
-:::
-
-::: {.step .reveal}
-[Étape 4]{.card-num}
-
-### Livrer des réponses claires
-
-Un rapport court, des graphiques et, si utile, un tableau de bord interactif.
-:::
-:::
-:::
-:::
-
 ::: {.band .band-soft}
 ::: {.wrap}
 ::: {.grid .grid-2}
@@ -275,10 +231,10 @@ Des articles courts sur ce que montrent les données de la science. Gratuit, dé
 ::: {.band .band-dark}
 ::: {.wrap}
 ::: {.cta}
-## Une question à laquelle la recherche pourrait répondre ?
+## Prêt à faire parler les données de votre sujet ?
 
 ::: {}
-[Prendre rendez-vous](contact.qmd){.btn-cx}
+[Appel gratuit]({{< var booking_url >}}){.btn-cx}
 [Nous écrire](contact.qmd#message){.btn-cx-ghost}
 :::
 :::

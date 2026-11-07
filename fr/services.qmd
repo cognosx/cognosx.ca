@@ -195,6 +195,50 @@ Un observatoire en ligne pour votre sujet, mis à jour régulièrement, pour que
 :::
 :::
 
+::: {.band .band-dark}
+::: {.wrap}
+::: {.section-head .reveal}
+[Notre méthode]{.eyebrow}
+
+## D'une question à une réponse utile
+:::
+
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Étape 1]{.card-num}
+
+### Définir la question
+
+Nous précisons ce que vous devez décider, et à quoi ressemble une bonne réponse.
+:::
+
+::: {.step .reveal}
+[Étape 2]{.card-num}
+
+### Réunir les données
+
+Publications, brevets, subventions et essais cliniques, issus de sources ouvertes et fiables.
+:::
+
+::: {.step .reveal}
+[Étape 3]{.card-num}
+
+### Trier et vérifier
+
+L'IA aide à trier les documents ; des personnes vérifient les résultats sur un échantillon annoté à la main.
+:::
+
+::: {.step .reveal}
+[Étape 4]{.card-num}
+
+### Livrer des réponses claires
+
+Un rapport court, des graphiques et, si utile, un tableau de bord interactif.
+:::
+:::
+:::
+:::
+
 ::: {.band .band-soft}
 ::: {.wrap}
 ::: {.section-head}

@@ -512,3 +512,6 @@ h1.page-title, .page-title > h1 {
 // Call to action at the end of each dashboard
 .dash-cta { margin-top: 48px; border-radius: 14px; }
 .dash-cta .dash-cta-text { display: block; color: #cfcfcf; margin-bottom: 1rem; }
+
+// Newsletter sign-up inside the Latest section (home page)
+.newsletter-inline { margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--cx-line, #e6e3dd); }

@@ -195,6 +195,50 @@ An online observatory for your topic, updated regularly, so your team and partne
 :::
 :::
 
+::: {.band .band-dark}
+::: {.wrap}
+::: {.section-head .reveal}
+[Our method]{.eyebrow}
+
+## From a question to an answer you can use
+:::
+
+::: {.grid .grid-4 .steps}
+::: {.step .reveal}
+[Step 1]{.card-num}
+
+### Define the question
+
+We agree on what you need to decide, and what a good answer looks like.
+:::
+
+::: {.step .reveal}
+[Step 2]{.card-num}
+
+### Gather the data
+
+Publications, patents, grants and trials, from open and trusted sources.
+:::
+
+::: {.step .reveal}
+[Step 3]{.card-num}
+
+### Screen and check
+
+AI helps sort the records; people check the results against a hand-labelled sample.
+:::
+
+::: {.step .reveal}
+[Step 4]{.card-num}
+
+### Deliver clear answers
+
+A short report, charts and, when useful, an interactive dashboard.
+:::
+:::
+:::
+:::
+
 ::: {.band .band-soft}
 ::: {.wrap}
 ::: {.section-head}

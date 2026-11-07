@@ -130,9 +130,9 @@ Who patents PD-1, PD-L1, CTLA-4 and newer checkpoint therapies, where, and on wh
 ::: {.band}
 ::: {.wrap}
 ::: {.section-head .reveal}
-[Who we help]{.eyebrow}
+[For whom]{.eyebrow}
 
-## The same evidence, four kinds of decisions
+## Who we help
 
 [Every project starts from one question you need answered. We bring the data, the method and the reading of a scientist.]{.lead}
 :::
@@ -192,50 +192,6 @@ Lead studies on the health problems that matter where you work, with data and me
 - Training in English and French
 
 [Research in Africa](projects/research-in-africa.qmd){.card-link}
-:::
-:::
-:::
-:::
-
-::: {.band .band-dark}
-::: {.wrap}
-::: {.section-head .reveal}
-[How we work]{.eyebrow}
-
-## From a question to an answer you can use
-:::
-
-::: {.grid .grid-4 .steps}
-::: {.step .reveal}
-[Step 1]{.card-num}
-
-### Define the question
-
-We agree on what you need to decide, and what a good answer looks like.
-:::
-
-::: {.step .reveal}
-[Step 2]{.card-num}
-
-### Gather the data
-
-Publications, patents, grants and trials, from open and trusted sources.
-:::
-
-::: {.step .reveal}
-[Step 3]{.card-num}
-
-### Screen and check
-
-AI helps sort the records; people check the results against a hand-labelled sample.
-:::
-
-::: {.step .reveal}
-[Step 4]{.card-num}
-
-### Deliver clear answers
-
-A short report, charts and, when useful, an interactive dashboard.
 :::
 :::
 :::
@@ -301,12 +257,9 @@ Five live online workshops, one Saturday a month, for researchers in French-spea
 ::: {#latest}
 :::
 
-[All insights](insights.qmd){.btn-cx-ghost}
-:::
-:::
+[All articles and videos](insights.qmd){.btn-cx-ghost}
 
-::: {.band .band-soft}
-::: {.wrap}
+::: {.newsletter-inline}
 ::: {.grid .grid-2 .newsletter}
 ::: {}
 [Newsletter]{.eyebrow}
@@ -325,14 +278,15 @@ Short articles on what science data shows: patents, research fields and who lead
 :::
 :::
 :::
+:::
 
 ::: {.band .band-dark}
 ::: {.wrap}
 ::: {.cta}
-## Have a question the research record could answer?
+## Ready to make your topic's data speak?
 
 ::: {}
-[Book a call]({{< var booking_url >}}){.btn-cx}
+[Book a free call]({{< var booking_url >}}){.btn-cx}
 [Write to us](contact.qmd#message){.btn-cx-ghost}
 :::
 :::
